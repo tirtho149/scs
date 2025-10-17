@@ -14,10 +14,10 @@ SCHOLAR_ID = "-rmRjqIAAAAJ"  # Soumik Sarkar's Google Scholar ID
 CV_LAST_UPDATE_DATE = "2025-10-05"  # Date from your CV
 OUTPUT_JSON = "publications.json"
 OUTPUT_CV_FORMAT = "cv_formatted.txt"
-MAX_WORKERS = 2  # Reduced for stability
-MIN_DELAY = 1.5  # Increased to avoid blocking
-MAX_DELAY = 3.0
-MAX_RETRIES = 3
+MAX_WORKERS = 1  # Reduced to 1 for GitHub Actions
+MIN_DELAY = 3.0  # Increased delays for GitHub Actions
+MAX_DELAY = 5.0
+MAX_RETRIES = 5  # More retries for GitHub Actions
 
 # Keywords to identify conference vs journal papers
 CONFERENCE_KEYWORDS = [
@@ -51,10 +51,6 @@ except Exception as e:
 
 if not proxy_working:
     print("\n❌ Could not configure proxy!")
-    print("💡 Make sure Tor is running:")
-    print("   • Check status: brew services list")
-    print("   • Start Tor: brew services start tor")
-    print("   • Wait 20-30 seconds for Tor to bootstrap")
     exit(1)
 
 print()
@@ -68,7 +64,7 @@ try:
                               'http': 'socks5h://127.0.0.1:9050',
                               'https': 'socks5h://127.0.0.1:9050'
                           },
-                          timeout=10)
+                          timeout=30)
     if response.json().get('IsTor'):
         print("  ✅ Connected through Tor network!")
     else:
@@ -80,26 +76,61 @@ except Exception as e:
 print()
 
 # ----------------------------
-# FETCH AUTHOR DATA
+# FETCH AUTHOR DATA WITH RETRIES
 # ----------------------------
 print("🔍 Fetching author profile from Google Scholar...")
-try:
-    author = scholarly.search_author_id(SCHOLAR_ID)
-    author = scholarly.fill(author, sections=["publications"])
-    print(f"✅ Found {len(author['publications'])} publications\n")
-except Exception as e:
-    print(f"❌ Failed to fetch data: {e}")
-    print("\n💡 Solutions:")
-    print("   1. Make sure Tor is running: brew services restart tor")
-    print("   2. Wait 10-15 minutes and retry")
-    print("   3. Check if port 9050 is open: lsof -i :9050")
+
+author = None
+for attempt in range(MAX_RETRIES):
+    try:
+        print(f"  Attempt {attempt + 1}/{MAX_RETRIES}...")
+        
+        # Add delay before each attempt
+        if attempt > 0:
+            wait_time = 2 ** attempt  # Exponential backoff
+            print(f"  Waiting {wait_time} seconds...")
+            time.sleep(wait_time)
+        
+        # Search for author
+        search_query = scholarly.search_author_id(SCHOLAR_ID)
+        
+        # Check if we got a result
+        if search_query is None:
+            print(f"  ⚠️  Got None from search, retrying...")
+            continue
+            
+        # Fill the author details
+        author = scholarly.fill(search_query, sections=["publications"])
+        
+        # Verify we have publications
+        if author and 'publications' in author:
+            print(f"  ✅ Found {len(author['publications'])} publications\n")
+            break
+        else:
+            print(f"  ⚠️  No publications found, retrying...")
+            author = None
+            
+    except AttributeError as e:
+        print(f"  ⚠️  AttributeError: {e}")
+        if attempt == MAX_RETRIES - 1:
+            print(f"\n❌ Failed after {MAX_RETRIES} attempts")
+            print("Google Scholar might be blocking requests.")
+            print("Try running this script locally with Tor, or wait and retry later.")
+            exit(1)
+    except Exception as e:
+        print(f"  ⚠️  Error: {e}")
+        if attempt == MAX_RETRIES - 1:
+            print(f"\n❌ Failed after {MAX_RETRIES} attempts: {e}")
+            exit(1)
+
+if author is None:
+    print("\n❌ Could not fetch author data after all retries")
     exit(1)
 
 # Storage for categorized publications
 journal_papers = []
 conference_papers = []
 preprints = []
-failed_pubs = []
 
 # ----------------------------
 # HELPER FUNCTIONS
@@ -279,7 +310,7 @@ def process_publication(idx, pub, total, existing_cv_text):
         except Exception as e:
             if attempt < MAX_RETRIES - 1:
                 print(f" ⚠️  Retry {attempt + 1}/{MAX_RETRIES}...", end="", flush=True)
-                time.sleep(2 ** attempt)  # Exponential backoff
+                time.sleep(2 ** attempt)
             else:
                 print(f" ❌ Failed after {MAX_RETRIES} attempts: {e}")
                 return None
@@ -290,7 +321,6 @@ def process_publication(idx, pub, total, existing_cv_text):
 print("📄 Loading existing CV to check for duplicates...")
 existing_cv_text = ""
 try:
-    # Try multiple possible filenames
     cv_filenames = ['cv_draft.txt', 'CV.txt', 'vita.txt', 'faculty_vita.txt']
     cv_loaded = False
     
@@ -305,8 +335,7 @@ try:
             continue
     
     if not cv_loaded:
-        print("⚠️  CV file not found. Will process all publications.")
-        print("💡 To enable duplicate checking, save your CV as 'cv_draft.txt'\n")
+        print("⚠️  CV file not found. Will process all publications.\n")
         
 except Exception as e:
     print(f"⚠️  Error loading CV: {e}")
@@ -314,31 +343,25 @@ except Exception as e:
     existing_cv_text = ""
 
 # ----------------------------
-# PARALLEL PROCESSING
+# PROCESS PUBLICATIONS
 # ----------------------------
 total = len(author["publications"])
 print("=" * 70)
-print(f"🚀 Starting parallel sync with {MAX_WORKERS} workers...\n")
+print(f"🚀 Processing {total} publications...\n")
 
 start_time = time.time()
 
-# Process publications in parallel
-with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    futures = {
-        executor.submit(process_publication, idx, pub, total, existing_cv_text): idx 
-        for idx, pub in enumerate(author["publications"], 1)
-    }
-    
-    for future in as_completed(futures):
-        result = future.result()
-        if result:
-            pub_data, category = result
-            if category == "preprint":
-                preprints.append(pub_data)
-            elif category == "conference":
-                conference_papers.append(pub_data)
-            else:  # journal
-                journal_papers.append(pub_data)
+# Process sequentially for GitHub Actions (more reliable)
+for idx, pub in enumerate(author["publications"], 1):
+    result = process_publication(idx, pub, total, existing_cv_text)
+    if result:
+        pub_data, category = result
+        if category == "preprint":
+            preprints.append(pub_data)
+        elif category == "conference":
+            conference_papers.append(pub_data)
+        else:
+            journal_papers.append(pub_data)
 
 elapsed = time.time() - start_time
 print("\n" + "=" * 70)
@@ -374,7 +397,7 @@ if journal_papers:
     for pub in journal_papers:
         entry = format_journal_entry_cv_style(pub)
         cv_output.append(entry)
-        cv_output.append("")  # Empty line between entries
+        cv_output.append("")
 
 # Conference Papers
 if conference_papers:
@@ -393,7 +416,6 @@ if conference_papers:
 if preprints:
     cv_output.append("\n" + "=" * 70)
     cv_output.append("PREPRINTS (ArXiv, etc.)")
-    cv_output.append("Consider adding as new section: II.A.2 - Articles in Peer-Reviewed Journals – In Review")
     cv_output.append("=" * 70)
     cv_output.append("")
     
@@ -404,7 +426,7 @@ if preprints:
 
 # Add manual review notes
 cv_output.append("\n" + "=" * 70)
-cv_output.append("⚠️  MANUAL REVIEW REQUIRED")
+cv_output.append("MANUAL REVIEW REQUIRED")
 cv_output.append("=" * 70)
 cv_output.append("")
 cv_output.append("Before adding to your CV, please:")
@@ -415,7 +437,7 @@ cv_output.append("4. Check volume and page numbers for accuracy")
 cv_output.append("5. Verify journal/conference names")
 cv_output.append("6. Add numbering to each section")
 cv_output.append("7. Update the CV date at the top of the document")
-cv_output.append("8. **Note: Journal/conference names are in **bold** (use Word bold formatting)")
+cv_output.append("8. Note: Journal/conference names are in **bold** (use Word bold formatting)")
 cv_output.append("")
 
 # Save CV-formatted output
@@ -423,7 +445,7 @@ with open(OUTPUT_CV_FORMAT, 'w', encoding='utf-8') as f:
     f.write('\n'.join(cv_output))
 
 # ----------------------------
-# SAVE JSON (FOR REFERENCE)
+# SAVE JSON
 # ----------------------------
 json_output = {
     'generated_date': datetime.now().isoformat(),
@@ -437,8 +459,7 @@ json_output = {
         'new_journals': len(journal_papers),
         'new_conferences': len(conference_papers),
         'new_preprints': len(preprints),
-        'processing_time_seconds': round(elapsed, 2),
-        'average_time_per_paper': round(elapsed/total, 2) if total > 0 else 0
+        'processing_time_seconds': round(elapsed, 2)
     }
 }
 
@@ -450,28 +471,16 @@ with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
 # ----------------------------
 print("\n✨ SYNC COMPLETE!\n")
 print("📊 Summary:")
-print(f"   ⏱️  Time: {elapsed:.1f}s ({elapsed/total:.2f}s per paper)")
+print(f"   ⏱️  Time: {elapsed:.1f}s")
 print(f"   📚 New Journal Papers: {len(journal_papers)}")
 print(f"   📄 New Conference Papers: {len(conference_papers)}")
 print(f"   📝 New Preprints: {len(preprints)}")
 print(f"   ✅ Total New Publications: {len(journal_papers) + len(conference_papers) + len(preprints)}")
-print(f"   📖 Total in Google Scholar: {total}")
-
-if elapsed > 0:
-    print(f"\n💡 Average speed: {total/elapsed*60:.1f} papers/minute")
 
 print("\n📝 Output Files:")
-print(f"   1. {OUTPUT_CV_FORMAT} - CV-formatted entries ready to paste")
-print(f"   2. {OUTPUT_JSON} - Detailed JSON for reference")
-
-print("\n📋 Next Steps:")
-print(f"   1. Open {OUTPUT_CV_FORMAT}")
-print("   2. Review entries and add + for grad students")
-print("   3. Copy formatted entries to your Word CV")
-print("   4. Replace **text** with actual bold formatting in Word")
-print("   5. Update section numbering")
-print("   6. Update CV date to today")
+print(f"   1. {OUTPUT_CV_FORMAT} - CV-formatted entries")
+print(f"   2. {OUTPUT_JSON} - Detailed JSON")
 
 print("\n" + "=" * 70)
-print("✅ Done! Check the output files above.")
+print("✅ Done!")
 print("=" * 70)
