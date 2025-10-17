@@ -7,9 +7,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'cv+.py'
-      - '.github/workflows/sync-publications.yml'
 
 jobs:
   sync-publications:
@@ -18,99 +15,47 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
       
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
-          pip install --upgrade pip
-          pip install scholarly requests[socks] pysocks
+          python -m pip install --upgrade pip
+          pip install scholarly requests pysocks
       
-      - name: Install and start Tor
+      - name: Install and configure Tor
         run: |
           sudo apt-get update
           sudo apt-get install -y tor
           echo "SocksPort 9050" | sudo tee -a /etc/tor/torrc
           echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
           sudo systemctl start tor
-          echo "Waiting for Tor to start..."
           sleep 30
+      
+      - name: Check Tor status
+        run: |
           if sudo systemctl is-active --quiet tor; then
             echo "Tor is running"
           else
             echo "Tor failed to start"
-            sudo journalctl -u tor -n 50
             exit 1
           fi
       
-      - name: Verify Tor connection
-        run: |
-          python -c "
-          import requests
-          try:
-              response = requests.get(
-                  'https://check.torproject.org/api/ip',
-                  proxies={
-                      'http': 'socks5h://127.0.0.1:9050',
-                      'https': 'socks5h://127.0.0.1:9050'
-                  },
-                  timeout=30
-              )
-              data = response.json()
-              if data.get('IsTor'):
-                  print('Successfully connected through Tor!')
-              else:
-                  print('Not connected through Tor')
-                  exit(1)
-          except Exception as e:
-              print(f'Connection test failed: {e}')
-              exit(1)
-          "
-      
-      - name: Run publication sync
+      - name: Run sync script
         run: python cv+.py
       
-      - name: Check for changes
-        id: check_changes
+      - name: Commit results
         run: |
-          if [[ -n $(git status -s) ]]; then
-            echo "changes=true" >> $GITHUB_OUTPUT
-            echo "New publications found"
-          else
-            echo "changes=false" >> $GITHUB_OUTPUT
-            echo "No new publications"
-          fi
-      
-      - name: Commit and push changes
-        if: steps.check_changes.outputs.changes == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add cv_formatted.txt publications.json
-          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
-          git commit -m "Update publications - $TIMESTAMP"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update publications"
           git push
       
-      - name: Create issue on failure
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: 'Publication sync failed',
-              body: 'The scheduled publication sync failed. Please check the logs.',
-              labels: ['automated', 'bug']
-            })
-      
-      - name: Upload artifacts
+      - name: Upload outputs
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -118,18 +63,4 @@ jobs:
           path: |
             cv_formatted.txt
             publications.json
-          retention-days: 90
-      
-      - name: Summary
-        if: always()
-        run: |
-          echo "## Publication Sync Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f "cv_formatted.txt" ]; then
-            echo "Status: Completed" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "Check the Artifacts section for output files" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "Status: Failed" >> $GITHUB_STEP_SUMMARY
-            echo "Check the logs above for errors" >> $GITHUB_STEP_SUMMARY
-          fi
+          if-no-files-found: warn
