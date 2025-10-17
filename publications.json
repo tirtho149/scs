@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-10-16T19:33:27.669908",
+  "generated_date": "2025-10-17T02:41:57.895279",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -24,6 +24,17 @@
       "publisher": "Oxford University Press",
       "scholar_url": "https://academic.oup.com/pnasnexus/article-abstract/4/1/pgae575/7933354",
       "citations": 9
+    },
+    {
+      "title": "Robust soybean seed yield estimation using high-throughput ground robot videos",
+      "authors": "Jiale Feng and Samuel W Blair and Timilehin T Ayanlade and Aditya Balu and Baskar Ganapathysubramanian and Arti Singh and Soumik Sarkar and Asheesh K Singh",
+      "venue": "Frontiers in Plant Science",
+      "year": "2025",
+      "volume": "16",
+      "pages": "1554193",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1554193/full",
+      "citations": 4
     },
     {
       "title": "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective",
@@ -59,17 +70,6 @@
       "citations": 2
     },
     {
-      "title": "Use of artificial intelligence in soybean breeding and production",
-      "authors": "Asheesh K Singh and Sarah E Jones and Liza Van der Laan and Timilehin T Ayanlade and Joscif Raigne and Nasla Saleem and Shambhavi Joshi and Muhammad Arbab Arshad and Hossein ZareMehrjerdi and Ashlyn Rairdin and Juan Di Salvo and Dinakaran Elango and Leonardo De Azevedo Peixoto and Talukder Z Jubery and Adarsh Krishnamurthy and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
-      "venue": "Advances in Agronomy 190, 199-273, 2025",
-      "year": "2025",
-      "volume": "190",
-      "pages": "199-273",
-      "publisher": "",
-      "scholar_url": "https://www.researchgate.net/profile/Juan-Di-Salvo-2/publication/388389988_Use_of_artificial_intelligence_in_soybean_breeding_and_production/links/6855d0bbb8078e0c248e7946/Use-of-artificial-intelligence-in-soybean-breeding-and-production.pdf",
-      "citations": 1
-    },
-    {
       "title": "Genomic and phenomic prediction for soybean seed yield, protein, and oil",
       "authors": "Liza Van der Laan and Kyle Parmley and Mojdeh Saadati and Hernan Torres Pacin and Srikanth Panthulugiri and Soumik Sarkar and Baskar Ganapathysubramanian and Aaron Lorenz and Asheesh K Singh",
       "venue": "The Plant Genome",
@@ -78,6 +78,17 @@
       "pages": "e70002",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/tpg2.70002",
+      "citations": 1
+    },
+    {
+      "title": "Use of artificial intelligence in soybean breeding and production",
+      "authors": "Asheesh K Singh and Sarah E Jones and Liza Van der Laan and Timilehin T Ayanlade and Joscif Raigne and Nasla Saleem and Shambhavi Joshi and Muhammad Arbab Arshad and Hossein ZareMehrjerdi and Ashlyn Rairdin and Juan Di Salvo and Dinakaran Elango and Leonardo De Azevedo Peixoto and Talukder Z Jubery and Adarsh Krishnamurthy and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "Advances in Agronomy 190, 199-273, 2025",
+      "year": "2025",
+      "volume": "190",
+      "pages": "199-273",
+      "publisher": "",
+      "scholar_url": "https://www.researchgate.net/profile/Juan-Di-Salvo-2/publication/388389988_Use_of_artificial_intelligence_in_soybean_breeding_and_production/links/6855d0bbb8078e0c248e7946/Use-of-artificial-intelligence-in-soybean-breeding-and-production.pdf",
       "citations": 1
     },
     {
@@ -400,6 +411,17 @@
       "citations": 0
     },
     {
+      "title": "Wireless home identification and sensing platform",
+      "authors": "Gregor P Henze and Joshua R Smith and Soumik Sarkar and Anthony J FLORITA and Margarite JACOBY and Mohamadtaghi Katanbaf NEZHAD and Ali Saffari and Sin Yong TAN",
+      "venue": "US Patent App. 18/557,369, 2024",
+      "year": "2024",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://patents.google.com/patent/US20240219549A1/en",
+      "citations": 0
+    },
+    {
       "title": "A physics-informed feature weighting method for bearing fault diagnostics",
       "authors": "Hao Lu and Venkat Pavan Nemani and Vahid Barzegar and Cade Allen and Chao Hu and Simon Laflamme and Soumik Sarkar and Andrew T Zimmerman",
       "venue": "Mechanical Systems and Signal Processing",
@@ -409,6 +431,17 @@
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
       "citations": 54
+    },
+    {
+      "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
+      "authors": "Henry C Croll and Kaoru Ikuma and Say Kee Ong and Soumik Sarkar",
+      "venue": "Critical Reviews in Environmental Science and Technology 53 (20), 1775-1794, 2023",
+      "year": "2023",
+      "volume": "53",
+      "pages": "1775-1794",
+      "publisher": "Taylor & Francis",
+      "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/10643389.2023.2183699",
+      "citations": 47
     },
     {
       "title": "Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization",
@@ -587,6 +620,17 @@
       "citations": 33
     },
     {
+      "title": "Multi-modal sensor data fusion for perception systems",
+      "authors": "Michael J Giering and Kishore K Reddy and Vivek Venugopalan and Soumik Sarkar",
+      "venue": "US Patent 11,422,546, 2022",
+      "year": "2022",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://patents.google.com/patent/US11422546B2/en",
+      "citations": 31
+    },
+    {
       "title": "Deep learning for live cell shape detection and automated afm navigation",
       "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
       "venue": "Bioengineering",
@@ -596,6 +640,17 @@
       "publisher": "MDPI",
       "scholar_url": "https://www.mdpi.com/2306-5354/9/10/522",
       "citations": 27
+    },
+    {
+      "title": "Plant phenotyping with limited annotation: Doing more with less",
+      "authors": "Koushik Nagasubramanian and Asheesh Singh and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "The Plant Phenome Journal",
+      "year": "2022",
+      "volume": "5",
+      "pages": "e20051",
+      "publisher": "",
+      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20051",
+      "citations": 26
     },
     {
       "title": "Sensor data fusion for prognostics and health monitoring",
@@ -640,6 +695,17 @@
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.930486/full",
       "citations": 9
+    },
+    {
+      "title": "Deep reinforcement learning for robotic control with multi-fidelity models",
+      "authors": "David Felipe Leguizamo and Hsin-Jung Yang and Xian Yeow Lee and Soumik Sarkar",
+      "venue": "IFAC-PapersOnLine",
+      "year": "2022",
+      "volume": "55",
+      "pages": "193-198",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2405896322028269",
+      "citations": 8
     },
     {
       "title": "Privacy-preserving deep models for plant stress phenotyping",
@@ -796,6 +862,17 @@
       "citations": 65
     },
     {
+      "title": "Deep multiview image fusion for soybean yield estimation in breeding applications",
+      "authors": "Luis G Riera and Matthew E Carroll and Zhisheng Zhang and Johnathon M Shook and Sambuddha Ghosal and Tianshuang Gao and Arti Singh and Sourabh Bhattacharya and Baskar Ganapathysubramanian and Asheesh K Singh and Soumik Sarkar",
+      "venue": "Plant Phenomics",
+      "year": "2021",
+      "volume": "",
+      "pages": "",
+      "publisher": "AAAS",
+      "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9846470",
+      "citations": 63
+    },
+    {
       "title": "Fast inverse design of microstructures via generative invariance networks",
       "authors": "Xian Yeow Lee and Joshua R Waite and Chih-Hsuan Yang and Balaji Sesha Sarath Pokuri and Ameya Joshi and Aditya Balu and Chinmay Hegde and Baskar Ganapathysubramanian and Soumik Sarkar",
       "venue": "Nature Computational Science",
@@ -937,6 +1014,17 @@
       "publisher": "",
       "scholar_url": "https://openreview.net/forum?id=kTHfZzeIoH4",
       "citations": 8
+    },
+    {
+      "title": "High-throughput crop phenotyping",
+      "authors": "AK Singh and A Singh and S Sarkar and B Ganapathysubramanian and W Schapaugh and FE Miguez and CN Carley and ME Carroll and MV Chiozza and KO Chiteri and KG Falk and SE Jones and TZ Jubery and SV Mirnezami and K Nagasubramanian and KA Parmley and AM Rairdin and JM Shook and L Van der Laan and J Zhang and J Zhou and HT Nguyen",
+      "venue": "Springer, 2021",
+      "year": "2021",
+      "volume": "",
+      "pages": "129-163",
+      "publisher": "Springer",
+      "scholar_url": "https://scholar.google.com/scholar?cluster=278841114722462986&hl=en&oi=scholarr",
+      "citations": 7
     },
     {
       "title": "Multi-resolution 3D CNN for learning multi-scale spatial features in CAD models",
@@ -1126,6 +1214,17 @@
       "citations": 11
     },
     {
+      "title": "Interpretable deep learning for monitoring combustion instability",
+      "authors": "Tryambak Gangopadhyay and Sin Yong Tan and Anthony LoCurto and James B Michael and Soumik Sarkar",
+      "venue": "IFAC-PapersOnLine",
+      "year": "2020",
+      "volume": "53",
+      "pages": "832-837",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2405896320311630",
+      "citations": 9
+    },
+    {
       "title": "Supervisory control and distributed optimization of building energy systems",
       "authors": "Zhanhong Jiang and Venkatesh Chinde and Adam Kohl and Atul G Kelkar and Soumik Sarkar",
       "venue": "Journal of Dynamic Systems, Measurement, and Control",
@@ -1148,6 +1247,17 @@
       "citations": 3
     },
     {
+      "title": "Data-driven performance monitoring of dynamical systems using Granger causal graphical models",
+      "authors": "Homagni Saha and Chao Liu and Zhanhong Jiang and Soumik Sarkar",
+      "venue": "Journal of Dynamic Systems, Measurement, and Control",
+      "year": "2020",
+      "volume": "142",
+      "pages": "",
+      "publisher": "American Society of Mechanical Engineers Digital Collection",
+      "scholar_url": "https://asmedigitalcollection.asme.org/dynamicsystems/article-abstract/142/8/081006/1081659",
+      "citations": 1
+    },
+    {
       "title": "Granger Causality Based Hierarchical Time Series Clustering for State Estimation",
       "authors": "Anthony Florita and Gregor Henze and Sin Yong Tan and Homagni Saha and Margarite Jacoby and Soumik Sarkar",
       "venue": "National Renewable Energy Lab.(NREL), Golden, CO (United States), 2020",
@@ -1157,6 +1267,17 @@
       "publisher": "National Renewable Energy Lab.(NREL), Golden, CO (United States)",
       "scholar_url": "https://scholar.google.com/scholar?cluster=14121449048656957167&hl=en&oi=scholarr",
       "citations": 0
+    },
+    {
+      "title": "Plant disease identification using explainable 3D deep learning on hyperspectral images",
+      "authors": "Koushik Nagasubramanian and Sarah Jones and Asheesh K Singh and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian",
+      "venue": "Plant methods",
+      "year": "2019",
+      "volume": "15",
+      "pages": "98",
+      "publisher": "BioMed Central",
+      "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
+      "citations": 469
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1313,6 +1434,39 @@
       "citations": 0
     },
     {
+      "title": "Encoding Invariances in Deep Generative Models",
+      "authors": "Chinmay Hegde and Viraj Shah and Ameya Joshi and Baskar Ganapathysubramanian and Sambuddha Ghosal and Balaji Pokuri and Soumik Sarkar",
+      "venue": "",
+      "year": "2019",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://drive.google.com/file/d/1_9y2gCueDBu8A62g2ghxQJYTBEREh9R7/view",
+      "citations": 0
+    },
+    {
+      "title": "Soybean Root Phenomics",
+      "authors": "Troung Tran and Koushik Nagasubramanian and Soumik Sarkar and Baskar Ganapathysubramanian and Kevin Falk and Clayton Carley and Arti Singh and Asheesh Singh",
+      "venue": "Iowa State University Research and Demonstration Farms Progress Reports",
+      "year": "2019",
+      "volume": "2018",
+      "pages": "",
+      "publisher": "Iowa State University Digital Press",
+      "scholar_url": "https://iastatedigitalpress.com/farmreports/article/id/369/",
+      "citations": 0
+    },
+    {
+      "title": "Research Article Development of Optimized Phenomic Predictors for Efficient Plant Breeding Decisions Using Phenomic-Assisted Selection in Soybean",
+      "authors": "Kyle Parmley and Koushik Nagasubramanian and Soumik Sarkar and Baskar Ganapathysubramanian and Asheesh K Singh",
+      "venue": "",
+      "year": "2019",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://www.academia.edu/download/76156151/5809404.pdf",
+      "citations": 0
+    },
+    {
       "title": "Deep learning for plant stress phenotyping: trends and future perspectives",
       "authors": "Asheesh Kumar Singh and Baskar Ganapathysubramanian and Soumik Sarkar and Arti Singh",
       "venue": "Trends in plant science 23 (10), 883-898, 2018",
@@ -1445,6 +1599,28 @@
       "citations": 16
     },
     {
+      "title": "Traffic system anomaly detection using spatiotemporal pattern networks",
+      "authors": "Tingting Huang and Chao Liu and Anuj Sharma and Soumik Sarkar",
+      "venue": "International Journal of Prognostics and Health Management",
+      "year": "2018",
+      "volume": "9",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "http://www.papers.phmsociety.org/index.php/ijphm/article/view/2671",
+      "citations": 15
+    },
+    {
+      "title": "Traffic sensor health monitoring using spatiotemporal graphical modeling",
+      "authors": "Linjiang Wu and Chao Liu and Tingting Huang and Anuj Sharma and Soumik Sarkar",
+      "venue": "International Journal of Prognostics and Health Management",
+      "year": "2018",
+      "volume": "9",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "http://papers.phmsociety.org/index.php/ijphm/article/view/2701",
+      "citations": 10
+    },
+    {
       "title": "Mode decomposition and convolutional neural network analysis of thermoacoustic instabilities in a rijke tube",
       "authors": "Anthony LoCurto and Tryambak Gangopadhyay and Paige Boor and Soumik Sarkar and James B Michael",
       "venue": "",
@@ -1544,6 +1720,17 @@
       "citations": 42
     },
     {
+      "title": "Energy prediction using spatiotemporal pattern networks",
+      "authors": "Zhanhong Jiang and Chao Liu and Adedotun Akintayo and Gregor P Henze and Soumik Sarkar",
+      "venue": "Applied Energy",
+      "year": "2017",
+      "volume": "206",
+      "pages": "1022-1039",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261917312588",
+      "citations": 26
+    },
+    {
       "title": "Automated functional tests for diagnostics and control",
       "authors": "Sorin Bengea and Veronica Adetola and Martin Krucinski and Soumik Sarkar and Abhiskek Srivastav and Teems E Lovett and Kushal Mukherjee and Anarta Ghosh and Mei Chen and Pengfei Li",
       "venue": "US Patent App. 15/526,201, 2017",
@@ -1577,6 +1764,17 @@
       "citations": 14
     },
     {
+      "title": "Probabilistic graphical modeling of distributed cyber-physical systems",
+      "authors": "S Sarkar and Z Jiang and A Akintayo and S Krishnamurthy and A Tewari",
+      "venue": "Cyber-physical systems, 265-285, 2017",
+      "year": "2017",
+      "volume": "",
+      "pages": "265-285",
+      "publisher": "Academic Press",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/B9780128038017000183",
+      "citations": 13
+    },
+    {
       "title": "High speed video-based health monitoring using 3D deep learning",
       "authors": "Sambuddha Ghosal and Adedotun Akintayo and Paige Boor and Soumik Sarkar",
       "venue": "Dynamic Data-Driven Application Systems (DDDAS)",
@@ -1599,17 +1797,6 @@
       "citations": 0
     },
     {
-      "title": "Computer vision and machine learning for robust phenotyping in genome-wide studies.",
-      "authors": "Zhang JiaoPing Zhang JiaoPing and HS Naik and Teshale Assefa Teshale Assefa and S Sarkar and RVC Reddy and Arti Singh Arti Singh and Baskar Ganapathysubramanian Baskar Ganapathysubramanian and AK Singh",
-      "venue": "",
-      "year": "2017",
-      "volume": "7",
-      "pages": "44048",
-      "publisher": "",
-      "scholar_url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20193265159",
-      "citations": 0
-    },
-    {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean.",
       "authors": "Naik HsiangSing Naik HsiangSing and Zhang JiaoPing Zhang JiaoPing and A Lofquist and T Assefa and S Sarkar and D Ackerman and Arti Singh Arti Singh and AK Singh and B Ganapathysubramanian",
       "venue": "",
@@ -1618,6 +1805,17 @@
       "pages": "(8 April 2017)",
       "publisher": "",
       "scholar_url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20173217461",
+      "citations": 0
+    },
+    {
+      "title": "Computer vision and machine learning for robust phenotyping in genome-wide studies.",
+      "authors": "Zhang JiaoPing Zhang JiaoPing and HS Naik and Teshale Assefa Teshale Assefa and S Sarkar and RVC Reddy and Arti Singh Arti Singh and Baskar Ganapathysubramanian Baskar Ganapathysubramanian and AK Singh",
+      "venue": "",
+      "year": "2017",
+      "volume": "7",
+      "pages": "44048",
+      "publisher": "",
+      "scholar_url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20193265159",
       "citations": 0
     },
     {
@@ -1819,6 +2017,17 @@
       "citations": 38
     },
     {
+      "title": "Distributed decision propagation in mobile-agent proximity networks",
+      "authors": "Soumik Sarkar and Kushal Mukherjee and Asok Ray",
+      "venue": "International Journal of Control",
+      "year": "2013",
+      "volume": "86",
+      "pages": "1118-1130",
+      "publisher": "Taylor & Francis",
+      "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/00207179.2013.782511",
+      "citations": 17
+    },
+    {
       "title": "Engineering FRET-based solar cells: manipulation of energy and electron transfer processes in a light harvesting assembly",
       "authors": "Soumik Sarkar and Samim Sardar and Abhinandan Makhal and Joydeep Dutta and Samir Kumar Pal",
       "venue": "High-Efficiency Solar Cells: Physics, Materials, and Devices, 267-318, 2013",
@@ -1885,17 +2094,6 @@
       "citations": 109
     },
     {
-      "title": "Fractional Brownian Motion: Long range dependency, Markov property, Simulation strategy A review",
-      "authors": "Soumik Sarkar",
-      "venue": "Pennsylvania State University",
-      "year": "2011",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=10304020109821683398&hl=en&oi=scholarr",
-      "citations": 2
-    },
-    {
       "title": "Autonomous perception and decision making in cyber-physical systems",
       "authors": "Soumik Sarkar",
       "venue": "The Pennsylvania State University, 2011",
@@ -1904,6 +2102,17 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://search.proquest.com/openview/72ae3eb69cf4b4dad7723f6e0d545010/1?pq-origsite=gscholar&cbl=18750",
+      "citations": 2
+    },
+    {
+      "title": "Fractional Brownian Motion: Long range dependency, Markov property, Simulation strategy A review",
+      "authors": "Soumik Sarkar",
+      "venue": "Pennsylvania State University",
+      "year": "2011",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://scholar.google.com/scholar?cluster=10304020109821683398&hl=en&oi=scholarr",
       "citations": 2
     },
     {
@@ -2061,6 +2270,17 @@
       "citations": 0
     },
     {
+      "title": "Communication-efficient Decentralized Deep Learning",
+      "authors": "Fateme Fotouhi and Aditya Balu and Zhanhong Jiang and Yasaman Esfandiari and Salman Jahani and Soumik Sarkar",
+      "venue": "",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://ai-secure.github.io/DMLW2022/assets/papers/4.pdf",
+      "citations": 0
+    },
+    {
       "title": "Enhancing System-level Safety in Autonomous Driving via Feedback Learning",
       "authors": "Sin Yong Tan and Weisi Fan and Qisai Liu and Tichakorn Wongpiromsarn and Soumik Sarkar",
       "venue": "",
@@ -2135,6 +2355,39 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://openreview.net/forum?id=B1l3hfy6jN",
+      "citations": 0
+    },
+    {
+      "title": "Viraj Shah, Balaji Sesha Sarath Pokuri, Rahul Singh, Ameya Joshi",
+      "authors": "Chinmay Hegde and Baskar Ganapathysubramanian and Soumik Sarkar",
+      "venue": "",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://virajshah.com/assets/mrs_opendata_challenge_submission.pdf",
+      "citations": 0
+    },
+    {
+      "title": "Incremental Consensus based Collaborative Deep Learning",
+      "authors": "Zhanhong Jiang and Aditya Balu and Chinmay Hegde and Soumik Sarkar",
+      "venue": "",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://home.engineering.iastate.edu/~chinmay/files/papers/inc-icmlopt18.pdf",
+      "citations": 0
+    },
+    {
+      "title": "IOWA STATE UNIVERSITY",
+      "authors": "Sambuddha Ghosal and David Blystone and Homagni Saha and Daren Mueller and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
+      "venue": "",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://www.researchgate.net/profile/Sambuddha-Ghosal/publication/312030164_An_Automated_Soybean_Multi-Stress_Detection_framework_using_Deep_Convolutional_Neural_Networks/links/586d77f508ae8fce491b5cf0/An-Automated-Soybean-Multi-Stress-Detection-framework-using-Deep-Convolutional-Neural-Networks.pdf",
       "citations": 0
     },
     {
@@ -2327,6 +2580,17 @@
       "citations": 1
     },
     {
+      "title": "Plant geometry reconstruction from field data using neural radiance fields",
+      "authors": "Anushrut Jignasu and Ethan Herron and Talukder Zaki Jubery and James Afful and Aditya Balu and Baskar Ganapathysubramanian and Soumik Sarkar and Adarsh Krishnamurthy",
+      "venue": "2nd AAAI Workshop on AI for Agriculture and Food Systems, 2023",
+      "year": "2023",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://openreview.net/forum?id=TvKKqWn_-6",
+      "citations": 13
+    },
+    {
       "title": "Out-of-distribution algorithms for robust insect classification",
       "authors": "Mojdeh Saadati and Shivani Chiranjeevi and Aditya Balu and Talukder Zaki Jubery and Asheesh K Singh and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian",
       "venue": "2nd AAAI Workshop on AI for Agriculture and Food Systems, 2023",
@@ -2481,6 +2745,17 @@
       "citations": 30
     },
     {
+      "title": "Decentralized deep learning using momentum-accelerated consensus",
+      "authors": "Aditya Balu and Zhanhong Jiang and Sin Yong Tan and Chinmay Hedge and Young M Lee and Soumik Sarkar",
+      "venue": "ICASSP 2021-2021 IEEE international conference on acoustics, speech and …, 2021",
+      "year": "2021",
+      "volume": "",
+      "pages": "3675-3679",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9414564/",
+      "citations": 29
+    },
+    {
       "title": "Distributed multigrid neural solvers on megavoxel domains",
       "authors": "Aditya Balu and Sergio Botelho and Biswajit Khara and Vinay Rao and Soumik Sarkar and Chinmay Hegde and Adarsh Krishnamurthy and Santi Adavani and Baskar Ganapathysubramanian",
       "venue": "Proceedings of the International Conference for High Performance Computing …, 2021",
@@ -2602,6 +2877,17 @@
       "citations": 12
     },
     {
+      "title": "Interpretable deep attention model for multivariate time series prediction in building energy systems",
+      "authors": "Tryambak Gangopadhyay and Sin Yong Tan and Zhanhong Jiang and Soumik Sarkar",
+      "venue": "International Conference on Dynamic Data Driven Application Systems, 93-101, 2020",
+      "year": "2020",
+      "volume": "",
+      "pages": "93-101",
+      "publisher": "Springer International Publishing",
+      "scholar_url": "https://link.springer.com/chapter/10.1007/978-3-030-61725-7_13",
+      "citations": 9
+    },
+    {
       "title": "Orthogonal distance fields representation for machine-learning based manufacturability analysis",
       "authors": "Aditya Balu and Sambit Ghadai and Soumik Sarkar and Adarsh Krishnamurthy",
       "venue": "International Design Engineering Technical Conferences and Computers and …, 2020",
@@ -2701,6 +2987,17 @@
       "citations": 7
     },
     {
+      "title": "Learning State Switching for Multi-sensor Integration",
+      "authors": "Homagni Saha and Sin Yong Tan and Zhanhong Jiang and Soumik Sarkar",
+      "venue": "2019 Sixth Indian Control Conference (ICC), 232-237, 2019",
+      "year": "2019",
+      "volume": "",
+      "pages": "232-237",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9123175/",
+      "citations": 2
+    },
+    {
       "title": "Semantic domain adaptation for deep classifiers via gan-based data augmentation",
       "authors": "Amitangshu Mukherjee and Ameya Joshi and Chinmay Hegde and Soumik Sarkar",
       "venue": "Proc. Conf. Neural Inf. Process. Syst. Workshops",
@@ -2732,6 +3029,17 @@
       "publisher": "",
       "scholar_url": "https://openaccess.thecvf.com/content_eccv_2018_workshops/w25/html/Shoeiby_PIRM2018_Challenge_on_Spectral_Image_Super-Resolution_Methods_and_Results_ECCVW_2018_paper.html",
       "citations": 23
+    },
+    {
+      "title": "Characterizing combustion instability using deep convolutional neural network",
+      "authors": "Tryambak Gangopadhyay and Anthony Locurto and Paige Boor and James B Michael and Soumik Sarkar",
+      "venue": "Dynamic Systems and Control Conference 51890, V001T13A004, 2018",
+      "year": "2018",
+      "volume": "51890",
+      "pages": "V001T13A004",
+      "publisher": "American Society of Mechanical Engineers",
+      "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2018/V001T13A004/455510",
+      "citations": 17
     },
     {
       "title": "On consensus-disagreement tradeoff in distributed optimization",
@@ -2767,6 +3075,17 @@
       "citations": 5
     },
     {
+      "title": "Building energy disaggregation using spatiotemporal pattern network",
+      "authors": "Chao Liu and Zhanhong Jiang and Adedotun Akintayo and Gregor P Henze and Soumik Sarkar",
+      "venue": "2018 Annual American Control Conference (ACC), 1052-1057, 2018",
+      "year": "2018",
+      "volume": "",
+      "pages": "1052-1057",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/8431732/",
+      "citations": 2
+    },
+    {
       "title": "A Data-driven Approach towards Integration of Microclimate Conditions for Predicting Building Energy Performance",
       "authors": "Soumik Sarkar and Linjiang Wu and Venkatesh Chinde and Himanshu Sharma and Ulrike Passe",
       "venue": "5th International High Performance Buildings Conference, 2018",
@@ -2789,6 +3108,28 @@
       "citations": 0
     },
     {
+      "title": "Hierarchical Optimization for Building Energy Systems",
+      "authors": "Zhanhong Jiang and Timothy Wilkie and Soumik Sarkar",
+      "venue": "2018 Annual American Control Conference (ACC), 4646-4651, 2018",
+      "year": "2018",
+      "volume": "",
+      "pages": "4646-4651",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/8431489/",
+      "citations": 0
+    },
+    {
+      "title": "Data-driven root-cause analysis for distributed system anomalies",
+      "authors": "Chao Liu and Kin Gwn Lore and Soumik Sarkar",
+      "venue": "2017 IEEE 56th annual conference on decision and control (CDC), 5745-5750, 2017",
+      "year": "2017",
+      "volume": "",
+      "pages": "5745-5750",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/8264527/",
+      "citations": 13
+    },
+    {
       "title": "Convergence and noise effect analysis for generalized gossip-based distributed optimization",
       "authors": "Zhanhong Jiang and Kushal Mukherjee and Soumik Sarkar",
       "venue": "2017 American Control Conference (ACC), 4353-4358, 2017",
@@ -2798,6 +3139,17 @@
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7963625/",
       "citations": 5
+    },
+    {
+      "title": "Autonomous Mobile Sensing Platform for Spatio-Temporal Plant Phenotyping",
+      "authors": "Homagni Saha and Tianshuang Gao and Hamid Emadi and Zhanhong Jiang and Arti Singh and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh Singh and Sourabh Bhattacharya",
+      "venue": "Dynamic Systems and Control Conference 58288, V002T21A005, 2017",
+      "year": "2017",
+      "volume": "58288",
+      "pages": "V002T21A005",
+      "publisher": "American Society of Mechanical Engineers",
+      "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2017/V002T21A005/230329",
+      "citations": 1
     },
     {
       "title": "An unsupervised spatiotemporal graphical modeling approach to anomaly detection in distributed cps",
@@ -2855,6 +3207,39 @@
       "citations": 9
     },
     {
+      "title": "Building HVAC systems control using power shaping approach",
+      "authors": "Venkatesh Chinde and Krishna Chaitanya Kosaraju and Atul Kelkar and Ramkrishna Pasumarthy and S Sarkar and Navdeep M Singh",
+      "venue": "2016 American Control Conference (ACC), 599-604, 2016",
+      "year": "2016",
+      "volume": "",
+      "pages": "599-604",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7524979/",
+      "citations": 9
+    },
+    {
+      "title": "Multimodal spatiotemporal information fusion using neural-symbolic modeling for early detection of combustion instabilities",
+      "authors": "Soumalya Sarkar and Devesh K Jha and Kin G Lore and Soumik Sarkar and Asok Ray",
+      "venue": "2016 American Control Conference (ACC), 4918-4923, 2016",
+      "year": "2016",
+      "volume": "",
+      "pages": "4918-4923",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7526132/",
+      "citations": 7
+    },
+    {
+      "title": "Topology control in mobile sensor networks using information space feedback",
+      "authors": "Kin Gwn Lore and Soumik Sarkar and Devesh Jha",
+      "venue": "2016 American Control Conference (ACC), 6405-6410, 2016",
+      "year": "2016",
+      "volume": "",
+      "pages": "6405-6410",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7526677/",
+      "citations": 1
+    },
+    {
       "title": "Damage Detection of Bridge Network With Spatiotemporal Pattern Network",
       "authors": "Chao Liu and Yongqiang Gong and Simon Laflamme and Brent Phares and Soumik Sarkar",
       "venue": "Dynamic Systems and Control Conference 50695, V001T12A003, 2016",
@@ -2888,6 +3273,17 @@
       "citations": 53
     },
     {
+      "title": "On distributed optimization using generalized gossip",
+      "authors": "Zhanhong Jiang and Soumik Sarkar and Kushal Mukherjee",
+      "venue": "2015 54th IEEE Conference on Decision and Control (CDC), 2667-2672, 2015",
+      "year": "2015",
+      "volume": "",
+      "pages": "2667-2672",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7402618/",
+      "citations": 16
+    },
+    {
       "title": "Path planning in GPS-denied environments: A collective intelligence approach",
       "authors": "Pritthi Chattopadhyay and Devesh K Jha and Soumik Sarkar and Asok Ray",
       "venue": "2015 American Control Conference (ACC), 3082-3087, 2015",
@@ -2897,6 +3293,28 @@
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7171806/",
       "citations": 16
+    },
+    {
+      "title": "Understanding wind turbine interactions using spatiotemporal pattern network",
+      "authors": "Zhanhong Jiang and Soumik Sarkar",
+      "venue": "Dynamic Systems and Control Conference 57243, V001T05A001, 2015",
+      "year": "2015",
+      "volume": "57243",
+      "pages": "V001T05A001",
+      "publisher": "American Society of Mechanical Engineers",
+      "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2015/57243/228061",
+      "citations": 13
+    },
+    {
+      "title": "A symbolic dynamic filtering approach to unsupervised hierarchical feature extraction from time-series data",
+      "authors": "Adedotun Akintayo and Soumik Sarkar",
+      "venue": "2015 American Control Conference (ACC), 5824-5829, 2015",
+      "year": "2015",
+      "volume": "",
+      "pages": "5824-5829",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/7172252/",
+      "citations": 12
     },
     {
       "title": "Comparative evaluation of control-oriented zone temperature prediction modeling strategies in buildings",
@@ -2996,6 +3414,17 @@
       "publisher": "SAGE Publications",
       "scholar_url": "https://journals.sagepub.com/doi/abs/10.1177/0954410011409980",
       "citations": 10
+    },
+    {
+      "title": "Distributed decision propagation in mobile agent networks",
+      "authors": "Soumik Sarkar and Kushal Mukherjee and Asok Ray",
+      "venue": "2012 American Control Conference (ACC), 5276-5281, 2012",
+      "year": "2012",
+      "volume": "",
+      "pages": "5276-5281",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/6314846/",
+      "citations": 8
     },
     {
       "title": "Semantic sensor fusion for fault diagnosis in aircraft gas turbine engines",
@@ -3106,6 +3535,17 @@
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/5159981/",
       "citations": 7
+    },
+    {
+      "title": "Symbolic analysis of time series signals using generalized hilbert transform",
+      "authors": "Soumik Sarkar and Kushal Mukherjee and Asok Ray",
+      "venue": "2009 American Control Conference, 5422-5427, 2009",
+      "year": "2009",
+      "volume": "",
+      "pages": "5422-5427",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/5159908/",
+      "citations": 3
     },
     {
       "title": "Fault detection and isolation in aircraft gas turbine engines. Part 1: Underlying concept",
@@ -3715,6 +4155,17 @@
       "citations": 26
     },
     {
+      "title": "Encoding invariances in deep generative models",
+      "authors": "Viraj Shah and Ameya Joshi and Sambuddha Ghosal and Balaji Pokuri and Soumik Sarkar and Baskar Ganapathysubramanian and Chinmay Hegde",
+      "venue": "arXiv preprint arXiv:1906.01626",
+      "year": "2019",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/1906.01626",
+      "citations": 42
+    },
+    {
       "title": "Learning to cope with adversarial attacks",
       "authors": "Xian Yeow Lee and Aaron Havens and Girish Chowdhary and Soumik Sarkar",
       "venue": "arXiv preprint arXiv:1906.12061",
@@ -3814,6 +4265,17 @@
       "citations": 1
     },
     {
+      "title": "Flow Shape Design for Microfluidic Devices Using Deep Reinforcement Learning",
+      "authors": "Xian Yeow Lee and Aditya Balu and Daniel Stoecklein and Baskar Ganapathysubramanian and Soumik Sarkar",
+      "venue": "arXiv e-prints",
+      "year": "2018",
+      "volume": "",
+      "pages": "arXiv: 1811.12444",
+      "publisher": "",
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2018arXiv181112444Y/abstract",
+      "citations": 0
+    },
+    {
       "title": "A forward-backward approach for visualizing information flow in deep networks",
       "authors": "Aditya Balu and Thanh V Nguyen and Apurva Kokate and Chinmay Hegde and Soumik Sarkar",
       "venue": "arXiv preprint arXiv:1711.06221",
@@ -3871,10 +4333,9 @@
   ],
   "statistics": {
     "total_found": 393,
-    "new_journals": 202,
-    "new_conferences": 89,
-    "new_preprints": 60,
-    "processing_time_seconds": 905.51,
-    "average_time_per_paper": 2.3
+    "new_journals": 225,
+    "new_conferences": 106,
+    "new_preprints": 62,
+    "processing_time_seconds": 2195.1
   }
 }
