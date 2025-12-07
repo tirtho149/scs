@@ -1,9 +1,11 @@
 name: Update Scholar CV
 
 on:
-  schedule:
-    - cron: "0 0 * * *"    # runs every day at midnight UTC
+  push:
+    branches: ["main"]
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   update:
@@ -27,7 +29,7 @@ jobs:
 
       - name: Run CV Script
         run: |
-          python cv+.py
+          python cv+.py   # or cv+.py if that's your file
 
       - name: Commit and push results
         run: |
@@ -36,7 +38,7 @@ jobs:
           
           git add cv_formatted.txt publications.json || true
           
-          if git commit -m "Auto-update CV" ; then
+          if git commit -m "Auto-update CV"; then
             git push
           else
             echo "No changes to commit"
