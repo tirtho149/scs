@@ -1,17 +1,14 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Build and Deploy CV
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
-  # Allows manual run from the Actions tab
   workflow_dispatch:
 
-  # Runs automatically once a month (on the 1st day at 00:00 UTC)
+  # Run every day at 00:00 UTC
   schedule:
-    - cron: "0 0 1 * *"
+    - cron: "0 0 * * *"
 
 permissions:
   contents: read
@@ -27,17 +24,35 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Setup Pages
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run CV generator
+        run: |
+          python "cv+.py"
+
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload entire repository, or replace with output folder
+          path: "."
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
