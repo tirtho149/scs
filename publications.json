@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-07T22:23:16.157867",
+  "generated_date": "2025-12-10T01:32:33.728001",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -221,7 +221,7 @@
       "pages": "e20107",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20107",
-      "citations": 21
+      "citations": 22
     },
     {
       "title": "Smart connected farms and networked farmers to improve crop production, sustainability and profitability",
@@ -243,7 +243,7 @@
       "pages": "103707",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448524000344",
-      "citations": 15
+      "citations": 16
     },
     {
       "title": "Out-of-distribution detection algorithms for robust insect classification",
@@ -433,6 +433,17 @@
       "citations": 2
     },
     {
+      "title": "Wireless home identification and sensing platform",
+      "authors": "Gregor P Henze and Joshua R Smith and Soumik Sarkar and Anthony J FLORITA and Margarite JACOBY and Mohamadtaghi Katanbaf NEZHAD and Ali Saffari and Sin Yong TAN",
+      "venue": "US Patent App. 18/557,369, 2024",
+      "year": "2024",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://patents.google.com/patent/US20240219549A1/en",
+      "citations": 1
+    },
+    {
       "title": "Deep InSight: A Driver-State Estimation Platform for Processing Naturalistic Driving Data",
       "authors": "Anuj Sharma and Soumik Sarkar and Chinmay Hegde and Koray Ozcan and Senem Velipasalar and Matthew Rizzo and Jennifer Merickel and Yaw Adu-Gyamfi",
       "venue": "United States. Department of Transportation. Federal Highway Administration …, 2024",
@@ -444,17 +455,6 @@
       "citations": 0
     },
     {
-      "title": "Wireless home identification and sensing platform",
-      "authors": "Gregor P Henze and Joshua R Smith and Soumik Sarkar and Anthony J FLORITA and Margarite JACOBY and Mohamadtaghi Katanbaf NEZHAD and Ali Saffari and Sin Yong TAN",
-      "venue": "US Patent App. 18/557,369, 2024",
-      "year": "2024",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://patents.google.com/patent/US20240219549A1/en",
-      "citations": 0
-    },
-    {
       "title": "A physics-informed feature weighting method for bearing fault diagnostics",
       "authors": "Hao Lu and Venkat Pavan Nemani and Vahid Barzegar and Cade Allen and Chao Hu and Simon Laflamme and Soumik Sarkar and Andrew T Zimmerman",
       "venue": "Mechanical Systems and Signal Processing",
@@ -463,7 +463,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 60
+      "citations": 63
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -653,17 +653,6 @@
       "citations": 33
     },
     {
-      "title": "Deep learning for live cell shape detection and automated afm navigation",
-      "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
-      "venue": "Bioengineering",
-      "year": "2022",
-      "volume": "9",
-      "pages": "522",
-      "publisher": "MDPI",
-      "scholar_url": "https://www.mdpi.com/2306-5354/9/10/522",
-      "citations": 31
-    },
-    {
       "title": "Multi-modal sensor data fusion for perception systems",
       "authors": "Michael J Giering and Kishore K Reddy and Vivek Venugopalan and Soumik Sarkar",
       "venue": "US Patent 11,422,546, 2022",
@@ -672,6 +661,17 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://patents.google.com/patent/US11422546B2/en",
+      "citations": 33
+    },
+    {
+      "title": "Deep learning for live cell shape detection and automated afm navigation",
+      "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
+      "venue": "Bioengineering",
+      "year": "2022",
+      "volume": "9",
+      "pages": "522",
+      "publisher": "MDPI",
+      "scholar_url": "https://www.mdpi.com/2306-5354/9/10/522",
       "citations": 31
     },
     {
@@ -686,6 +686,17 @@
       "citations": 28
     },
     {
+      "title": "Sensor data fusion for prognostics and health monitoring",
+      "authors": "Michael J Giering and Madhusudana Shashanka and Soumik Sarkar and Vivek Venugopalan",
+      "venue": "US Patent 11,340,602, 2022",
+      "year": "2022",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://patents.google.com/patent/US11340602B2/en",
+      "citations": 16
+    },
+    {
       "title": "Multi-fidelity machine learning models for structure–property mapping of organic electronics",
       "authors": "Chih-Hsuan Yang and Balaji Sesha Sarath Pokuri and Xian Yeow Lee and Sangeeth Balakrishnan and Chinmay Hegde and Soumik Sarkar and Baskar Ganapathysubramanian",
       "venue": "Computational Materials Science",
@@ -697,15 +708,15 @@
       "citations": 14
     },
     {
-      "title": "Sensor data fusion for prognostics and health monitoring",
-      "authors": "Michael J Giering and Madhusudana Shashanka and Soumik Sarkar and Vivek Venugopalan",
-      "venue": "US Patent 11,340,602, 2022",
+      "title": "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment",
+      "authors": "Homagni Saha and Fateme Fotouhi and Qisai Liu and Soumik Sarkar",
+      "venue": "Frontiers in Robotics and AI",
       "year": "2022",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://patents.google.com/patent/US11340602B2/en",
-      "citations": 14
+      "volume": "9",
+      "pages": "930486",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.930486/full",
+      "citations": 11
     },
     {
       "title": "Physics-aware machine learning surrogates for real-time manufacturing digital twin",
@@ -716,17 +727,6 @@
       "pages": "71-74",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2213846322001845",
-      "citations": 10
-    },
-    {
-      "title": "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment",
-      "authors": "Homagni Saha and Fateme Fotouhi and Qisai Liu and Soumik Sarkar",
-      "venue": "Frontiers in Robotics and AI",
-      "year": "2022",
-      "volume": "9",
-      "pages": "930486",
-      "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.930486/full",
       "citations": 10
     },
     {
@@ -1167,7 +1167,7 @@
       "pages": "5",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0550-5",
-      "citations": 143
+      "citations": 144
     },
     {
       "title": "Predicting county-scale maize yields with publicly available data",
@@ -1310,7 +1310,7 @@
       "pages": "98",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
-      "citations": 484
+      "citations": 485
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1398,7 +1398,7 @@
       "pages": "18560",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-019-54707-9",
-      "citations": 68
+      "citations": 69
     },
     {
       "title": "Deep learning algorithms for detecting combustion instabilities",
@@ -1541,7 +1541,7 @@
       "pages": "222-231",
       "publisher": "SAGE Publications",
       "scholar_url": "https://journals.sagepub.com/doi/abs/10.1177/0361198118777631",
-      "citations": 166
+      "citations": 167
     },
     {
       "title": "A deep learning framework to discern and count microscopic nematode eggs",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2055
+      "citations": 2057
     },
     {
       "title": "Collaborative deep learning in fixed topology networks",
@@ -1783,7 +1783,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://patents.google.com/patent/US20170314800A1/en",
-      "citations": 23
+      "citations": 25
     },
     {
       "title": "A passivity-based power-shaping control of building HVAC systems",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1284
+      "citations": 1286
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -1893,7 +1893,7 @@
       "pages": "014011",
       "publisher": "IOP Publishing",
       "scholar_url": "https://iopscience.iop.org/article/10.1088/1361-6501/28/1/014011/meta",
-      "citations": 49
+      "citations": 50
     },
     {
       "title": "A composite discretization scheme for symbolic identification of complex systems",
@@ -2885,7 +2885,7 @@
       "pages": "4577-4584",
       "publisher": "",
       "scholar_url": "https://aaai.org/ojs/index.php/AAAI/article/view/5887",
-      "citations": 89
+      "citations": 90
     },
     {
       "title": "Robustifying reinforcement learning agents via action space adversarial training",
@@ -3402,7 +3402,7 @@
       "pages": "V002T26A006",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2014/46193/228863",
-      "citations": 50
+      "citations": 51
     },
     {
       "title": "Multi-sensor information fusion for fault detection in aircraft gas turbine engines",
@@ -4402,6 +4402,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 63,
-    "processing_time_seconds": 2244.28
+    "processing_time_seconds": 2250.55
   }
 }

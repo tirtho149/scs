@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2025-12-07 22:23:16
+Generated on: 2025-12-10 01:32:33
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -90,9 +90,9 @@ R. Duke, A. Sweet, N. C. Stumme, R. Ordikhani-Seyedlar, S. Chattopadhyay, C. Yan
 
 Q. Liu, X. Y. Lee, and S. Sarkar. "A study of natural robustness of deep reinforcement learning algorithms towards adversarial perturbations" **AI Open** 5 (2024): 126-141.
 
-A. Sharma, S. Sarkar, C. Hegde, K. Ozcan, S. Velipasalar, M. Rizzo, J. Merickel, and Y. Adu-Gyamfi. "Deep InSight: A Driver-State Estimation Platform for Processing Naturalistic Driving Data" **United States. Department of Transportation. Federal Highway Administration …, 2024** (2024).
-
 G. P. Henze, J. R. Smith, S. Sarkar, A. J. FLORITA, M. JACOBY, M. K. NEZHAD, A. Saffari, and S. Y. TAN. "Wireless home identification and sensing platform" **US Patent App. 18/557,369, 2024** (2024).
+
+A. Sharma, S. Sarkar, C. Hegde, K. Ozcan, S. Velipasalar, M. Rizzo, J. Merickel, and Y. Adu-Gyamfi. "Deep InSight: A Driver-State Estimation Platform for Processing Naturalistic Driving Data" **United States. Department of Transportation. Federal Highway Administration …, 2024** (2024).
 
 H. Lu, V. P. Nemani, V. Barzegar, C. Allen, C. Hu, S. Laflamme, S. Sarkar, and A. T. Zimmerman. "A physics-informed feature weighting method for bearing fault diagnostics" **Mechanical Systems and Signal Processing** 191 (2023): 110171.
 
@@ -130,19 +130,19 @@ A. D. Prasad, A. Balu, H. Shah, S. Sarkar, C. Hegde, and A. Krishnamurthy. "Nurb
 
 A. Rairdin, F. Fotouhi, J. Zhang, D. S. Mueller, B. Ganapathysubramanian, A. K. Singh, S. Dutta, S. Sarkar, and A. Singh. "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean" **Frontiers in plant science** 13 (2022): 966244.
 
-J. Rade, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "Deep learning for live cell shape detection and automated afm navigation" **Bioengineering** 9 (2022): 522.
-
 M. J. Giering, K. K. Reddy, V. Venugopalan, and S. Sarkar. "Multi-modal sensor data fusion for perception systems" **US Patent 11,422,546, 2022** (2022).
+
+J. Rade, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "Deep learning for live cell shape detection and automated afm navigation" **Bioengineering** 9 (2022): 522.
 
 K. Nagasubramanian, A. Singh, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Plant phenotyping with limited annotation: Doing more with less" **The Plant Phenome Journal** 5 (2022): e20051.
 
-C. Yang, B. S. S. Pokuri, X. Y. Lee, S. Balakrishnan, C. Hegde, S. Sarkar, and B. Ganapathysubramanian. "Multi-fidelity machine learning models for structure–property mapping of organic electronics" **Computational Materials Science** 213 (2022): 111599.
-
 M. J. Giering, M. Shashanka, S. Sarkar, and V. Venugopalan. "Sensor data fusion for prognostics and health monitoring" **US Patent 11,340,602, 2022** (2022).
 
-A. Balu, S. Sarkar, B. Ganapathysubramanian, and A. Krishnamurthy. "Physics-aware machine learning surrogates for real-time manufacturing digital twin" **Manufacturing Letters** 34 (2022): 71-74.
+C. Yang, B. S. S. Pokuri, X. Y. Lee, S. Balakrishnan, C. Hegde, S. Sarkar, and B. Ganapathysubramanian. "Multi-fidelity machine learning models for structure–property mapping of organic electronics" **Computational Materials Science** 213 (2022): 111599.
 
 H. Saha, F. Fotouhi, Q. Liu, and S. Sarkar. "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment" **Frontiers in Robotics and AI** 9 (2022): 930486.
+
+A. Balu, S. Sarkar, B. Ganapathysubramanian, and A. Krishnamurthy. "Physics-aware machine learning surrogates for real-time manufacturing digital twin" **Manufacturing Letters** 34 (2022): 71-74.
 
 D. F. Leguizamo, H. Yang, X. Y. Lee, and S. Sarkar. "Deep reinforcement learning for robotic control with multi-fidelity models" **IFAC-PapersOnLine** 55 (2022): 193-198.
 
