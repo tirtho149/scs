@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-10T01:32:33.728001",
+  "generated_date": "2025-12-12T01:32:31.713390",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -34,7 +34,7 @@
       "pages": "110382",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0168169925004880",
-      "citations": 7
+      "citations": 8
     },
     {
       "title": "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective",
@@ -356,6 +356,17 @@
       "citations": 7
     },
     {
+      "title": "Class‐specific data augmentation for plant stress classification",
+      "authors": "Nasla Saleem and Aditya Balu and Talukder Zaki Jubery and Arti Singh and Asheesh K Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "The Plant Phenome Journal",
+      "year": "2024",
+      "volume": "7",
+      "pages": "e20112",
+      "publisher": "",
+      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20112",
+      "citations": 6
+    },
+    {
       "title": "Aiira: Ai institute for resilient agriculture",
       "authors": "Baskar Ganapathysubramanian and Jessica MP Bell and George Kantor and Nirav Merchant and Soumik Sarkar and Patrick S Schnable and Michelle Segovia and Arti Singh and Asheesh K Singh",
       "venue": "AI Magazine",
@@ -365,17 +376,6 @@
       "publisher": "",
       "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aaai.12151",
       "citations": 6
-    },
-    {
-      "title": "Class‐specific data augmentation for plant stress classification",
-      "authors": "Nasla Saleem and Aditya Balu and Talukder Zaki Jubery and Arti Singh and Asheesh K Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
-      "venue": "The Plant Phenome Journal",
-      "year": "2024",
-      "volume": "7",
-      "pages": "e20112",
-      "publisher": "",
-      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20112",
-      "citations": 5
     },
     {
       "title": "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference",
@@ -474,7 +474,7 @@
       "pages": "1775-1794",
       "publisher": "Taylor & Francis",
       "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/10643389.2023.2183699",
-      "citations": 52
+      "citations": 53
     },
     {
       "title": "Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization",
@@ -617,7 +617,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 47
+      "citations": 48
     },
     {
       "title": "A graph policy network approach for volt-var control in power distribution systems",
@@ -859,7 +859,7 @@
       "pages": "53-69",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(20)30240-5",
-      "citations": 234
+      "citations": 235
     },
     {
       "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
@@ -870,7 +870,7 @@
       "pages": "e0252402",
       "publisher": "Public Library of Science",
       "scholar_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252402",
-      "citations": 229
+      "citations": 230
     },
     {
       "title": "UAS-based plant phenotyping for research and breeding applications",
@@ -892,7 +892,7 @@
       "pages": "104483",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0952197621003316",
-      "citations": 66
+      "citations": 67
     },
     {
       "title": "Deep multiview image fusion for soybean yield estimation in breeding applications",
@@ -947,7 +947,7 @@
       "pages": "100067",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2666546821000215",
-      "citations": 37
+      "citations": 38
     },
     {
       "title": "A high-fidelity residential building occupancy detection dataset",
@@ -1354,7 +1354,7 @@
       "pages": "17132",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-019-53451-4",
-      "citations": 127
+      "citations": 128
     },
     {
       "title": "A case study of deep reinforcement learning for engineering design: Application to microfluidic devices for flow sculpting",
@@ -1387,7 +1387,7 @@
       "pages": "95",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41524-019-0231-y",
-      "citations": 76
+      "citations": 78
     },
     {
       "title": "A deep learning framework for design and analysis of surgical bioprosthetic heart valves",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 689
+      "citations": 690
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1552,7 +1552,7 @@
       "pages": "9145",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-018-27272-w",
-      "citations": 143
+      "citations": 144
     },
     {
       "title": "Learning localized features in 3D CAD models for manufacturability analysis of drilled holes",
@@ -1574,7 +1574,7 @@
       "pages": "1106-1122",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261917317397",
-      "citations": 74
+      "citations": 75
     },
     {
       "title": "Online robust policy learning in the presence of unknown adversaries",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2057
+      "citations": 2060
     },
     {
       "title": "Collaborative deep learning in fixed topology networks",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1286
+      "citations": 1288
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -3072,7 +3072,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 639
+      "citations": 640
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3726,6 +3726,17 @@
       "citations": 4
     },
     {
+      "title": "WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification",
+      "authors": "Yanben Shen and Timilehin T Ayanlade and Venkata Naresh Boddepalli and Mojdeh Saadati and Ashlyn Rairdin and Zi K Deng and Muhammad Arbab Arshad and Aditya Balu and Daren Mueller and Asheesh K Singh and Wesley Everman and Nirav Merchant and Baskar Ganapathysubramanian and Meaghan Anderson and Soumik Sarkar and Arti Singh",
+      "venue": "arXiv preprint arXiv:2505.18930",
+      "year": "2025",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/2505.18930",
+      "citations": 3
+    },
+    {
       "title": "3D Multiphase Heterogeneous Microstructure Generation Using Conditional Latent Diffusion Models",
       "authors": "Nirmal Baishnab and Ethan Herron and Aditya Balu and Soumik Sarkar and Adarsh Krishnamurthy and Baskar Ganapathysubramanian",
       "venue": "arXiv preprint arXiv:2503.10711",
@@ -3745,17 +3756,6 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2506.13935",
-      "citations": 2
-    },
-    {
-      "title": "WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification",
-      "authors": "Yanben Shen and Timilehin T Ayanlade and Venkata Naresh Boddepalli and Mojdeh Saadati and Ashlyn Rairdin and Zi K Deng and Muhammad Arbab Arshad and Aditya Balu and Daren Mueller and Asheesh K Singh and Wesley Everman and Nirav Merchant and Baskar Ganapathysubramanian and Meaghan Anderson and Soumik Sarkar and Arti Singh",
-      "venue": "arXiv preprint arXiv:2505.18930",
-      "year": "2025",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2505.18930",
       "citations": 2
     },
     {
@@ -4402,6 +4402,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 63,
-    "processing_time_seconds": 2250.55
+    "processing_time_seconds": 2281.63
   }
 }

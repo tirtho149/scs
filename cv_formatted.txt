@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2025-12-10 01:32:33
+Generated on: 2025-12-12 01:32:31
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -76,9 +76,9 @@ T. T. Ayanlade, S. E. Jones, L. V. d. Laan, S. Chattopadhyay, D. Elango, J. Raig
 
 T. J. Young, S. Chiranjeevi, D. Elango, S. Sarkar, A. K. Singh, A. Singh, B. Ganapathysubramanian, and T. Z. Jubery. "Soybean canopy stress classification using 3D point cloud data" **Agronomy** 14 (2024): 1181.
 
-B. Ganapathysubramanian, J. M. Bell, G. Kantor, N. Merchant, S. Sarkar, P. S. Schnable, M. Segovia, A. Singh, and A. K. Singh. "Aiira: Ai institute for resilient agriculture" **AI Magazine** 45 (2024): 94-98.
-
 N. Saleem, A. Balu, T. Z. Jubery, A. Singh, A. K. Singh, S. Sarkar, and B. Ganapathysubramanian. "Class‐specific data augmentation for plant stress classification" **The Plant Phenome Journal** 7 (2024): e20112.
+
+B. Ganapathysubramanian, J. M. Bell, G. Kantor, N. Merchant, S. Sarkar, P. S. Schnable, M. Segovia, A. Singh, and A. K. Singh. "Aiira: Ai institute for resilient agriculture" **AI Magazine** 45 (2024): 94-98.
 
 F. Fotouhi, K. Menke, A. Prestholt, A. Gupta, M. E. Carroll, H. Yang, E. J. Skidmore, M. O’Neal, N. Merchant, S. K. Das, P. Kyveryga, B. Ganapathysubramanian, A. K. Singh, A. Singh, and S. Sarkar. "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference" **Frontiers in Plant Science** 15 (2024): 1484587.
 
@@ -701,11 +701,11 @@ H. Zaremehrjerdi, S. Ganguly, A. Rairdin, E. Tranel, B. Feuer, J. I. D. Salvo, S
 
 N. Subedi, H. Yang, D. K. Jha, and S. Sarkar. "Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation" **arXiv preprint arXiv:2505.16547** (2025).
 
+Y. Shen, T. T. Ayanlade, V. N. Boddepalli, M. Saadati, A. Rairdin, Z. K. Deng, M. A. Arshad, A. Balu, D. Mueller, A. K. Singh, W. Everman, N. Merchant, B. Ganapathysubramanian, M. Anderson, S. Sarkar, and A. Singh. "WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification" **arXiv preprint arXiv:2505.18930** (2025).
+
 N. Baishnab, E. Herron, A. Balu, S. Sarkar, A. Krishnamurthy, and B. Ganapathysubramanian. "3D Multiphase Heterogeneous Microstructure Generation Using Conditional Latent Diffusion Models" **arXiv preprint arXiv:2503.10711** (2025).
 
 V. K. Tanwar, S. Sarkar, A. K. Singh, and S. K. Das. "ReinDSplit: Reinforced Dynamic Split Learning for Pest Recognition in Precision Agriculture" **arXiv preprint arXiv:2506.13935** (2025).
-
-Y. Shen, T. T. Ayanlade, V. N. Boddepalli, M. Saadati, A. Rairdin, Z. K. Deng, M. A. Arshad, A. Balu, D. Mueller, A. K. Singh, W. Everman, N. Merchant, B. Ganapathysubramanian, M. Anderson, S. Sarkar, and A. Singh. "WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification" **arXiv preprint arXiv:2505.18930** (2025).
 
 Z. Jiang, A. Balu, and S. Sarkar. "Decentralized relaxed smooth optimization with gradient descent methods" **arXiv preprint arXiv:2508.08413** (2025).
 
