@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-16T01:32:45.473112",
+  "generated_date": "2025-12-17T01:28:20.960746",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -224,17 +224,6 @@
       "citations": 15
     },
     {
-      "title": "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean",
-      "authors": "Sarah E Jones and Timilehin T Ayanlade and Benjamin Fallen and Talukder Z Jubery and Arti Singh and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh K Singh",
-      "venue": "The Plant Phenome Journal",
-      "year": "2024",
-      "volume": "7",
-      "pages": "e70009",
-      "publisher": "",
-      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.70009",
-      "citations": 14
-    },
-    {
       "title": "Out-of-distribution detection algorithms for robust insect classification",
       "authors": "Mojdeh Saadati and Aditya Balu and Shivani Chiranjeevi and Talukder Zaki Jubery and Asheesh K Singh and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian",
       "venue": "Plant Phenomics",
@@ -243,6 +232,17 @@
       "pages": "0170",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0170",
+      "citations": 15
+    },
+    {
+      "title": "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean",
+      "authors": "Sarah E Jones and Timilehin T Ayanlade and Benjamin Fallen and Talukder Z Jubery and Arti Singh and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh K Singh",
+      "venue": "The Plant Phenome Journal",
+      "year": "2024",
+      "volume": "7",
+      "pages": "e70009",
+      "publisher": "",
+      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.70009",
       "citations": 14
     },
     {
@@ -441,7 +441,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 62
+      "citations": 63
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -1497,7 +1497,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 692
+      "citations": 693
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1673,7 +1673,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2060
+      "citations": 2061
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1849,7 +1849,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1290
+      "citations": 1291
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -3050,7 +3050,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 641
+      "citations": 642
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3380,7 +3380,7 @@
       "pages": "V002T26A006",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2014/46193/228863",
-      "citations": 50
+      "citations": 51
     },
     {
       "title": "Multi-sensor information fusion for fault detection in aircraft gas turbine engines",
@@ -4402,6 +4402,6 @@
     "new_journals": 227,
     "new_conferences": 107,
     "new_preprints": 65,
-    "processing_time_seconds": 2233.97
+    "processing_time_seconds": 2263.84
   }
 }

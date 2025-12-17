@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2025-12-16 01:32:45
+Generated on: 2025-12-17 01:28:20
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -52,9 +52,9 @@ B. Feuer, A. Joshi, M. Cho, S. Chiranjeevi, Z. K. Deng, A. Balu, A. K. Singh, S.
 
 E. Herron, J. Rade, A. Jignasu, B. Ganapathysubramanian, A. Balu, S. Sarkar, and A. Krishnamurthy. "Latent diffusion models for structural component design" **Computer-Aided Design** 171 (2024): 103707.
 
-S. E. Jones, T. T. Ayanlade, B. Fallen, T. Z. Jubery, A. Singh, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean" **The Plant Phenome Journal** 7 (2024): e70009.
-
 M. Saadati, A. Balu, S. Chiranjeevi, T. Z. Jubery, A. K. Singh, S. Sarkar, A. Singh, and B. Ganapathysubramanian. "Out-of-distribution detection algorithms for robust insect classification" **Plant Phenomics** 6 (2024): 0170.
+
+S. E. Jones, T. T. Ayanlade, B. Fallen, T. Z. Jubery, A. Singh, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean" **The Plant Phenome Journal** 7 (2024): e70009.
 
 G. Cutshaw, N. Joshi, X. Wen, E. Quam, G. Bogatcheva, N. Hassan, S. Uthaman, J. Waite, S. Sarkar, B. Singh, and R. Bardhan. "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics" **Angewandte Chemie International Edition** 63 (2024): e202410919.
 
