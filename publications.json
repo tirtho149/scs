@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-17T01:28:20.960746",
+  "generated_date": "2025-12-22T01:34:58.505914",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -34,7 +34,7 @@
       "pages": "110382",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0168169925004880",
-      "citations": 8
+      "citations": 10
     },
     {
       "title": "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective",
@@ -70,6 +70,17 @@
       "citations": 4
     },
     {
+      "title": "Use of artificial intelligence in soybean breeding and production",
+      "authors": "Asheesh K Singh and Sarah E Jones and Liza Van der Laan and Timilehin T Ayanlade and Joscif Raigne and Nasla Saleem and Shambhavi Joshi and Muhammad Arbab Arshad and Hossein ZareMehrjerdi and Ashlyn Rairdin and Juan Di Salvo and Dinakaran Elango and Leonardo De Azevedo Peixoto and Talukder Z Jubery and Adarsh Krishnamurthy and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "Advances in Agronomy 190, 199-273, 2025",
+      "year": "2025",
+      "volume": "190",
+      "pages": "199-273",
+      "publisher": "Academic Press",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0065211324001147",
+      "citations": 3
+    },
+    {
       "title": "Benchmarking scientific machine-learning approaches for flow prediction around complex geometries",
       "authors": "Ali Rabeh and Ethan Herron and Aditya Balu and Soumik Sarkar and Chinmay Hegde and Adarsh Krishnamurthy and Baskar Ganapathysubramanian",
       "venue": "Communications Engineering",
@@ -81,6 +92,17 @@
       "citations": 2
     },
     {
+      "title": "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree",
+      "authors": "Mahsa Khosravi and Zhanhong Jiang and Joshua R Waite and Sarah E Jones and Hernan Torres Pacin and Arti Singh and Baskar Ganapathysubramanian and Asheesh Kumar Singh and Soumik Sarkar",
+      "venue": "Smart Agricultural Technology",
+      "year": "2025",
+      "volume": "",
+      "pages": "101194",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2772375525004253",
+      "citations": 2
+    },
+    {
       "title": "Genomic and phenomic prediction for soybean seed yield, protein, and oil",
       "authors": "Liza Van der Laan and Kyle Parmley and Mojdeh Saadati and Hernan Torres Pacin and Srikanth Panthulugiri and Soumik Sarkar and Baskar Ganapathysubramanian and Aaron Lorenz and Asheesh K Singh",
       "venue": "The Plant Genome",
@@ -89,17 +111,6 @@
       "pages": "e70002",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/tpg2.70002",
-      "citations": 2
-    },
-    {
-      "title": "Use of artificial intelligence in soybean breeding and production",
-      "authors": "Asheesh K Singh and Sarah E Jones and Liza Van der Laan and Timilehin T Ayanlade and Joscif Raigne and Nasla Saleem and Shambhavi Joshi and Muhammad Arbab Arshad and Hossein ZareMehrjerdi and Ashlyn Rairdin and Juan Di Salvo and Dinakaran Elango and Leonardo De Azevedo Peixoto and Talukder Z Jubery and Adarsh Krishnamurthy and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
-      "venue": "Advances in Agronomy 190, 199-273, 2025",
-      "year": "2025",
-      "volume": "190",
-      "pages": "199-273",
-      "publisher": "",
-      "scholar_url": "https://www.researchgate.net/profile/Juan-Di-Salvo-2/publication/388389988_Use_of_artificial_intelligence_in_soybean_breeding_and_production/links/6855d0bbb8078e0c248e7946/Use-of-artificial-intelligence-in-soybean-breeding-and-production.pdf",
       "citations": 2
     },
     {
@@ -122,6 +133,17 @@
       "pages": "101633",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2590198225003124",
+      "citations": 0
+    },
+    {
+      "title": "Bidirectional linear recurrent models for sequence-level multisource fusion",
+      "authors": "Qisai Liu and Zhanhong Jiang and Md Zahid Hasan and Joshua R Waite and Chao Liu and Aditya Balu and Soumik Sarkar",
+      "venue": "Information Fusion",
+      "year": "2025",
+      "volume": "",
+      "pages": "103601",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S1566253525006736",
       "citations": 0
     },
     {
@@ -221,7 +243,7 @@
       "pages": "103707",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448524000344",
-      "citations": 15
+      "citations": 16
     },
     {
       "title": "Out-of-distribution detection algorithms for robust insect classification",
@@ -290,6 +312,17 @@
       "citations": 9
     },
     {
+      "title": "Multi-modal AI for Ultra-Precision Agriculture",
+      "authors": "Timilehin T Ayanlade and Sarah E Jones and Liza Van der Laan and Souradeep Chattopadhyay and Dinakaran Elango and Joscif Raigne and Ankur Saxena and Arti Singh and Baskar Ganapathysubramanian and Asheesh K Singh and Soumik Sarkar",
+      "venue": "Harnessing Data Science for Sustainable Agriculture and Natural Resource …, 2024",
+      "year": "2024",
+      "volume": "",
+      "pages": "299-334",
+      "publisher": "Springer Nature Singapore",
+      "scholar_url": "https://link.springer.com/chapter/10.1007/978-981-97-7762-4_13",
+      "citations": 8
+    },
+    {
       "title": "Leveraging soil mapping and machine learning to improve spatial adjustments in plant breeding trials",
       "authors": "Matthew E Carroll and Luis G Riera and Bradley A Miller and Philip M Dixon and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh K Singh",
       "venue": "Crop Science",
@@ -310,17 +343,6 @@
       "publisher": "John Wiley & Sons, Inc.",
       "scholar_url": "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/btm2.10595",
       "citations": 8
-    },
-    {
-      "title": "Multi-modal AI for Ultra-Precision Agriculture",
-      "authors": "Timilehin T Ayanlade and Sarah E Jones and Liza Van der Laan and Souradeep Chattopadhyay and Dinakaran Elango and Joscif Raigne and Ankur Saxena and Arti Singh and Baskar Ganapathysubramanian and Asheesh K Singh and Soumik Sarkar",
-      "venue": "Harnessing Data Science for Sustainable Agriculture and Natural Resource …, 2024",
-      "year": "2024",
-      "volume": "",
-      "pages": "299-334",
-      "publisher": "Springer Nature Singapore",
-      "scholar_url": "https://link.springer.com/chapter/10.1007/978-981-97-7762-4_13",
-      "citations": 7
     },
     {
       "title": "Soybean canopy stress classification using 3D point cloud data",
@@ -441,7 +463,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 63
+      "citations": 64
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -595,18 +617,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 49
-    },
-    {
-      "title": "A graph policy network approach for volt-var control in power distribution systems",
-      "authors": "Xian Yeow Lee and Soumik Sarkar and Yubo Wang",
-      "venue": "Applied Energy",
-      "year": "2022",
-      "volume": "323",
-      "pages": "119530",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261922008479",
-      "citations": 41
+      "citations": 50
     },
     {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
@@ -617,6 +628,17 @@
       "pages": "103199",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448522000045",
+      "citations": 42
+    },
+    {
+      "title": "A graph policy network approach for volt-var control in power distribution systems",
+      "authors": "Xian Yeow Lee and Soumik Sarkar and Yubo Wang",
+      "venue": "Applied Energy",
+      "year": "2022",
+      "volume": "323",
+      "pages": "119530",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261922008479",
       "citations": 41
     },
     {
@@ -686,6 +708,17 @@
       "citations": 14
     },
     {
+      "title": "Physics-aware machine learning surrogates for real-time manufacturing digital twin",
+      "authors": "Aditya Balu and Soumik Sarkar and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
+      "venue": "Manufacturing Letters",
+      "year": "2022",
+      "volume": "34",
+      "pages": "71-74",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2213846322001845",
+      "citations": 11
+    },
+    {
       "title": "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment",
       "authors": "Homagni Saha and Fateme Fotouhi and Qisai Liu and Soumik Sarkar",
       "venue": "Frontiers in Robotics and AI",
@@ -695,17 +728,6 @@
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2022.930486/full",
       "citations": 11
-    },
-    {
-      "title": "Physics-aware machine learning surrogates for real-time manufacturing digital twin",
-      "authors": "Aditya Balu and Soumik Sarkar and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
-      "venue": "Manufacturing Letters",
-      "year": "2022",
-      "volume": "34",
-      "pages": "71-74",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2213846322001845",
-      "citations": 10
     },
     {
       "title": "Deep reinforcement learning for robotic control with multi-fidelity models",
@@ -837,7 +859,7 @@
       "pages": "53-69",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(20)30240-5",
-      "citations": 234
+      "citations": 235
     },
     {
       "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
@@ -881,7 +903,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9846470",
-      "citations": 64
+      "citations": 65
     },
     {
       "title": "Fast inverse design of microstructures via generative invariance networks",
@@ -1038,6 +1060,17 @@
       "citations": 8
     },
     {
+      "title": "AI guided measurement of live cells using AFM",
+      "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
+      "venue": "IFAC-PapersOnLine",
+      "year": "2021",
+      "volume": "54",
+      "pages": "316-321",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2405896321022370",
+      "citations": 7
+    },
+    {
       "title": "Differentiable spline approximations",
       "authors": "Minsu Cho and Aditya Balu and Ameya Joshi and Anjana Deva Prasad and Biswajit Khara and Soumik Sarkar and Baskar Ganapathysubramanian and Adarsh Krishnamurthy and Chinmay Hegde",
       "venue": "Advances in neural information processing systems",
@@ -1057,17 +1090,6 @@
       "pages": "102038",
       "publisher": "North-Holland",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0167839621000832",
-      "citations": 6
-    },
-    {
-      "title": "AI guided measurement of live cells using AFM",
-      "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
-      "venue": "IFAC-PapersOnLine",
-      "year": "2021",
-      "volume": "54",
-      "pages": "316-321",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2405896321022370",
       "citations": 6
     },
     {
@@ -1145,7 +1167,7 @@
       "pages": "5",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0550-5",
-      "citations": 145
+      "citations": 146
     },
     {
       "title": "Predicting county-scale maize yields with publicly available data",
@@ -1288,7 +1310,7 @@
       "pages": "98",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
-      "citations": 487
+      "citations": 490
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1343,7 +1365,7 @@
       "pages": "111401",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/141/11/111401/956254",
-      "citations": 117
+      "citations": 119
     },
     {
       "title": "Development of optimized phenomic predictors for efficient plant breeding decisions using phenomic-assisted selection in soybean",
@@ -1365,7 +1387,7 @@
       "pages": "95",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41524-019-0231-y",
-      "citations": 78
+      "citations": 79
     },
     {
       "title": "A deep learning framework for design and analysis of surgical bioprosthetic heart valves",
@@ -1574,7 +1596,7 @@
       "pages": "61",
       "publisher": "MDPI",
       "scholar_url": "https://www.mdpi.com/2218-6581/7/4/61",
-      "citations": 56
+      "citations": 57
     },
     {
       "title": "Linked read technology for assembling large complex and polyploid genomes",
@@ -1640,7 +1662,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://papers.phmsociety.org/index.php/ijphm/article/view/2701",
-      "citations": 10
+      "citations": 11
     },
     {
       "title": "Mode decomposition and convolutional neural network analysis of thermoacoustic instabilities in a rijke tube",
@@ -1673,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2061
+      "citations": 2069
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1684,7 +1706,7 @@
       "pages": "23",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-017-0173-7",
-      "citations": 229
+      "citations": 230
     },
     {
       "title": "Collaborative deep learning in fixed topology networks",
@@ -1695,7 +1717,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/a74c3bae3e13616104c1b25f9da1f11f-Abstract.html",
-      "citations": 229
+      "citations": 230
     },
     {
       "title": "Computer vision and machine learning for robust phenotyping in genome-wide studies",
@@ -1717,7 +1739,7 @@
       "pages": "46368",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/srep46368",
-      "citations": 97
+      "citations": 98
     },
     {
       "title": "Deep learning for automated occlusion edge detection in RGB-D frames",
@@ -1805,7 +1827,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://www.researchgate.net/profile/Sambuddha-Ghosal/publication/320065040_High_Speed_Video-based_health_monitoring_using_3D_Deep_Learning/links/59cbb79b0f7e9bbfdc3b6c9c/High-Speed-Video-based-health-monitoring-using-3D-Deep-Learning.pdf",
-      "citations": 10
+      "citations": 11
     },
     {
       "title": "Deep Learning for Engineering Big Data Analytics",
@@ -1849,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1291
+      "citations": 1292
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -1860,7 +1882,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://papers.phmsociety.org/index.php/ijphm/article/view/2461",
-      "citations": 73
+      "citations": 74
     },
     {
       "title": "Bridge damage detection using spatiotemporal patterns extracted from dense sensor network",
@@ -1937,7 +1959,7 @@
       "pages": "734-751",
       "publisher": "Taylor & Francis",
       "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/23744731.2015.1057085",
-      "citations": 61
+      "citations": 62
     },
     {
       "title": "Hierarchical feature extraction for efficient design of microfluidic flow patterns",
@@ -2547,6 +2569,17 @@
       "citations": 1
     },
     {
+      "title": "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints",
+      "authors": "Anushrut Jignasu and Aditya Balu and Soumik Sarkar and Chinmay Hegde and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
+      "year": "2024",
+      "volume": "",
+      "pages": "5271-5279",
+      "publisher": "",
+      "scholar_url": "https://openaccess.thecvf.com/content/CVPR2024W/DLGC/html/Jignasu_SDFConnect_Neural_Implicit_Surface_Reconstruction_of_a_Sparse_Point_Cloud_CVPRW_2024_paper.html",
+      "citations": 5
+    },
+    {
       "title": "Dimat: Decentralized iterative merging-and-training for deep learning models",
       "authors": "Nastaran Saadati and Minh Pham and Nasla Saleem and Joshua R Waite and Aditya Balu and Zhanong Jiang and Chinmay Hegde and Soumik Sarkar",
       "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
@@ -2566,17 +2599,6 @@
       "pages": "1-8",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/10786471/",
-      "citations": 3
-    },
-    {
-      "title": "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints",
-      "authors": "Anushrut Jignasu and Aditya Balu and Soumik Sarkar and Chinmay Hegde and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
-      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
-      "year": "2024",
-      "volume": "",
-      "pages": "5271-5279",
-      "publisher": "",
-      "scholar_url": "https://openaccess.thecvf.com/content/CVPR2024W/DLGC/html/Jignasu_SDFConnect_Neural_Implicit_Surface_Reconstruction_of_a_Sparse_Point_Cloud_CVPRW_2024_paper.html",
       "citations": 3
     },
     {
@@ -2896,7 +2918,7 @@
       "pages": "238-245",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9304536/",
-      "citations": 21
+      "citations": 22
     },
     {
       "title": "Deep generative models that solve pdes: Distributed computing for training large data-free models",
@@ -3050,7 +3072,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 642
+      "citations": 643
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3303,7 +3325,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://ceur-ws.org/Vol-1583/CoCoNIPS_2015_paper_12.pdf",
-      "citations": 53
+      "citations": 54
     },
     {
       "title": "On distributed optimization using generalized gossip",
@@ -3380,7 +3402,7 @@
       "pages": "V002T26A006",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2014/46193/228863",
-      "citations": 51
+      "citations": 50
     },
     {
       "title": "Multi-sensor information fusion for fault detection in aircraft gas turbine engines",
@@ -3715,28 +3737,6 @@
       "citations": 3
     },
     {
-      "title": "ReinDSplit: Reinforced Dynamic Split Learning for Pest Recognition in Precision Agriculture",
-      "authors": "Vishesh Kumar Tanwar and Soumik Sarkar and Asheesh K Singh and Sajal K Das",
-      "venue": "arXiv preprint arXiv:2506.13935",
-      "year": "2025",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2506.13935",
-      "citations": 2
-    },
-    {
-      "title": "Optimizing Navigation And Chemical Application in Precision Agriculture With Deep Reinforcement Learning And Conditional Action Tree",
-      "authors": "Mahsa Khosravi and Zhanhong Jiang and Joshua R Waite and Sarah Jonesc and Hernan Torres and Arti Singh and Baskar Ganapathysubramanian and Asheesh Kumar Singh and Soumik Sarkar",
-      "venue": "arXiv preprint arXiv:2503.17985",
-      "year": "2025",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2503.17985",
-      "citations": 2
-    },
-    {
       "title": "3D Multiphase Heterogeneous Microstructure Generation Using Conditional Latent Diffusion Models",
       "authors": "Nirmal Baishnab and Ethan Herron and Aditya Balu and Soumik Sarkar and Adarsh Krishnamurthy and Baskar Ganapathysubramanian",
       "venue": "arXiv preprint arXiv:2503.10711",
@@ -3745,6 +3745,17 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2503.10711",
+      "citations": 3
+    },
+    {
+      "title": "ReinDSplit: Reinforced Dynamic Split Learning for Pest Recognition in Precision Agriculture",
+      "authors": "Vishesh Kumar Tanwar and Soumik Sarkar and Asheesh K Singh and Sajal K Das",
+      "venue": "arXiv preprint arXiv:2506.13935",
+      "year": "2025",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/2506.13935",
       "citations": 2
     },
     {
@@ -3924,17 +3935,6 @@
       "citations": 0
     },
     {
-      "title": "Bidirectional Linear Recurrent Models for Sequence-Level Multisource Fusion",
-      "authors": "Qisai Liu and Zhanhong Jiang and Joshua R Waite and Chao Liu and Aditya Balu and Soumik Sarkar",
-      "venue": "arXiv preprint arXiv:2504.08964",
-      "year": "2025",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2504.08964",
-      "citations": 0
-    },
-    {
       "title": "FUSE: First-Order and Second-Order Unified SynthEsis in Stochastic Optimization",
       "authors": "Zhanhong Jiang and Md Zahid Hasan and Aditya Balu and Joshua R Waite and Genyi Huang and Soumik Sarkar",
       "venue": "arXiv preprint arXiv:2503.04204",
@@ -3976,7 +3976,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2409.18032",
-      "citations": 12
+      "citations": 13
     },
     {
       "title": "Latent Safety-Constrained Policy Approach for Safe Offline Reinforcement Learning",
@@ -4001,6 +4001,17 @@
       "citations": 3
     },
     {
+      "title": "FAWAC: Feasibility Informed Advantage Weighted Regression for Persistent Safety in Offline Reinforcement Learning",
+      "authors": "Prajwal Koirala and Zhanhong Jiang and Soumik Sarkar and Cody Fleming",
+      "venue": "arXiv preprint arXiv:2412.08880",
+      "year": "2024",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/2412.08880",
+      "citations": 3
+    },
+    {
       "title": "AgGym: An agricultural biotic stress simulation environment for ultra-precision management planning",
       "authors": "Mahsa Khosravi and Matthew Carroll and Kai Liang Tan and Liza Van der Laan and Joscif Raigne and Daren S Mueller and Arti Singh and Aditya Balu and Baskar Ganapathysubramanian and Asheesh Kumar Singh and Soumik Sarkar",
       "venue": "arXiv preprint arXiv:2409.00735",
@@ -4020,17 +4031,6 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2412.18696",
-      "citations": 2
-    },
-    {
-      "title": "FAWAC: Feasibility Informed Advantage Weighted Regression for Persistent Safety in Offline Reinforcement Learning",
-      "authors": "Prajwal Koirala and Zhanhong Jiang and Soumik Sarkar and Cody Fleming",
-      "venue": "arXiv preprint arXiv:2412.08880",
-      "year": "2024",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2412.08880",
       "citations": 2
     },
     {
@@ -4399,9 +4399,9 @@
   ],
   "statistics": {
     "total_found": 399,
-    "new_journals": 227,
+    "new_journals": 229,
     "new_conferences": 107,
-    "new_preprints": 65,
-    "processing_time_seconds": 2263.84
+    "new_preprints": 63,
+    "processing_time_seconds": 2229.78
   }
 }

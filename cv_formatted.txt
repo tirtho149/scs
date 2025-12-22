@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2025-12-17 01:28:20
+Generated on: 2025-12-22 01:34:58
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -24,15 +24,19 @@ J. Feng, S. W. Blair, T. T. Ayanlade, A. Balu, B. Ganapathysubramanian, A. Singh
 
 H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk" **Journal of Water Process Engineering** 69 (2025): 106658.
 
+A. K. Singh, S. E. Jones, L. V. d. Laan, T. T. Ayanlade, J. Raigne, N. Saleem, S. Joshi, M. A. Arshad, H. ZareMehrjerdi, A. Rairdin, J. D. Salvo, D. Elango, L. D. A. Peixoto, T. Z. Jubery, A. Krishnamurthy, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Use of artificial intelligence in soybean breeding and production" **Advances in Agronomy 190, 199-273, 2025** 190 (2025): 199-273.
+
 A. Rabeh, E. Herron, A. Balu, S. Sarkar, C. Hegde, A. Krishnamurthy, and B. Ganapathysubramanian. "Benchmarking scientific machine-learning approaches for flow prediction around complex geometries" **Communications Engineering** 4 (2025): 182.
 
-L. V. d. Laan, K. Parmley, M. Saadati, H. T. Pacin, S. Panthulugiri, S. Sarkar, B. Ganapathysubramanian, A. Lorenz, and A. K. Singh. "Genomic and phenomic prediction for soybean seed yield, protein, and oil" **The Plant Genome** 18 (2025): e70002.
+M. Khosravi, Z. Jiang, J. R. Waite, S. E. Jones, H. T. Pacin, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree" **Smart Agricultural Technology** (2025): 101194.
 
-A. K. Singh, S. E. Jones, L. V. d. Laan, T. T. Ayanlade, J. Raigne, N. Saleem, S. Joshi, M. A. Arshad, H. ZareMehrjerdi, A. Rairdin, J. D. Salvo, D. Elango, L. D. A. Peixoto, T. Z. Jubery, A. Krishnamurthy, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Use of artificial intelligence in soybean breeding and production" **Advances in Agronomy 190, 199-273, 2025** 190 (2025): 199-273.
+L. V. d. Laan, K. Parmley, M. Saadati, H. T. Pacin, S. Panthulugiri, S. Sarkar, B. Ganapathysubramanian, A. Lorenz, and A. K. Singh. "Genomic and phenomic prediction for soybean seed yield, protein, and oil" **The Plant Genome** 18 (2025): e70002.
 
 B. Kim, S. W. Blair, T. Z. Jubery, S. Sarkar, A. Singh, A. K. Singh, and B. Ganapathysubramanian. "Soybean maturity prediction using two‐dimensional contour plots from drone‐based time series imagery" **The Plant Phenome Journal** 8 (2025): e70036.
 
 A. Joshi, A. Venkatachalapathy, J. Merickel, J. H. Chang, M. Rizzo, S. Sarkar, and A. Sharma. "Impact of acute glucose episodes on adherence to speed limits in the naturalistic setting for drivers with diabetes: An application of linear quantile mixed models" **Transportation Research Interdisciplinary Perspectives** 34 (2025): 101633.
+
+Q. Liu, Z. Jiang, M. Z. Hasan, J. R. Waite, C. Liu, A. Balu, and S. Sarkar. "Bidirectional linear recurrent models for sequence-level multisource fusion" **Information Fusion** (2025): 103601.
 
 S. E. Jones, S. Dutta, T. T. Ayanlade, B. Ganapathysubramanian, S. Sarkar, B. Fallen, and A. K. Singh. "Assessing phenotypic diversity and sensor‐based metrics for drought response in soybean" **Crop Science** 65 (2025): e70098.
 
@@ -64,11 +68,11 @@ F. Fotouhi, A. Balu, Z. Jiang, Y. Esfandiari, S. Jahani, and S. Sarkar. "Dominat
 
 B. Khara, E. Herron, A. Balu, D. Gamdha, C. Yang, K. Saurabh, A. Jignasu, Z. Jiang, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "Neural pde solvers for irregular domains" **Computer-Aided Design** 172 (2024): 103709.
 
+T. T. Ayanlade, S. E. Jones, L. V. d. Laan, S. Chattopadhyay, D. Elango, J. Raigne, A. Saxena, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Multi-modal AI for Ultra-Precision Agriculture" **Harnessing Data Science for Sustainable Agriculture and Natural Resource …, 2024** (2024): 299-334.
+
 M. E. Carroll, L. G. Riera, B. A. Miller, P. M. Dixon, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Leveraging soil mapping and machine learning to improve spatial adjustments in plant breeding trials" **Crop Science** 64 (2024): 3135-3152.
 
 S. Ghazvini, S. Uthaman, L. Synan, E. C. Lin, S. Sarkar, M. K. Santillan, D. A. Santillan, and R. Bardhan. "Predicting the onset of preeclampsia by longitudinal monitoring of metabolic changes throughout pregnancy with Raman spectroscopy" **Bioengineering & translational medicine** 9 (2024): e10595.
-
-T. T. Ayanlade, S. E. Jones, L. V. d. Laan, S. Chattopadhyay, D. Elango, J. Raigne, A. Saxena, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Multi-modal AI for Ultra-Precision Agriculture" **Harnessing Data Science for Sustainable Agriculture and Natural Resource …, 2024** (2024): 299-334.
 
 T. J. Young, S. Chiranjeevi, D. Elango, S. Sarkar, A. K. Singh, A. Singh, B. Ganapathysubramanian, and T. Z. Jubery. "Soybean canopy stress classification using 3D point cloud data" **Agronomy** 14 (2024): 1181.
 
@@ -120,9 +124,9 @@ H. Yang, C. Yang, P. Sornberger, R. Duke, C. Risko, B. Ganapathysubramanian, and
 
 S. Y. Tan, M. Jacoby, H. Saha, A. Florita, G. Henze, and S. Sarkar. "Multimodal sensor fusion framework for residential building occupancy detection" **Energy and buildings** 258 (2022): 111828.
 
-X. Y. Lee, S. Sarkar, and Y. Wang. "A graph policy network approach for volt-var control in power distribution systems" **Applied Energy** 323 (2022): 119530.
-
 A. D. Prasad, A. Balu, H. Shah, S. Sarkar, C. Hegde, and A. Krishnamurthy. "Nurbs-diff: A differentiable programming module for nurbs" **Computer-Aided Design** 146 (2022): 103199.
+
+X. Y. Lee, S. Sarkar, and Y. Wang. "A graph policy network approach for volt-var control in power distribution systems" **Applied Energy** 323 (2022): 119530.
 
 A. Rairdin, F. Fotouhi, J. Zhang, D. S. Mueller, B. Ganapathysubramanian, A. K. Singh, S. Dutta, S. Sarkar, and A. Singh. "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean" **Frontiers in plant science** 13 (2022): 966244.
 
@@ -136,9 +140,9 @@ M. J. Giering, M. Shashanka, S. Sarkar, and V. Venugopalan. "Sensor data fusion 
 
 C. Yang, B. S. S. Pokuri, X. Y. Lee, S. Balakrishnan, C. Hegde, S. Sarkar, and B. Ganapathysubramanian. "Multi-fidelity machine learning models for structure–property mapping of organic electronics" **Computational Materials Science** 213 (2022): 111599.
 
-H. Saha, F. Fotouhi, Q. Liu, and S. Sarkar. "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment" **Frontiers in Robotics and AI** 9 (2022): 930486.
-
 A. Balu, S. Sarkar, B. Ganapathysubramanian, and A. Krishnamurthy. "Physics-aware machine learning surrogates for real-time manufacturing digital twin" **Manufacturing Letters** 34 (2022): 71-74.
+
+H. Saha, F. Fotouhi, Q. Liu, and S. Sarkar. "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment" **Frontiers in Robotics and AI** 9 (2022): 930486.
 
 D. F. Leguizamo, H. Yang, X. Y. Lee, and S. Sarkar. "Deep reinforcement learning for robotic control with multi-fidelity models" **IFAC-PapersOnLine** 55 (2022): 193-198.
 
@@ -200,11 +204,11 @@ A. Singh, A. Singh, S. Sarkar, B. Ganapathysubramanian, W. Schapaugh, F. Miguez,
 
 S. Chiranjeevi, T. Young, T. Z. Jubery, K. Nagasubramanian, S. Sarkar, A. K. Singh, A. Singh, and B. Ganapathysubramanian. "Exploring the use of 3d point cloud data for improved plant stress rating" **AI for agriculture and food systems, 2021** (2021).
 
+J. Rade, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "AI guided measurement of live cells using AFM" **IFAC-PapersOnLine** 54 (2021): 316-321.
+
 M. Cho, A. Balu, A. Joshi, A. D. Prasad, B. Khara, S. Sarkar, B. Ganapathysubramanian, A. Krishnamurthy, and C. Hegde. "Differentiable spline approximations" **Advances in neural information processing systems** 34 (2021): 20270-20282.
 
 S. Ghadai, X. Y. Lee, A. Balu, S. Sarkar, and A. Krishnamurthy. "Multi-resolution 3D CNN for learning multi-scale spatial features in CAD models" **Computer Aided Geometric Design** 91 (2021): 102038.
-
-J. Rade, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "AI guided measurement of live cells using AFM" **IFAC-PapersOnLine** 54 (2021): 316-321.
 
 H. Saha. "Few shot clustering for indoor occupancy detection with extremely low quality images from battery free cameras" **Iowa State University, 2021** (2021).
 
@@ -482,11 +486,11 @@ A. Biswas, J. Rade, N. Masud, M. H. H. Hasib, A. Balu, J. Zhang, S. Sarkar, A. K
 
 J. R. Waite, M. Z. Hasan, Q. Liu, Z. Jiang, C. Hegde, and S. Sarkar. "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception" **Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical …, 2025** (2025).
 
+A. Jignasu, A. Balu, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
+
 N. Saadati, M. Pham, N. Saleem, J. R. Waite, A. Balu, Z. Jiang, C. Hegde, and S. Sarkar. "Dimat: Decentralized iterative merging-and-training for deep learning models" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
 
 H. Yang, J. Beck, M. Z. Hasan, E. Beyazit, S. Chakraborty, T. Wongpiromsarn, and S. Sarkar. "GENESIS-RL: GEnerating natural edge-cases with systematic integration of safety considerations and reinforcement learning" **2024 IEEE International Automated Vehicle Validation Conference (IAVVC), 1-8, 2024** (2024).
-
-A. Jignasu, A. Balu, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
 
 A. Nirala, A. Joshi, S. Sarkar, and C. Hegde. "Fast Certification of Vision-Language Models Using Incremental Randomized Smoothing" **2024 IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 252-271, 2024** (2024).
 
@@ -699,11 +703,9 @@ N. Subedi, H. Yang, D. K. Jha, and S. Sarkar. "Find the Fruit: Designing a Zero-
 
 Y. Shen, T. T. Ayanlade, V. N. Boddepalli, M. Saadati, A. Rairdin, Z. K. Deng, M. A. Arshad, A. Balu, D. Mueller, A. K. Singh, W. Everman, N. Merchant, B. Ganapathysubramanian, M. Anderson, S. Sarkar, and A. Singh. "WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification" **arXiv preprint arXiv:2505.18930** (2025).
 
-V. K. Tanwar, S. Sarkar, A. K. Singh, and S. K. Das. "ReinDSplit: Reinforced Dynamic Split Learning for Pest Recognition in Precision Agriculture" **arXiv preprint arXiv:2506.13935** (2025).
-
-M. Khosravi, Z. Jiang, J. R. Waite, S. Jonesc, H. Torres, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Optimizing Navigation And Chemical Application in Precision Agriculture With Deep Reinforcement Learning And Conditional Action Tree" **arXiv preprint arXiv:2503.17985** (2025).
-
 N. Baishnab, E. Herron, A. Balu, S. Sarkar, A. Krishnamurthy, and B. Ganapathysubramanian. "3D Multiphase Heterogeneous Microstructure Generation Using Conditional Latent Diffusion Models" **arXiv preprint arXiv:2503.10711** (2025).
+
+V. K. Tanwar, S. Sarkar, A. K. Singh, and S. K. Das. "ReinDSplit: Reinforced Dynamic Split Learning for Pest Recognition in Precision Agriculture" **arXiv preprint arXiv:2506.13935** (2025).
 
 Z. Jiang, A. Balu, and S. Sarkar. "Decentralized relaxed smooth optimization with gradient descent methods" **arXiv preprint arXiv:2508.08413** (2025).
 
@@ -737,8 +739,6 @@ M. H. H. Hasib, N. Masud, A. Biswas, T. Z. Jubery, C. Stanley, S. Swaminathan, C
 
 S. Chattopadhyay, G. Basulto-Elias, J. H. Chang, M. Rizzo, S. Hallmark, A. Sharma, and S. Sarkar. "Associating transportation planning-related measures with Mild Cognitive Impairment" **arXiv preprint arXiv:2504.09027** (2025).
 
-Q. Liu, Z. Jiang, J. R. Waite, C. Liu, A. Balu, and S. Sarkar. "Bidirectional Linear Recurrent Models for Sequence-Level Multisource Fusion" **arXiv preprint arXiv:2504.08964** (2025).
-
 Z. Jiang, M. Z. Hasan, A. Balu, J. R. Waite, G. Huang, and S. Sarkar. "FUSE: First-Order and Second-Order Unified SynthEsis in Stochastic Optimization" **arXiv preprint arXiv:2503.04204** (2025).
 
 Q. Liu, Z. Jiang, H. Yang, M. Khosravi, J. R. Waite, and S. Sarkar. "Enhancing PPO with Trajectory-Aware Hybrid Policies" **arXiv preprint arXiv:2502.15968** (2025).
@@ -751,11 +751,11 @@ P. Koirala, Z. Jiang, S. Sarkar, and C. Fleming. "Latent Safety-Constrained Poli
 
 A. Rabeh, E. Herron, A. Balu, S. Sarkar, C. Hegde, A. Krishnamurthy, and B. Ganapathysubramanian. "Geometry matters: Benchmarking scientific ML approaches for flow prediction around complex geometries" **arXiv preprint arXiv:2501.01453** (2024).
 
+P. Koirala, Z. Jiang, S. Sarkar, and C. Fleming. "FAWAC: Feasibility Informed Advantage Weighted Regression for Persistent Safety in Offline Reinforcement Learning" **arXiv preprint arXiv:2412.08880** (2024).
+
 M. Khosravi, M. Carroll, K. L. Tan, L. V. d. Laan, J. Raigne, D. S. Mueller, A. Singh, A. Balu, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "AgGym: An agricultural biotic stress simulation environment for ultra-precision management planning" **arXiv preprint arXiv:2409.00735** (2024).
 
 A. Jignasu, E. Herron, Z. Jiang, S. Sarkar, C. Hegde, B. Ganapathysubramanian, A. Balu, and A. Krishnamurthy. "STITCH: Surface reconstrucTion using Implicit neural representations with Topology Constraints and persistent Homology" **arXiv preprint arXiv:2412.18696** (2024).
-
-P. Koirala, Z. Jiang, S. Sarkar, and C. Fleming. "FAWAC: Feasibility Informed Advantage Weighted Regression for Persistent Safety in Offline Reinforcement Learning" **arXiv preprint arXiv:2412.08880** (2024).
 
 B. Kim, S. W. Blair, T. Z. Jubery, S. Sarkar, A. Singh, A. K. Singh, and B. Ganapathysubramanian. "Soybean Maturity Prediction using 2D Contour Plots from Drone based Time Series Imagery" **arXiv preprint arXiv:2412.09696** (2024).
 
