@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2025-12-22 01:34:58
+Generated on: 2025-12-25 01:31:52
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -48,9 +48,9 @@ M. A. Arshad, T. Jubery, J. Afful, A. Jignasu, A. Balu, B. Ganapathysubramanian,
 
 B. Khara, A. Balu, A. Joshi, S. Sarkar, C. Hegde, A. Krishnamurthy, and B. Ganapathysubramanian. "NeuFENet: neural finite element solutions with theoretical bounds for parametric PDEs" **Engineering with Computers** 40 (2024): 2761-2783.
 
-A. K. Singh, B. J. Balabaygloo, B. Bekee, S. W. Blair, S. Fey, F. Fotouhi, A. Gupta, A. Jha, J. C. Martinez-Palomares, K. Menke, A. Prestholt, V. K. Tanwar, X. Tao, A. Vangala, M. E. Carroll, S. K. Das, G. DePaula, P. Kyveryga, S. Sarkar, M. Segovia, S. Silvestri, and C. Valdivia. "Smart connected farms and networked farmers to improve crop production, sustainability and profitability" **Frontiers in Agronomy 6, 1410829, 2024** 6 (2024): 1410829.
-
 C. Yang, B. Feuer, T. Jubery, Z. Deng, A. Nakkab, M. Z. Hasan, S. Chiranjeevi, K. Marshall, N. Baishnab, A. Singh, A. Singh, S. Sarkar, N. Merchant, C. Hegde, and B. Ganapathysubramanian. "Biotrove: A large curated image dataset enabling ai for biodiversity" **Advances in Neural Information Processing Systems** 37 (2024): 102101-102120.
+
+A. K. Singh, B. J. Balabaygloo, B. Bekee, S. W. Blair, S. Fey, F. Fotouhi, A. Gupta, A. Jha, J. C. Martinez-Palomares, K. Menke, A. Prestholt, V. K. Tanwar, X. Tao, A. Vangala, M. E. Carroll, S. K. Das, G. DePaula, P. Kyveryga, S. Sarkar, M. Segovia, S. Silvestri, and C. Valdivia. "Smart connected farms and networked farmers to improve crop production, sustainability and profitability" **Frontiers in Agronomy 6, 1410829, 2024** 6 (2024): 1410829.
 
 B. Feuer, A. Joshi, M. Cho, S. Chiranjeevi, Z. K. Deng, A. Balu, A. K. Singh, S. Sarkar, N. Merchant, A. Singh, B. Ganapathysubramanian, and C. Hegde. "Zero‐shot insect detection via weak language supervision" **The Plant Phenome Journal** 7 (2024): e20107.
 

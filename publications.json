@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-22T01:34:58.505914",
+  "generated_date": "2025-12-25T01:31:52.125869",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -202,6 +202,17 @@
       "citations": 28
     },
     {
+      "title": "Biotrove: A large curated image dataset enabling ai for biodiversity",
+      "authors": "Chih-Hsuan Yang and Benjamin Feuer and Talukder Jubery and Zi Deng and Andre Nakkab and Md Zahid Hasan and Shivani Chiranjeevi and Kelly Marshall and Nirmal Baishnab and Asheesh Singh and Arti Singh and Soumik Sarkar and Nirav Merchant and Chinmay Hegde and Baskar Ganapathysubramanian",
+      "venue": "Advances in Neural Information Processing Systems",
+      "year": "2024",
+      "volume": "37",
+      "pages": "102101-102120",
+      "publisher": "",
+      "scholar_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html",
+      "citations": 25
+    },
+    {
       "title": "Smart connected farms and networked farmers to improve crop production, sustainability and profitability",
       "authors": "Asheesh K Singh and Behzad J Balabaygloo and Barituka Bekee and Samuel W Blair and Suzanne Fey and Fateme Fotouhi and Ashish Gupta and Amit Jha and Jorge C Martinez-Palomares and Kevin Menke and Aaron Prestholt and Vishesh K Tanwar and Xu Tao and Anusha Vangala and Matthew E Carroll and Sajal K Das and Guilherme DePaula and Peter Kyveryga and Soumik Sarkar and Michelle Segovia and Simone Silvestri and Corinne Valdivia",
       "venue": "Frontiers in Agronomy 6, 1410829, 2024",
@@ -211,17 +222,6 @@
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/articles/10.3389/fagro.2024.1410829/full",
       "citations": 25
-    },
-    {
-      "title": "Biotrove: A large curated image dataset enabling ai for biodiversity",
-      "authors": "Chih-Hsuan Yang and Benjamin Feuer and Talukder Jubery and Zi Deng and Andre Nakkab and Md Zahid Hasan and Shivani Chiranjeevi and Kelly Marshall and Nirmal Baishnab and Asheesh Singh and Arti Singh and Soumik Sarkar and Nirav Merchant and Chinmay Hegde and Baskar Ganapathysubramanian",
-      "venue": "Advances in Neural Information Processing Systems",
-      "year": "2024",
-      "volume": "37",
-      "pages": "102101-102120",
-      "publisher": "",
-      "scholar_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/b92854f80ba4feefb973959b259dbc2c-Abstract-Datasets_and_Benchmarks_Track.html",
-      "citations": 24
     },
     {
       "title": "Zero‐shot insect detection via weak language supervision",
@@ -254,7 +254,7 @@
       "pages": "0170",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0170",
-      "citations": 15
+      "citations": 16
     },
     {
       "title": "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean",
@@ -265,7 +265,7 @@
       "pages": "e70009",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.70009",
-      "citations": 14
+      "citations": 15
     },
     {
       "title": "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics",
@@ -485,7 +485,7 @@
       "pages": "18382-18390",
       "publisher": "American Chemical Society",
       "scholar_url": "https://pubs.acs.org/doi/abs/10.1021/acs.est.3c00353",
-      "citations": 44
+      "citations": 45
     },
     {
       "title": "Few-shot deep learning for AFM force curve characterization of single-molecule interactions",
@@ -540,7 +540,7 @@
       "pages": "107033",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0952197623012174",
-      "citations": 15
+      "citations": 16
     },
     {
       "title": "3D reconstruction of plants using probabilistic voxel carving",
@@ -859,7 +859,7 @@
       "pages": "53-69",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(20)30240-5",
-      "citations": 235
+      "citations": 236
     },
     {
       "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
@@ -1178,7 +1178,7 @@
       "pages": "14957",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-020-71898-8",
-      "citations": 124
+      "citations": 125
     },
     {
       "title": "Soybean root system architecture trait study through genotypic, phenotypic, and shape-based clusters",
@@ -1189,7 +1189,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2020/1925495?adobe_mc=MCMID%3D24000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1694995200",
-      "citations": 71
+      "citations": 72
     },
     {
       "title": "Automated detection of part quality during two-photon lithography via deep learning",
@@ -1200,7 +1200,7 @@
       "pages": "101444",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2214860420308162",
-      "citations": 68
+      "citations": 70
     },
     {
       "title": "Robust deep reinforcement learning for traffic signal control",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 693
+      "citations": 694
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1541,7 +1541,7 @@
       "pages": "222-231",
       "publisher": "SAGE Publications",
       "scholar_url": "https://journals.sagepub.com/doi/abs/10.1177/0361198118777631",
-      "citations": 167
+      "citations": 168
     },
     {
       "title": "A deep learning framework to discern and count microscopic nematode eggs",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2069
+      "citations": 2076
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1706,7 +1706,7 @@
       "pages": "23",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-017-0173-7",
-      "citations": 230
+      "citations": 231
     },
     {
       "title": "Collaborative deep learning in fixed topology networks",
@@ -1717,7 +1717,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/a74c3bae3e13616104c1b25f9da1f11f-Abstract.html",
-      "citations": 230
+      "citations": 231
     },
     {
       "title": "Computer vision and machine learning for robust phenotyping in genome-wide studies",
@@ -1728,7 +1728,7 @@
       "pages": "44048",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/srep44048",
-      "citations": 125
+      "citations": 126
     },
     {
       "title": "Deep learning for flow sculpting: Insights into efficient learning using scientific simulation data",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1292
+      "citations": 1297
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -3072,7 +3072,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 643
+      "citations": 644
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3402,7 +3402,7 @@
       "pages": "V002T26A006",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/DSCC/proceedings-abstract/DSCC2014/46193/228863",
-      "citations": 50
+      "citations": 51
     },
     {
       "title": "Multi-sensor information fusion for fault detection in aircraft gas turbine engines",
@@ -4402,6 +4402,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 63,
-    "processing_time_seconds": 2229.78
+    "processing_time_seconds": 2215.5
   }
 }
