@@ -1,5 +1,5 @@
 {
-  "generated_date": "2025-12-25T01:31:52.125869",
+  "generated_date": "2025-12-26T01:32:27.056053",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -48,17 +48,6 @@
       "citations": 5
     },
     {
-      "title": "Robust soybean seed yield estimation using high-throughput ground robot videos",
-      "authors": "Jiale Feng and Samuel W Blair and Timilehin T Ayanlade and Aditya Balu and Baskar Ganapathysubramanian and Arti Singh and Soumik Sarkar and Asheesh K Singh",
-      "venue": "Frontiers in Plant Science",
-      "year": "2025",
-      "volume": "16",
-      "pages": "1554193",
-      "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1554193/full",
-      "citations": 4
-    },
-    {
       "title": "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk",
       "authors": "Henry C Croll and Kaoru Ikuma and Say Kee Ong and Soumik Sarkar",
       "venue": "Journal of Water Process Engineering",
@@ -68,6 +57,17 @@
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2214714424018907",
       "citations": 4
+    },
+    {
+      "title": "Robust soybean seed yield estimation using high-throughput ground robot videos",
+      "authors": "Jiale Feng and Samuel W Blair and Timilehin T Ayanlade and Aditya Balu and Baskar Ganapathysubramanian and Arti Singh and Soumik Sarkar and Asheesh K Singh",
+      "venue": "Frontiers in Plant Science",
+      "year": "2025",
+      "volume": "16",
+      "pages": "1554193",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1554193/full",
+      "citations": 3
     },
     {
       "title": "Use of artificial intelligence in soybean breeding and production",
@@ -169,6 +169,17 @@
       "citations": 0
     },
     {
+      "title": "Data-driven Kinematic Modeling in Soft Robots: System Identification and Uncertainty Quantification",
+      "authors": "Zhanhong Jiang and Dylan Shah and Hsin-Jung Yang and Soumik Sarkar",
+      "venue": "IFAC-PapersOnLine",
+      "year": "2025",
+      "volume": "59",
+      "pages": "132-137",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2405896325029350",
+      "citations": 0
+    },
+    {
       "title": "Cyber-agricultural systems for crop breeding and sustainable production",
       "authors": "Soumik Sarkar and Baskar Ganapathysubramanian and Arti Singh and Fateme Fotouhi and Soumyashree Kar and Koushik Nagasubramanian and Girish Chowdhary and Sajal K Das and George Kantor and Adarsh Krishnamurthy and Nirav Merchant and Asheesh K Singh",
       "venue": "Trends in Plant Science 29 (2), 130-149, 2024",
@@ -188,7 +199,7 @@
       "pages": "0235",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0235",
-      "citations": 46
+      "citations": 45
     },
     {
       "title": "NeuFENet: neural finite element solutions with theoretical bounds for parametric PDEs",
@@ -243,7 +254,7 @@
       "pages": "103707",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448524000344",
-      "citations": 16
+      "citations": 17
     },
     {
       "title": "Out-of-distribution detection algorithms for robust insect classification",
@@ -518,7 +529,7 @@
       "pages": "e20079",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20079",
-      "citations": 17
+      "citations": 18
     },
     {
       "title": "First trimester prediction of preterm birth in patient plasma with machine-learning-guided Raman spectroscopy and metabolomics",
@@ -628,7 +639,7 @@
       "pages": "103199",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448522000045",
-      "citations": 42
+      "citations": 43
     },
     {
       "title": "A graph policy network approach for volt-var control in power distribution systems",
@@ -903,7 +914,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9846470",
-      "citations": 65
+      "citations": 64
     },
     {
       "title": "Fast inverse design of microstructures via generative invariance networks",
@@ -947,7 +958,7 @@
       "pages": "100067",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2666546821000215",
-      "citations": 40
+      "citations": 41
     },
     {
       "title": "A high-fidelity residential building occupancy detection dataset",
@@ -1552,7 +1563,7 @@
       "pages": "9145",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-018-27272-w",
-      "citations": 146
+      "citations": 147
     },
     {
       "title": "Learning localized features in 3D CAD models for manufacturability analysis of drilled holes",
@@ -1695,7 +1706,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2076
+      "citations": 2077
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1882,7 +1893,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://papers.phmsociety.org/index.php/ijphm/article/view/2461",
-      "citations": 74
+      "citations": 75
     },
     {
       "title": "Bridge damage detection using spatiotemporal patterns extracted from dense sensor network",
@@ -2237,17 +2248,6 @@
       "citations": 6
     },
     {
-      "title": "HP3O: Hybrid-Policy Proximal Policy Optimization with Best Trajectory",
-      "authors": "Qisai Liu and Zhanhong Jiang and Hsin-Jung Yang and Mahsa Khosravi and Joshua Russell Waite and Soumik Sarkar",
-      "venue": "",
-      "year": "",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://openreview.net/forum?id=PgR6fziYmJ",
-      "citations": 1
-    },
-    {
       "title": "A Unified Convergence Theory for Large Language Model Efficient Fine-tuning",
       "authors": "Zhanhong Jiang and Nastaran Saadati and Aditya Balu and Minh Pham and Joshua Russell Waite and Nasla Saleem and Chinmay Hegde and Soumik Sarkar",
       "venue": "OPT 2024: Optimization for Machine Learning, 0",
@@ -2256,6 +2256,17 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://openreview.net/forum?id=f0lq26eITJ",
+      "citations": 2
+    },
+    {
+      "title": "HP3O: Hybrid-Policy Proximal Policy Optimization with Best Trajectory",
+      "authors": "Qisai Liu and Zhanhong Jiang and Hsin-Jung Yang and Mahsa Khosravi and Joshua Russell Waite and Soumik Sarkar",
+      "venue": "",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://openreview.net/forum?id=PgR6fziYmJ",
       "citations": 1
     },
     {
@@ -3803,6 +3814,17 @@
       "citations": 0
     },
     {
+      "title": "Automated Seizure Detection in Animal EEG Signals",
+      "authors": "Shreyan Ganguly and Zhanhong Jiang and Nyzil Massey and Nikhil Sanjay Rao and Thimmasettappa Thippeswamy and Soumik Sarkar",
+      "venue": "bioRxiv",
+      "year": "2025",
+      "volume": "",
+      "pages": "2025.11. 04.686618",
+      "publisher": "Cold Spring Harbor Laboratory",
+      "scholar_url": "https://www.biorxiv.org/content/10.1101/2025.11.04.686618.abstract",
+      "citations": 0
+    },
+    {
       "title": "In-Context Adaptation of VLMs for Few-Shot Cell Detection in Optical Microscopy",
       "authors": "Shreyan Ganguly and Angona Biswas and Jaydeep Rade and Md Hasibul Hasan Hasib and Nabila Masud and Nitish Singla and Abhipsa Dash and Ushashi Bhattacharjee and Aditya Balu and Anwesha Sarkar and Adarsh Krishnamurthy and Soumik Sarkar",
       "venue": "arXiv preprint arXiv:2511.05565",
@@ -3844,17 +3866,6 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2509.09485",
-      "citations": 0
-    },
-    {
-      "title": "Data-driven Kinematic Modeling in Soft Robots: System Identification and Uncertainty Quantification",
-      "authors": "Zhanhong Jiang and Dylan Shah and Hsin-Jung Yang and Soumik Sarkar",
-      "venue": "arXiv preprint arXiv:2507.07370",
-      "year": "2025",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://arxiv.org/abs/2507.07370",
       "citations": 0
     },
     {
@@ -3954,17 +3965,6 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2502.15968",
-      "citations": 0
-    },
-    {
-      "title": "Automated Seizure Detection in Animal EEG Signals",
-      "authors": "Shreyan Ganguly and Zhanhong Jiang and Nyzil Massey and Nikhil Sanjay Rao and Thimmasettappa Thippeswamy and Soumik Sarkar",
-      "venue": "bioRxiv",
-      "year": "2025",
-      "volume": "",
-      "pages": "2025.11. 04.686618",
-      "publisher": "Cold Spring Harbor Laboratory",
-      "scholar_url": "https://www.biorxiv.org/content/10.1101/2025.11.04.686618.abstract",
       "citations": 0
     },
     {
@@ -4111,6 +4111,17 @@
       "citations": 1
     },
     {
+      "title": "Self-supervised agricultural insect pest classification",
+      "authors": "Soumyashree Kar and Koushik Nagasubramanian and Dinakaran Elango and Ajay Nair and Daren Mueller and Matthew O’Neal and Asheesh Singh and Soumik Sarkar and Baskar Ganapathysubramanian and Arti Singh",
+      "venue": "Authorea Preprints",
+      "year": "2022",
+      "volume": "",
+      "pages": "",
+      "publisher": "Authorea",
+      "scholar_url": "https://www.authorea.com/doi/full/10.1002/essoar.10508841",
+      "citations": 3
+    },
+    {
       "title": "3d reconstruction of protein complex structures using synthesized multi-view afm images",
       "authors": "Jaydeep Rade and Soumik Sarkar and Anwesha Sarkar and Adarsh Krishnamurthy",
       "venue": "arXiv preprint arXiv:2211.14662",
@@ -4131,17 +4142,6 @@
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2208.01871",
       "citations": 3
-    },
-    {
-      "title": "Self-supervised agricultural insect pest classification",
-      "authors": "Soumyashree Kar and Koushik Nagasubramanian and Dinakaran Elango and Ajay Nair and Daren Mueller and Matthew O’Neal and Asheesh Singh and Soumik Sarkar and Baskar Ganapathysubramanian and Arti Singh",
-      "venue": "Authorea Preprints",
-      "year": "2022",
-      "volume": "",
-      "pages": "",
-      "publisher": "Authorea",
-      "scholar_url": "https://www.authorea.com/doi/full/10.1002/essoar.10508841",
-      "citations": 2
     },
     {
       "title": "Asynchronous training schemes in distributed learning with time delay",
@@ -4399,9 +4399,9 @@
   ],
   "statistics": {
     "total_found": 399,
-    "new_journals": 229,
+    "new_journals": 230,
     "new_conferences": 107,
-    "new_preprints": 63,
-    "processing_time_seconds": 2215.5
+    "new_preprints": 62,
+    "processing_time_seconds": 2232.15
   }
 }
