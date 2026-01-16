@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-15 01:32:17
+Generated on: 2026-01-16 01:34:39
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -480,11 +480,11 @@ During ISU appointment
 
 M. A. Arshad, T. Z. Jubery, T. Roy, R. Nassiri, A. K. Singh, A. Singh, C. Hegde, B. Ganapathysubramanian, A. Balu, A. Krishnamurthy, and S. Sarkar. "Leveraging vision language models for specialized agricultural tasks" **2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV …, 2025** (2025).
 
+J. R. Waite, M. Z. Hasan, Q. Liu, Z. Jiang, C. Hegde, and S. Sarkar. "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception" **Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical …, 2025** (2025).
+
 K. Ku, T. Z. Jubery, E. Rodriguez, A. Balu, S. Sarkar, A. Krishnamurthy, and B. Ganapathysubramanian. "SC-NeRF: NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications" **Proceedings of the Computer Vision and Pattern Recognition Conference, 5472-5481, 2025** (2025).
 
 A. Biswas, J. Rade, N. Masud, M. H. H. Hasib, A. Balu, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "Conversational LLM-based decision support for defect classification in AFM images" **IEEE Open Journal of Instrumentation and Measurement** (2025).
-
-J. R. Waite, M. Z. Hasan, Q. Liu, Z. Jiang, C. Hegde, and S. Sarkar. "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception" **Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical …, 2025** (2025).
 
 A. Jignasu, A. Balu, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
 

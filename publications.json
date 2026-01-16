@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-15T01:32:17.823043",
+  "generated_date": "2026-01-16T01:34:39.215060",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -232,7 +232,7 @@
       "pages": "1410829",
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/articles/10.3389/fagro.2024.1410829/full",
-      "citations": 26
+      "citations": 27
     },
     {
       "title": "Zero‐shot insect detection via weak language supervision",
@@ -474,7 +474,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 65
+      "citations": 66
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -518,7 +518,7 @@
       "pages": "1141153",
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1141153/full",
-      "citations": 21
+      "citations": 22
     },
     {
       "title": "Self‐supervised learning improves classification of agriculturally important insect pests in plants",
@@ -540,7 +540,7 @@
       "pages": "38185-38200",
       "publisher": "American Chemical Society",
       "scholar_url": "https://pubs.acs.org/doi/abs/10.1021/acsami.3c04260",
-      "citations": 17
+      "citations": 18
     },
     {
       "title": "Deep learning-based 3D multigrid topology optimization of manufacturable designs",
@@ -628,7 +628,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 50
+      "citations": 51
     },
     {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
@@ -870,7 +870,7 @@
       "pages": "53-69",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(20)30240-5",
-      "citations": 240
+      "citations": 241
     },
     {
       "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
@@ -903,7 +903,7 @@
       "pages": "104483",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0952197621003316",
-      "citations": 67
+      "citations": 68
     },
     {
       "title": "Deep multiview image fusion for soybean yield estimation in breeding applications",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 705
+      "citations": 706
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1563,7 +1563,7 @@
       "pages": "263-275",
       "publisher": "North-Holland",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0167839618300384",
-      "citations": 118
+      "citations": 119
     },
     {
       "title": "Multivariate exploration of non-intrusive load monitoring via spatiotemporal pattern network",
@@ -1585,7 +1585,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/8a36dfc67ebfbbea9bd01cd8a4c8ad32-Abstract.html",
-      "citations": 64
+      "citations": 65
     },
     {
       "title": "A novel multirobot system for plant phenotyping",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2100
+      "citations": 2101
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1310
+      "citations": 1311
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -1893,7 +1893,7 @@
       "pages": "014011",
       "publisher": "IOP Publishing",
       "scholar_url": "https://iopscience.iop.org/article/10.1088/1361-6501/28/1/014011/meta",
-      "citations": 50
+      "citations": 51
     },
     {
       "title": "A composite discretization scheme for symbolic identification of complex systems",
@@ -2536,6 +2536,17 @@
       "citations": 12
     },
     {
+      "title": "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception",
+      "authors": "Joshua R Waite and Md Zahid Hasan and Qisai Liu and Zhanhong Jiang and Chinmay Hegde and Soumik Sarkar",
+      "venue": "Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical …, 2025",
+      "year": "2025",
+      "volume": "",
+      "pages": "1-10",
+      "publisher": "",
+      "scholar_url": "https://dl.acm.org/doi/abs/10.1145/3716550.3722033",
+      "citations": 2
+    },
+    {
       "title": "SC-NeRF: NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications",
       "authors": "Kibon Ku and Talukder Z Jubery and Elijah Rodriguez and Aditya Balu and Soumik Sarkar and Adarsh Krishnamurthy and Baskar Ganapathysubramanian",
       "venue": "Proceedings of the Computer Vision and Pattern Recognition Conference, 5472-5481, 2025",
@@ -2555,17 +2566,6 @@
       "pages": "",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/11096088/",
-      "citations": 1
-    },
-    {
-      "title": "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception",
-      "authors": "Joshua R Waite and Md Zahid Hasan and Qisai Liu and Zhanhong Jiang and Chinmay Hegde and Soumik Sarkar",
-      "venue": "Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical …, 2025",
-      "year": "2025",
-      "volume": "",
-      "pages": "1-10",
-      "publisher": "",
-      "scholar_url": "https://dl.acm.org/doi/abs/10.1145/3716550.3722033",
       "citations": 1
     },
     {
@@ -2786,7 +2786,7 @@
       "pages": "87-97",
       "publisher": "",
       "scholar_url": "https://dl.acm.org/doi/abs/10.1145/3450267.3450537",
-      "citations": 45
+      "citations": 46
     },
     {
       "title": "Battery-free camera occupancy detection system",
@@ -4097,7 +4097,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2302.09949",
-      "citations": 1
+      "citations": 2
     },
     {
       "title": "Self-supervised agricultural insect pest classification",
@@ -4391,6 +4391,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 62,
-    "processing_time_seconds": 2257.15
+    "processing_time_seconds": 2255.23
   }
 }
