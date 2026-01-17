@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-16T01:34:39.215060",
+  "generated_date": "2026-01-17T01:31:58.955561",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -12,7 +12,7 @@
       "pages": "pgae575",
       "publisher": "Oxford University Press",
       "scholar_url": "https://academic.oup.com/pnasnexus/article-abstract/4/1/pgae575/7933354",
-      "citations": 15
+      "citations": 16
     },
     {
       "title": "Plot‐level satellite imagery can substitute for UAVs in assessing maize phenotypes across multistate field trials",
@@ -48,6 +48,17 @@
       "citations": 6
     },
     {
+      "title": "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk",
+      "authors": "Henry C Croll and Kaoru Ikuma and Say Kee Ong and Soumik Sarkar",
+      "venue": "Journal of Water Process Engineering",
+      "year": "2025",
+      "volume": "69",
+      "pages": "106658",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2214714424018907",
+      "citations": 6
+    },
+    {
       "title": "Use of artificial intelligence in soybean breeding and production",
       "authors": "Asheesh K Singh and Sarah E Jones and Liza Van der Laan and Timilehin T Ayanlade and Joscif Raigne and Nasla Saleem and Shambhavi Joshi and Muhammad Arbab Arshad and Hossein ZareMehrjerdi and Ashlyn Rairdin and Juan Di Salvo and Dinakaran Elango and Leonardo De Azevedo Peixoto and Talukder Z Jubery and Adarsh Krishnamurthy and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
       "venue": "Advances in Agronomy 190, 199-273, 2025",
@@ -57,17 +68,6 @@
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0065211324001147",
       "citations": 5
-    },
-    {
-      "title": "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk",
-      "authors": "Henry C Croll and Kaoru Ikuma and Say Kee Ong and Soumik Sarkar",
-      "venue": "Journal of Water Process Engineering",
-      "year": "2025",
-      "volume": "69",
-      "pages": "106658",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2214714424018907",
-      "citations": 4
     },
     {
       "title": "Robust soybean seed yield estimation using high-throughput ground robot videos",
@@ -188,7 +188,7 @@
       "pages": "130-149",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
-      "citations": 80
+      "citations": 81
     },
     {
       "title": "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions",
@@ -199,7 +199,7 @@
       "pages": "0235",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0235",
-      "citations": 47
+      "citations": 48
     },
     {
       "title": "NeuFENet: neural finite element solutions with theoretical bounds for parametric PDEs",
@@ -389,17 +389,6 @@
       "citations": 6
     },
     {
-      "title": "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference",
-      "authors": "Fateme Fotouhi and Kevin Menke and Aaron Prestholt and Ashish Gupta and Matthew E Carroll and Hsin-Jung Yang and Edwin J Skidmore and Matthew O’Neal and Nirav Merchant and Sajal K Das and Peter Kyveryga and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
-      "venue": "Frontiers in Plant Science",
-      "year": "2024",
-      "volume": "15",
-      "pages": "1484587",
-      "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1484587/full",
-      "citations": 5
-    },
-    {
       "title": "Diagnosis of pregnancy disorder in the first‐trimester patient plasma with Raman spectroscopy and protein analysis",
       "authors": "Ansuja P Mathew and Gabriel Cutshaw and Olivia Appel and Meghan Funk and Lilly Synan and Joshua Waite and Saman Ghazvini and Xiaona Wen and Soumik Sarkar and Mark Santillan and Donna Santillan and Rizia Bardhan",
       "venue": "Bioengineering & translational medicine",
@@ -408,6 +397,17 @@
       "pages": "e10691",
       "publisher": "John Wiley & Sons, Inc.",
       "scholar_url": "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/btm2.10691",
+      "citations": 6
+    },
+    {
+      "title": "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference",
+      "authors": "Fateme Fotouhi and Kevin Menke and Aaron Prestholt and Ashish Gupta and Matthew E Carroll and Hsin-Jung Yang and Edwin J Skidmore and Matthew O’Neal and Nirav Merchant and Sajal K Das and Peter Kyveryga and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
+      "venue": "Frontiers in Plant Science",
+      "year": "2024",
+      "volume": "15",
+      "pages": "1484587",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1484587/full",
       "citations": 5
     },
     {
@@ -796,6 +796,17 @@
       "citations": 4
     },
     {
+      "title": "DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP",
+      "authors": "Md Zahid Hasan and Ameya Joshi and Mohammed Rahman and Archana Venkatachalapathy and Anuj Sharma and Chinmay Hegde and Soumik Sarkar",
+      "venue": "github, 2022",
+      "year": "2022",
+      "volume": "",
+      "pages": "",
+      "publisher": "github",
+      "scholar_url": "https://scholar.google.com/scholar?cluster=14460181188962081924&hl=en&oi=scholarr",
+      "citations": 1
+    },
+    {
       "title": "Context-Aware Learning for Inverse Design in Photovoltaics",
       "authors": "Baskar Ganapathysubramanian and Soumik Sarkar and Chinmay Hegde and Ross Larsen and Adarsh Krishnamurthy and Zhenan Bao and Bryon Larson",
       "venue": "Iowa State Univ., Ames, IA (United States), 2022",
@@ -848,17 +859,6 @@
       "pages": "82",
       "publisher": "Iowa State University",
       "scholar_url": "https://scholar.google.com/scholar?cluster=3811400245086204939&hl=en&oi=scholarr",
-      "citations": 0
-    },
-    {
-      "title": "DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP",
-      "authors": "Md Zahid Hasan and Ameya Joshi and Mohammed Rahman and Archana Venkatachalapathy and Anuj Sharma and Chinmay Hegde and Soumik Sarkar",
-      "venue": "github, 2022",
-      "year": "2022",
-      "volume": "",
-      "pages": "",
-      "publisher": "github",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=14460181188962081924&hl=en&oi=scholarr",
       "citations": 0
     },
     {
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2101
+      "citations": 2103
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -2135,7 +2135,7 @@
       "pages": "081602",
       "publisher": "",
       "scholar_url": "https://asmedigitalcollection.asme.org/gasturbinespower/article-abstract/133/8/081602/408106",
-      "citations": 110
+      "citations": 109
     },
     {
       "title": "Autonomous perception and decision making in cyber-physical systems",
@@ -4064,7 +4064,7 @@
       "pages": "arXiv: 2306.10159",
       "publisher": "",
       "scholar_url": "https://scholar.google.com/scholar?cluster=4330673303898543816&hl=en&oi=scholarr",
-      "citations": 56
+      "citations": 57
     },
     {
       "title": "Deep learning powered real-time identification of insects using citizen science data",
@@ -4391,6 +4391,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 62,
-    "processing_time_seconds": 2255.23
+    "processing_time_seconds": 2231.58
   }
 }

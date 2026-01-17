@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-16 01:34:39
+Generated on: 2026-01-17 01:31:58
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -20,9 +20,9 @@ M. Hadadi, M. Saraeian, J. Godbersen, T. Z. Jubery, Y. Li, L. Attigala, A. Balu,
 
 P. Jayashankar, T. Roy, S. Chattopadhyay, M. A. Arshad, and S. Sarkar. "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective" **Journal of Business & Industrial Marketing** 40 (2025): 265-280.
 
-A. K. Singh, S. E. Jones, L. V. d. Laan, T. T. Ayanlade, J. Raigne, N. Saleem, S. Joshi, M. A. Arshad, H. ZareMehrjerdi, A. Rairdin, J. D. Salvo, D. Elango, L. D. A. Peixoto, T. Z. Jubery, A. Krishnamurthy, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Use of artificial intelligence in soybean breeding and production" **Advances in Agronomy 190, 199-273, 2025** 190 (2025): 199-273.
-
 H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk" **Journal of Water Process Engineering** 69 (2025): 106658.
+
+A. K. Singh, S. E. Jones, L. V. d. Laan, T. T. Ayanlade, J. Raigne, N. Saleem, S. Joshi, M. A. Arshad, H. ZareMehrjerdi, A. Rairdin, J. D. Salvo, D. Elango, L. D. A. Peixoto, T. Z. Jubery, A. Krishnamurthy, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Use of artificial intelligence in soybean breeding and production" **Advances in Agronomy 190, 199-273, 2025** 190 (2025): 199-273.
 
 J. Feng, S. W. Blair, T. T. Ayanlade, A. Balu, B. Ganapathysubramanian, A. Singh, S. Sarkar, and A. K. Singh. "Robust soybean seed yield estimation using high-throughput ground robot videos" **Frontiers in Plant Science** 16 (2025): 1554193.
 
@@ -82,9 +82,9 @@ B. Ganapathysubramanian, J. M. Bell, G. Kantor, N. Merchant, S. Sarkar, P. S. Sc
 
 N. Saleem, A. Balu, T. Z. Jubery, A. Singh, A. K. Singh, S. Sarkar, and B. Ganapathysubramanian. "Class‐specific data augmentation for plant stress classification" **The Plant Phenome Journal** 7 (2024): e20112.
 
-F. Fotouhi, K. Menke, A. Prestholt, A. Gupta, M. E. Carroll, H. Yang, E. J. Skidmore, M. O’Neal, N. Merchant, S. K. Das, P. Kyveryga, B. Ganapathysubramanian, A. K. Singh, A. Singh, and S. Sarkar. "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference" **Frontiers in Plant Science** 15 (2024): 1484587.
-
 A. P. Mathew, G. Cutshaw, O. Appel, M. Funk, L. Synan, J. Waite, S. Ghazvini, X. Wen, S. Sarkar, M. Santillan, D. Santillan, and R. Bardhan. "Diagnosis of pregnancy disorder in the first‐trimester patient plasma with Raman spectroscopy and protein analysis" **Bioengineering & translational medicine** 9 (2024): e10691.
+
+F. Fotouhi, K. Menke, A. Prestholt, A. Gupta, M. E. Carroll, H. Yang, E. J. Skidmore, M. O’Neal, N. Merchant, S. K. Das, P. Kyveryga, B. Ganapathysubramanian, A. K. Singh, A. Singh, and S. Sarkar. "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference" **Frontiers in Plant Science** 15 (2024): 1484587.
 
 T. Gangopadhyay, S. De, Q. Liu, A. Mukhopadhyay, S. Sen, and S. Sarkar. "An LSTM-based approach to detect transition to lean blowout in swirl-stabilized dump combustion systems" **Energy and AI** 16 (2024): 100334.
 
@@ -156,6 +156,8 @@ Z. Jiang, C. Liu, Y. M. Lee, C. Hegde, S. Sarkar, and D. Jiang. "The Stochastic 
 
 A. D. Prasad, A. Jignasu, Z. Jubery, S. Sarkar, B. Ganapathysubramanian, A. Balu, and A. Krishnamurthy. "Deep implicit surface reconstruction of 3d plant geometry from point cloud" **AI for Agriculture and Food Systems, 2022** (2022).
 
+M. Z. Hasan, A. Joshi, M. Rahman, A. Venkatachalapathy, A. Sharma, C. Hegde, and S. Sarkar. "DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP" **github, 2022** (2022).
+
 B. Ganapathysubramanian, S. Sarkar, C. Hegde, R. Larsen, A. Krishnamurthy, Z. Bao, and B. Larson. "Context-Aware Learning for Inverse Design in Photovoltaics" **Iowa State Univ., Ames, IA (United States), 2022** (2022).
 
 S. Sarkar. "47 Plant Phenomics and Artificial Intelligence to Glean Information from Plant Sensing Technologies" **Journal of Animal Science** 100 (2022): 13.
@@ -165,8 +167,6 @@ K. Tan, M. Carroll, M. Khorsravi, L. V. d. L. A. Singh, B. Ganapathysubramanian,
 K. Nagasubramanian, A. K. Singh, A. Singh, and S. Sarkar. "Baskar Ganapathysubramanian3 1. Department of Electrical Engineering, Iowa State University, Ames, USA 2. Department of Agronomy, Iowa State University, Ames, USA 3. Department of Mechanical Engineering, Iowa State University, Ames, USA" **Plant phenotyping with limited annotation: Doing more with less** (2022): 104.
 
 A. K. Mirnezami, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Koushik Nagasubramanian1, Talukder Zaki Jubery3, Fateme Fotouhi Ardakani3, Seyed Vahid Mirnezami3, Asheesh K. Singh2, Arti Singh2, Soumik Sarkar3, Baskar Ganapathysubramanian3" **Plant phenotyping with limited annotation: Doing more with less** (2022): 82.
-
-M. Z. Hasan, A. Joshi, M. Rahman, A. Venkatachalapathy, A. Sharma, C. Hegde, and S. Sarkar. "DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP" **github, 2022** (2022).
 
 A. Singh, S. Jones, B. Ganapathysubramanian, S. Sarkar, D. Mueller, K. Sandhu, and K. Nagasubramanian. "Challenges and opportunities in machine-augmented plant stress phenotyping" **Trends in Plant Science 26 (1), 53-69, 2021** 26 (2021): 53-69.
 
