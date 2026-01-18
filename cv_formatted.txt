@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-17 01:31:58
+Generated on: 2026-01-18 01:38:43
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -82,9 +82,9 @@ B. Ganapathysubramanian, J. M. Bell, G. Kantor, N. Merchant, S. Sarkar, P. S. Sc
 
 N. Saleem, A. Balu, T. Z. Jubery, A. Singh, A. K. Singh, S. Sarkar, and B. Ganapathysubramanian. "Class‐specific data augmentation for plant stress classification" **The Plant Phenome Journal** 7 (2024): e20112.
 
-A. P. Mathew, G. Cutshaw, O. Appel, M. Funk, L. Synan, J. Waite, S. Ghazvini, X. Wen, S. Sarkar, M. Santillan, D. Santillan, and R. Bardhan. "Diagnosis of pregnancy disorder in the first‐trimester patient plasma with Raman spectroscopy and protein analysis" **Bioengineering & translational medicine** 9 (2024): e10691.
-
 F. Fotouhi, K. Menke, A. Prestholt, A. Gupta, M. E. Carroll, H. Yang, E. J. Skidmore, M. O’Neal, N. Merchant, S. K. Das, P. Kyveryga, B. Ganapathysubramanian, A. K. Singh, A. Singh, and S. Sarkar. "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference" **Frontiers in Plant Science** 15 (2024): 1484587.
+
+A. P. Mathew, G. Cutshaw, O. Appel, M. Funk, L. Synan, J. Waite, S. Ghazvini, X. Wen, S. Sarkar, M. Santillan, D. Santillan, and R. Bardhan. "Diagnosis of pregnancy disorder in the first‐trimester patient plasma with Raman spectroscopy and protein analysis" **Bioengineering & translational medicine** 9 (2024): e10691.
 
 T. Gangopadhyay, S. De, Q. Liu, A. Mukhopadhyay, S. Sen, and S. Sarkar. "An LSTM-based approach to detect transition to lean blowout in swirl-stabilized dump combustion systems" **Energy and AI** 16 (2024): 100334.
 

@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-17T01:31:58.955561",
+  "generated_date": "2026-01-18T01:38:43.250601",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -188,7 +188,7 @@
       "pages": "130-149",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
-      "citations": 81
+      "citations": 82
     },
     {
       "title": "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions",
@@ -389,6 +389,17 @@
       "citations": 6
     },
     {
+      "title": "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference",
+      "authors": "Fateme Fotouhi and Kevin Menke and Aaron Prestholt and Ashish Gupta and Matthew E Carroll and Hsin-Jung Yang and Edwin J Skidmore and Matthew O’Neal and Nirav Merchant and Sajal K Das and Peter Kyveryga and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
+      "venue": "Frontiers in Plant Science",
+      "year": "2024",
+      "volume": "15",
+      "pages": "1484587",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1484587/full",
+      "citations": 6
+    },
+    {
       "title": "Diagnosis of pregnancy disorder in the first‐trimester patient plasma with Raman spectroscopy and protein analysis",
       "authors": "Ansuja P Mathew and Gabriel Cutshaw and Olivia Appel and Meghan Funk and Lilly Synan and Joshua Waite and Saman Ghazvini and Xiaona Wen and Soumik Sarkar and Mark Santillan and Donna Santillan and Rizia Bardhan",
       "venue": "Bioengineering & translational medicine",
@@ -398,17 +409,6 @@
       "publisher": "John Wiley & Sons, Inc.",
       "scholar_url": "https://aiche.onlinelibrary.wiley.com/doi/abs/10.1002/btm2.10691",
       "citations": 6
-    },
-    {
-      "title": "Persistent monitoring of insect-pests on sticky traps through hierarchical transfer learning and slicing-aided hyper inference",
-      "authors": "Fateme Fotouhi and Kevin Menke and Aaron Prestholt and Ashish Gupta and Matthew E Carroll and Hsin-Jung Yang and Edwin J Skidmore and Matthew O’Neal and Nirav Merchant and Sajal K Das and Peter Kyveryga and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
-      "venue": "Frontiers in Plant Science",
-      "year": "2024",
-      "volume": "15",
-      "pages": "1484587",
-      "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1484587/full",
-      "citations": 5
     },
     {
       "title": "An LSTM-based approach to detect transition to lean blowout in swirl-stabilized dump combustion systems",
@@ -474,7 +474,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 66
+      "citations": 65
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -628,7 +628,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 51
+      "citations": 52
     },
     {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 706
+      "citations": 708
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1574,7 +1574,7 @@
       "pages": "1106-1122",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261917317397",
-      "citations": 75
+      "citations": 76
     },
     {
       "title": "Online robust policy learning in the presence of unknown adversaries",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2103
+      "citations": 2105
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1311
+      "citations": 1312
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -1992,7 +1992,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://docs.lib.purdue.edu/ihpbc/152/",
-      "citations": 13
+      "citations": 14
     },
     {
       "title": "A novel human machine interface for advanced building controls and diagnostics",
@@ -4064,7 +4064,7 @@
       "pages": "arXiv: 2306.10159",
       "publisher": "",
       "scholar_url": "https://scholar.google.com/scholar?cluster=4330673303898543816&hl=en&oi=scholarr",
-      "citations": 57
+      "citations": 58
     },
     {
       "title": "Deep learning powered real-time identification of insects using citizen science data",
@@ -4207,7 +4207,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2007.05729",
-      "citations": 28
+      "citations": 29
     },
     {
       "title": "Encoding invariances in deep generative models",
@@ -4391,6 +4391,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 62,
-    "processing_time_seconds": 2231.58
+    "processing_time_seconds": 2249.26
   }
 }
