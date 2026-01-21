@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-18T01:38:43.250601",
+  "generated_date": "2026-01-21T01:35:21.239537",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -70,6 +70,17 @@
       "citations": 5
     },
     {
+      "title": "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree",
+      "authors": "Mahsa Khosravi and Zhanhong Jiang and Joshua R Waite and Sarah E Jones and Hernan Torres Pacin and Arti Singh and Baskar Ganapathysubramanian and Asheesh Kumar Singh and Soumik Sarkar",
+      "venue": "Smart Agricultural Technology",
+      "year": "2025",
+      "volume": "",
+      "pages": "101194",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2772375525004253",
+      "citations": 3
+    },
+    {
       "title": "Robust soybean seed yield estimation using high-throughput ground robot videos",
       "authors": "Jiale Feng and Samuel W Blair and Timilehin T Ayanlade and Aditya Balu and Baskar Ganapathysubramanian and Arti Singh and Soumik Sarkar and Asheesh K Singh",
       "venue": "Frontiers in Plant Science",
@@ -100,17 +111,6 @@
       "pages": "182",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s44172-025-00513-3",
-      "citations": 2
-    },
-    {
-      "title": "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree",
-      "authors": "Mahsa Khosravi and Zhanhong Jiang and Joshua R Waite and Sarah E Jones and Hernan Torres Pacin and Arti Singh and Baskar Ganapathysubramanian and Asheesh Kumar Singh and Soumik Sarkar",
-      "venue": "Smart Agricultural Technology",
-      "year": "2025",
-      "volume": "",
-      "pages": "101194",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2772375525004253",
       "citations": 2
     },
     {
@@ -188,7 +188,7 @@
       "pages": "130-149",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
-      "citations": 82
+      "citations": 81
     },
     {
       "title": "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions",
@@ -276,18 +276,7 @@
       "pages": "e70009",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.70009",
-      "citations": 15
-    },
-    {
-      "title": "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics",
-      "authors": "Gabriel Cutshaw and Neeraj Joshi and Xiaona Wen and Elizabeth Quam and Galina Bogatcheva and Nora Hassan and Saji Uthaman and Joshua Waite and Soumik Sarkar and Bhuminder Singh and Rizia Bardhan",
-      "venue": "Angewandte Chemie International Edition",
-      "year": "2024",
-      "volume": "63",
-      "pages": "e202410919",
-      "publisher": "",
-      "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202410919",
-      "citations": 12
+      "citations": 16
     },
     {
       "title": "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization",
@@ -298,6 +287,17 @@
       "pages": "122179",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0043135424010789",
+      "citations": 13
+    },
+    {
+      "title": "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics",
+      "authors": "Gabriel Cutshaw and Neeraj Joshi and Xiaona Wen and Elizabeth Quam and Galina Bogatcheva and Nora Hassan and Saji Uthaman and Joshua Waite and Soumik Sarkar and Bhuminder Singh and Rizia Bardhan",
+      "venue": "Angewandte Chemie International Edition",
+      "year": "2024",
+      "volume": "63",
+      "pages": "e202410919",
+      "publisher": "",
+      "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202410919",
       "citations": 12
     },
     {
@@ -474,7 +474,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 65
+      "citations": 67
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -485,7 +485,7 @@
       "pages": "1775-1794",
       "publisher": "Taylor & Francis",
       "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/10643389.2023.2183699",
-      "citations": 54
+      "citations": 55
     },
     {
       "title": "Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization",
@@ -496,7 +496,7 @@
       "pages": "18382-18390",
       "publisher": "American Chemical Society",
       "scholar_url": "https://pubs.acs.org/doi/abs/10.1021/acs.est.3c00353",
-      "citations": 46
+      "citations": 47
     },
     {
       "title": "Few-shot deep learning for AFM force curve characterization of single-molecule interactions",
@@ -628,7 +628,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 52
+      "citations": 53
     },
     {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
@@ -1321,7 +1321,7 @@
       "pages": "98",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
-      "citations": 495
+      "citations": 496
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 708
+      "citations": 709
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2105
+      "citations": 2107
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -3072,7 +3072,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 650
+      "citations": 651
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -4391,6 +4391,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 62,
-    "processing_time_seconds": 2249.26
+    "processing_time_seconds": 2239.05
   }
 }

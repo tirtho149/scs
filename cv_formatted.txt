@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-18 01:38:43
+Generated on: 2026-01-21 01:35:21
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -24,13 +24,13 @@ H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Reinforcement learning optimiz
 
 A. K. Singh, S. E. Jones, L. V. d. Laan, T. T. Ayanlade, J. Raigne, N. Saleem, S. Joshi, M. A. Arshad, H. ZareMehrjerdi, A. Rairdin, J. D. Salvo, D. Elango, L. D. A. Peixoto, T. Z. Jubery, A. Krishnamurthy, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Use of artificial intelligence in soybean breeding and production" **Advances in Agronomy 190, 199-273, 2025** 190 (2025): 199-273.
 
+M. Khosravi, Z. Jiang, J. R. Waite, S. E. Jones, H. T. Pacin, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree" **Smart Agricultural Technology** (2025): 101194.
+
 J. Feng, S. W. Blair, T. T. Ayanlade, A. Balu, B. Ganapathysubramanian, A. Singh, S. Sarkar, and A. K. Singh. "Robust soybean seed yield estimation using high-throughput ground robot videos" **Frontiers in Plant Science** 16 (2025): 1554193.
 
 L. V. d. Laan, K. Parmley, M. Saadati, H. T. Pacin, S. Panthulugiri, S. Sarkar, B. Ganapathysubramanian, A. Lorenz, and A. K. Singh. "Genomic and phenomic prediction for soybean seed yield, protein, and oil" **The Plant Genome** 18 (2025): e70002.
 
 A. Rabeh, E. Herron, A. Balu, S. Sarkar, C. Hegde, A. Krishnamurthy, and B. Ganapathysubramanian. "Benchmarking scientific machine-learning approaches for flow prediction around complex geometries" **Communications Engineering** 4 (2025): 182.
-
-M. Khosravi, Z. Jiang, J. R. Waite, S. E. Jones, H. T. Pacin, A. Singh, B. Ganapathysubramanian, A. K. Singh, and S. Sarkar. "Optimizing navigation and chemical application in precision agriculture with deep reinforcement learning and conditional action tree" **Smart Agricultural Technology** (2025): 101194.
 
 B. Kim, S. W. Blair, T. Z. Jubery, S. Sarkar, A. Singh, A. K. Singh, and B. Ganapathysubramanian. "Soybean maturity prediction using two‐dimensional contour plots from drone‐based time series imagery" **The Plant Phenome Journal** 8 (2025): e70036.
 
@@ -62,9 +62,9 @@ M. Saadati, A. Balu, S. Chiranjeevi, T. Z. Jubery, A. K. Singh, S. Sarkar, A. Si
 
 S. E. Jones, T. T. Ayanlade, B. Fallen, T. Z. Jubery, A. Singh, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean" **The Plant Phenome Journal** 7 (2024): e70009.
 
-G. Cutshaw, N. Joshi, X. Wen, E. Quam, G. Bogatcheva, N. Hassan, S. Uthaman, J. Waite, S. Sarkar, B. Singh, and R. Bardhan. "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics" **Angewandte Chemie International Edition** 63 (2024): e202410919.
-
 H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization" **Water Research** 263 (2024): 122179.
+
+G. Cutshaw, N. Joshi, X. Wen, E. Quam, G. Bogatcheva, N. Hassan, S. Uthaman, J. Waite, S. Sarkar, B. Singh, and R. Bardhan. "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics" **Angewandte Chemie International Edition** 63 (2024): e202410919.
 
 B. Khara, E. Herron, A. Balu, D. Gamdha, C. Yang, K. Saurabh, A. Jignasu, Z. Jiang, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "Neural pde solvers for irregular domains" **Computer-Aided Design** 172 (2024): 103709.
 
