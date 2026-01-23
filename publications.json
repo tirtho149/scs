@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-21T01:35:21.239537",
+  "generated_date": "2026-01-23T01:34:52.065548",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -188,7 +188,7 @@
       "pages": "130-149",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
-      "citations": 81
+      "citations": 82
     },
     {
       "title": "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions",
@@ -279,6 +279,17 @@
       "citations": 16
     },
     {
+      "title": "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics",
+      "authors": "Gabriel Cutshaw and Neeraj Joshi and Xiaona Wen and Elizabeth Quam and Galina Bogatcheva and Nora Hassan and Saji Uthaman and Joshua Waite and Soumik Sarkar and Bhuminder Singh and Rizia Bardhan",
+      "venue": "Angewandte Chemie International Edition",
+      "year": "2024",
+      "volume": "63",
+      "pages": "e202410919",
+      "publisher": "",
+      "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202410919",
+      "citations": 13
+    },
+    {
       "title": "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization",
       "authors": "Henry C Croll and Kaoru Ikuma and Say Kee Ong and Soumik Sarkar",
       "venue": "Water Research",
@@ -288,17 +299,6 @@
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0043135424010789",
       "citations": 13
-    },
-    {
-      "title": "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics",
-      "authors": "Gabriel Cutshaw and Neeraj Joshi and Xiaona Wen and Elizabeth Quam and Galina Bogatcheva and Nora Hassan and Saji Uthaman and Joshua Waite and Soumik Sarkar and Bhuminder Singh and Rizia Bardhan",
-      "venue": "Angewandte Chemie International Edition",
-      "year": "2024",
-      "volume": "63",
-      "pages": "e202410919",
-      "publisher": "",
-      "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202410919",
-      "citations": 12
     },
     {
       "title": "Neural pde solvers for irregular domains",
@@ -499,6 +499,17 @@
       "citations": 47
     },
     {
+      "title": "“Canopy fingerprints” for characterizing three-dimensional point cloud data of soybean canopies",
+      "authors": "Therin J Young and Talukder Z Jubery and Clayton N Carley and Matthew Carroll and Soumik Sarkar and Asheesh K Singh and Arti Singh and Baskar Ganapathysubramanian",
+      "venue": "Frontiers in plant science",
+      "year": "2023",
+      "volume": "14",
+      "pages": "1141153",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1141153/full",
+      "citations": 23
+    },
+    {
       "title": "Few-shot deep learning for AFM force curve characterization of single-molecule interactions",
       "authors": "Joshua R Waite and Sin Yong Tan and Homagni Saha and Soumik Sarkar and Anwesha Sarkar",
       "venue": "Patterns",
@@ -508,17 +519,6 @@
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/patterns/fulltext/S2666-3899(22)00319-1",
       "citations": 23
-    },
-    {
-      "title": "“Canopy fingerprints” for characterizing three-dimensional point cloud data of soybean canopies",
-      "authors": "Therin J Young and Talukder Z Jubery and Clayton N Carley and Matthew Carroll and Soumik Sarkar and Asheesh K Singh and Arti Singh and Baskar Ganapathysubramanian",
-      "venue": "Frontiers in plant science",
-      "year": "2023",
-      "volume": "14",
-      "pages": "1141153",
-      "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpls.2023.1141153/full",
-      "citations": 22
     },
     {
       "title": "Self‐supervised learning improves classification of agriculturally important insect pests in plants",
@@ -628,7 +628,7 @@
       "pages": "111828",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0378778821011129",
-      "citations": 53
+      "citations": 54
     },
     {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
@@ -683,7 +683,7 @@
       "pages": "522",
       "publisher": "MDPI",
       "scholar_url": "https://www.mdpi.com/2306-5354/9/10/522",
-      "citations": 31
+      "citations": 32
     },
     {
       "title": "Plant phenotyping with limited annotation: Doing more with less",
@@ -892,7 +892,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9840192?adobe_mc=MCMID%3D13000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1683331200",
-      "citations": 150
+      "citations": 151
     },
     {
       "title": "Algorithmically-consistent deep learning frameworks for structural topology optimization",
@@ -914,7 +914,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9846470",
-      "citations": 66
+      "citations": 67
     },
     {
       "title": "Fast inverse design of microstructures via generative invariance networks",
@@ -969,7 +969,7 @@
       "pages": "280",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41597-021-01055-x",
-      "citations": 32
+      "citations": 33
     },
     {
       "title": "Root-cause analysis for time-series anomalies via spatiotemporal graphical modeling in distributed complex systems",
@@ -1112,7 +1112,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://search.proquest.com/openview/38ad4fc5702325fc78392b956d086793/1?pq-origsite=gscholar&cbl=18750&diss=y",
-      "citations": 5
+      "citations": 6
     },
     {
       "title": "Deep learning for fast atomic force microscopy data analytics",
@@ -1189,7 +1189,7 @@
       "pages": "14957",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-020-71898-8",
-      "citations": 127
+      "citations": 128
     },
     {
       "title": "Soybean root system architecture trait study through genotypic, phenotypic, and shape-based clusters",
@@ -1321,7 +1321,7 @@
       "pages": "98",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
-      "citations": 496
+      "citations": 497
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1387,7 +1387,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2019/5809404",
-      "citations": 99
+      "citations": 100
     },
     {
       "title": "Interpretable deep learning for guided microstructure-property explorations in photovoltaics",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 709
+      "citations": 710
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2107
+      "citations": 2106
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1312
+      "citations": 1314
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -3072,7 +3072,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 651
+      "citations": 652
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -4391,6 +4391,6 @@
     "new_journals": 229,
     "new_conferences": 107,
     "new_preprints": 62,
-    "processing_time_seconds": 2239.05
+    "processing_time_seconds": 2226.23
   }
 }

@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-21 01:35:21
+Generated on: 2026-01-23 01:34:52
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -62,9 +62,9 @@ M. Saadati, A. Balu, S. Chiranjeevi, T. Z. Jubery, A. K. Singh, S. Sarkar, A. Si
 
 S. E. Jones, T. T. Ayanlade, B. Fallen, T. Z. Jubery, A. Singh, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Multi‐sensor and multi‐temporal high‐throughput phenotyping for monitoring and early detection of water‐limiting stress in soybean" **The Plant Phenome Journal** 7 (2024): e70009.
 
-H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization" **Water Research** 263 (2024): 122179.
-
 G. Cutshaw, N. Joshi, X. Wen, E. Quam, G. Bogatcheva, N. Hassan, S. Uthaman, J. Waite, S. Sarkar, B. Singh, and R. Bardhan. "Metabolic response to small molecule therapy in colorectal cancer tracked with Raman spectroscopy and metabolomics" **Angewandte Chemie International Edition** 63 (2024): e202410919.
+
+H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization" **Water Research** 263 (2024): 122179.
 
 B. Khara, E. Herron, A. Balu, D. Gamdha, C. Yang, K. Saurabh, A. Jignasu, Z. Jiang, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "Neural pde solvers for irregular domains" **Computer-Aided Design** 172 (2024): 103709.
 
@@ -102,9 +102,9 @@ H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Reinforcement learning applied
 
 H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization" **Environmental Science & Technology** 57 (2023): 18382-18390.
 
-J. R. Waite, S. Y. Tan, H. Saha, S. Sarkar, and A. Sarkar. "Few-shot deep learning for AFM force curve characterization of single-molecule interactions" **Patterns** 4 (2023).
-
 T. J. Young, T. Z. Jubery, C. N. Carley, M. Carroll, S. Sarkar, A. K. Singh, A. Singh, and B. Ganapathysubramanian. "“Canopy fingerprints” for characterizing three-dimensional point cloud data of soybean canopies" **Frontiers in plant science** 14 (2023): 1141153.
+
+J. R. Waite, S. Y. Tan, H. Saha, S. Sarkar, and A. Sarkar. "Few-shot deep learning for AFM force curve characterization of single-molecule interactions" **Patterns** 4 (2023).
 
 S. Kar, K. Nagasubramanian, D. Elango, M. E. Carroll, C. A. Abel, A. Nair, D. S. Mueller, M. E. O'Neal, A. K. Singh, S. Sarkar, B. Ganapathysubramanian, and A. Singh. "Self‐supervised learning improves classification of agriculturally important insect pests in plants" **The Plant Phenome Journal** 6 (2023): e20079.
 
