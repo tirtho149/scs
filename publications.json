@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-01-25T01:40:20.589047",
+  "generated_date": "2026-01-26T01:39:08.182570",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -34,7 +34,7 @@
       "pages": "110382",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0168169925004880",
-      "citations": 12
+      "citations": 11
     },
     {
       "title": "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective",
@@ -45,7 +45,7 @@
       "pages": "265-280",
       "publisher": "Emerald Publishing Limited",
       "scholar_url": "https://www.emerald.com/insight/content/doi/10.1108/jbim-10-2024-0811/full/html",
-      "citations": 6
+      "citations": 7
     },
     {
       "title": "Reinforcement learning optimization of a water resource recovery facility: Evaluating the impact of reward function design on agent training, control optimization, and treatment risk",
@@ -474,7 +474,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 68
+      "citations": 70
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -631,6 +631,17 @@
       "citations": 54
     },
     {
+      "title": "A graph policy network approach for volt-var control in power distribution systems",
+      "authors": "Xian Yeow Lee and Soumik Sarkar and Yubo Wang",
+      "venue": "Applied Energy",
+      "year": "2022",
+      "volume": "323",
+      "pages": "119530",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261922008479",
+      "citations": 45
+    },
+    {
       "title": "Nurbs-diff: A differentiable programming module for nurbs",
       "authors": "Anjana Deva Prasad and Aditya Balu and Harshil Shah and Soumik Sarkar and Chinmay Hegde and Adarsh Krishnamurthy",
       "venue": "Computer-Aided Design",
@@ -640,17 +651,6 @@
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448522000045",
       "citations": 45
-    },
-    {
-      "title": "A graph policy network approach for volt-var control in power distribution systems",
-      "authors": "Xian Yeow Lee and Soumik Sarkar and Yubo Wang",
-      "venue": "Applied Energy",
-      "year": "2022",
-      "volume": "323",
-      "pages": "119530",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0306261922008479",
-      "citations": 44
     },
     {
       "title": "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean",
@@ -1519,7 +1519,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 711
+      "citations": 710
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1563,7 +1563,7 @@
       "pages": "263-275",
       "publisher": "North-Holland",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0167839618300384",
-      "citations": 119
+      "citations": 120
     },
     {
       "title": "Multivariate exploration of non-intrusive load monitoring via spatiotemporal pattern network",
@@ -1632,17 +1632,6 @@
       "citations": 28
     },
     {
-      "title": "Hierarchical symbolic dynamic filtering of streaming non-stationary time series data",
-      "authors": "Adedotun Akintayo and Soumik Sarkar",
-      "venue": "Signal Processing",
-      "year": "2018",
-      "volume": "151",
-      "pages": "76-88",
-      "publisher": "Elsevier",
-      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0165168418301506",
-      "citations": 16
-    },
-    {
       "title": "Traffic system anomaly detection using spatiotemporal pattern networks",
       "authors": "Tingting Huang and Chao Liu and Anuj Sharma and Soumik Sarkar",
       "venue": "International Journal of Prognostics and Health Management",
@@ -1651,6 +1640,17 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://www.papers.phmsociety.org/index.php/ijphm/article/view/2671",
+      "citations": 17
+    },
+    {
+      "title": "Hierarchical symbolic dynamic filtering of streaming non-stationary time series data",
+      "authors": "Adedotun Akintayo and Soumik Sarkar",
+      "venue": "Signal Processing",
+      "year": "2018",
+      "volume": "151",
+      "pages": "76-88",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0165168418301506",
       "citations": 16
     },
     {
@@ -1695,7 +1695,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2115
+      "citations": 2120
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1871,7 +1871,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1318
+      "citations": 1317
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -2580,17 +2580,6 @@
       "citations": 0
     },
     {
-      "title": "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints",
-      "authors": "Anushrut Jignasu and Aditya Balu and Soumik Sarkar and Chinmay Hegde and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
-      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
-      "year": "2024",
-      "volume": "",
-      "pages": "5271-5279",
-      "publisher": "",
-      "scholar_url": "https://openaccess.thecvf.com/content/CVPR2024W/DLGC/html/Jignasu_SDFConnect_Neural_Implicit_Surface_Reconstruction_of_a_Sparse_Point_Cloud_CVPRW_2024_paper.html",
-      "citations": 5
-    },
-    {
       "title": "Dimat: Decentralized iterative merging-and-training for deep learning models",
       "authors": "Nastaran Saadati and Minh Pham and Nasla Saleem and Joshua R Waite and Aditya Balu and Zhanong Jiang and Chinmay Hegde and Soumik Sarkar",
       "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
@@ -2599,6 +2588,17 @@
       "pages": "27517-27527",
       "publisher": "",
       "scholar_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Saadati_DIMAT_Decentralized_Iterative_Merging-And-Training_for_Deep_Learning_Models_CVPR_2024_paper.html",
+      "citations": 6
+    },
+    {
+      "title": "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints",
+      "authors": "Anushrut Jignasu and Aditya Balu and Soumik Sarkar and Chinmay Hegde and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
+      "venue": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024",
+      "year": "2024",
+      "volume": "",
+      "pages": "5271-5279",
+      "publisher": "",
+      "scholar_url": "https://openaccess.thecvf.com/content/CVPR2024W/DLGC/html/Jignasu_SDFConnect_Neural_Implicit_Surface_Reconstruction_of_a_Sparse_Point_Cloud_CVPRW_2024_paper.html",
       "citations": 5
     },
     {
@@ -3083,7 +3083,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 655
+      "citations": 656
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3193,7 +3193,7 @@
       "pages": "5745-5750",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/8264527/",
-      "citations": 13
+      "citations": 14
     },
     {
       "title": "Convergence and noise effect analysis for generalized gossip-based distributed optimization",
@@ -3501,7 +3501,7 @@
       "pages": "220-225",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/5991168/",
-      "citations": 11
+      "citations": 12
     },
     {
       "title": "Optimal partitioning of ultrasonic data for fatigue damage detection?",
@@ -4402,6 +4402,6 @@
     "new_journals": 229,
     "new_conferences": 108,
     "new_preprints": 62,
-    "processing_time_seconds": 2253.15
+    "processing_time_seconds": 2256.79
   }
 }

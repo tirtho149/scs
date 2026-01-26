@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-01-25 01:40:20
+Generated on: 2026-01-26 01:39:08
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -126,9 +126,9 @@ H. Yang, C. Yang, P. Sornberger, R. Duke, C. Risko, B. Ganapathysubramanian, and
 
 S. Y. Tan, M. Jacoby, H. Saha, A. Florita, G. Henze, and S. Sarkar. "Multimodal sensor fusion framework for residential building occupancy detection" **Energy and buildings** 258 (2022): 111828.
 
-A. D. Prasad, A. Balu, H. Shah, S. Sarkar, C. Hegde, and A. Krishnamurthy. "Nurbs-diff: A differentiable programming module for nurbs" **Computer-Aided Design** 146 (2022): 103199.
-
 X. Y. Lee, S. Sarkar, and Y. Wang. "A graph policy network approach for volt-var control in power distribution systems" **Applied Energy** 323 (2022): 119530.
+
+A. D. Prasad, A. Balu, H. Shah, S. Sarkar, C. Hegde, and A. Krishnamurthy. "Nurbs-diff: A differentiable programming module for nurbs" **Computer-Aided Design** 146 (2022): 103199.
 
 A. Rairdin, F. Fotouhi, J. Zhang, D. S. Mueller, B. Ganapathysubramanian, A. K. Singh, S. Dutta, S. Sarkar, and A. Singh. "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean" **Frontiers in plant science** 13 (2022): 966244.
 
@@ -308,9 +308,9 @@ K. G. Lore, D. Stoecklein, M. Davies, B. Ganapathysubramanian, and S. Sarkar. "A
 
 T. Gangopadhyay, S. Y. Tan, G. Huang, and S. Sarkar. "Temporal attention and stacked LSTMs for multivariate time series prediction" **** (2018).
 
-A. Akintayo, and S. Sarkar. "Hierarchical symbolic dynamic filtering of streaming non-stationary time series data" **Signal Processing** 151 (2018): 76-88.
-
 T. Huang, C. Liu, A. Sharma, and S. Sarkar. "Traffic system anomaly detection using spatiotemporal pattern networks" **International Journal of Prognostics and Health Management** 9 (2018).
+
+A. Akintayo, and S. Sarkar. "Hierarchical symbolic dynamic filtering of streaming non-stationary time series data" **Signal Processing** 151 (2018): 76-88.
 
 L. Wu, C. Liu, T. Huang, A. Sharma, and S. Sarkar. "Traffic sensor health monitoring using spatiotemporal graphical modeling" **International Journal of Prognostics and Health Management** 9 (2018).
 
@@ -488,9 +488,9 @@ K. Ku, T. Z. Jubery, E. Rodriguez, A. Balu, S. Sarkar, A. Krishnamurthy, and B. 
 
 P. Koirala, Z. Jiang, S. Sarkar, and C. Fleming. "Feasibility Informed Advantage Weighted Regression for Persistent Safety in Offline Reinforcement Learning" **2025 IEEE 64th Conference on Decision and Control (CDC), 5837-5844, 2025** (2025).
 
-A. Jignasu, A. Balu, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
-
 N. Saadati, M. Pham, N. Saleem, J. R. Waite, A. Balu, Z. Jiang, C. Hegde, and S. Sarkar. "Dimat: Decentralized iterative merging-and-training for deep learning models" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
+
+A. Jignasu, A. Balu, S. Sarkar, C. Hegde, B. Ganapathysubramanian, and A. Krishnamurthy. "SDFConnect: Neural Implicit Surface Reconstruction of a Sparse Point Cloud with Topological Constraints" **Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2024** (2024).
 
 H. Yang, J. Beck, M. Z. Hasan, E. Beyazit, S. Chakraborty, T. Wongpiromsarn, and S. Sarkar. "GENESIS-RL: GEnerating natural edge-cases with systematic integration of safety considerations and reinforcement learning" **2024 IEEE International Automated Vehicle Validation Conference (IAVVC), 1-8, 2024** (2024).
 
