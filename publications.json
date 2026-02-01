@@ -1,8 +1,19 @@
 {
-  "generated_date": "2026-01-26T01:39:08.182570",
+  "generated_date": "2026-02-01T01:55:09.916103",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
+    {
+      "title": "hierarchical transfer learning and slicing-aided hyper inference",
+      "authors": "Ashish Gupta and Matthew E Carroll and Sajal K Das and Peter Kyveryga and Baskar Ganapathysubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar",
+      "venue": "Precision Information Identification and Integrated Control: Pest Identification, Crop Health Monitoring, and Field Management",
+      "year": "2026",
+      "volume": "",
+      "pages": "9",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://books.google.com/books?hl=en&lr=&id=62G4EQAAQBAJ&oi=fnd&pg=PA9&dq=info:V2bvyqmnxHEJ:scholar.google.com&ots=zXgRmqJIzw&sig=DCFzhZHrz_QTe2CZQDUEUW2WKPg",
+      "citations": 0
+    },
     {
       "title": "InsectNet: Real-time identification of insects using an end-to-end machine learning pipeline",
       "authors": "Shivani Chiranjeevi and Mojdeh Saadati and Zi K Deng and Jayanth Koushik and Talukder Z Jubery and Daren S Mueller and Matthew O’Neal and Nirav Merchant and Aarti Singh and Asheesh K Singh and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian",
@@ -188,7 +199,7 @@
       "pages": "130-149",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
-      "citations": 82
+      "citations": 84
     },
     {
       "title": "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions",
@@ -199,7 +210,7 @@
       "pages": "0235",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0235",
-      "citations": 49
+      "citations": 50
     },
     {
       "title": "Biotrove: A large curated image dataset enabling ai for biodiversity",
@@ -243,7 +254,7 @@
       "pages": "e20107",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20107",
-      "citations": 23
+      "citations": 24
     },
     {
       "title": "Latent diffusion models for structural component design",
@@ -287,7 +298,7 @@
       "pages": "e202410919",
       "publisher": "",
       "scholar_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202410919",
-      "citations": 13
+      "citations": 14
     },
     {
       "title": "Unified control of diverse actions in a wastewater treatment activated sludge system using reinforcement learning for multi-objective optimization",
@@ -345,6 +356,17 @@
       "citations": 8
     },
     {
+      "title": "Soybean canopy stress classification using 3D point cloud data",
+      "authors": "Therin J Young and Shivani Chiranjeevi and Dinakaran Elango and Soumik Sarkar and Asheesh K Singh and Arti Singh and Baskar Ganapathysubramanian and Talukder Z Jubery",
+      "venue": "Agronomy",
+      "year": "2024",
+      "volume": "14",
+      "pages": "1181",
+      "publisher": "MDPI",
+      "scholar_url": "https://www.mdpi.com/2073-4395/14/6/1181",
+      "citations": 8
+    },
+    {
       "title": "Predicting the onset of preeclampsia by longitudinal monitoring of metabolic changes throughout pregnancy with Raman spectroscopy",
       "authors": "Saman Ghazvini and Saji Uthaman and Lilly Synan and Eugene C Lin and Soumik Sarkar and Mark K Santillan and Donna A Santillan and Rizia Bardhan",
       "venue": "Bioengineering & translational medicine",
@@ -364,17 +386,6 @@
       "pages": "1484587",
       "publisher": "Frontiers Media SA",
       "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1484587/full",
-      "citations": 7
-    },
-    {
-      "title": "Soybean canopy stress classification using 3D point cloud data",
-      "authors": "Therin J Young and Shivani Chiranjeevi and Dinakaran Elango and Soumik Sarkar and Asheesh K Singh and Arti Singh and Baskar Ganapathysubramanian and Talukder Z Jubery",
-      "venue": "Agronomy",
-      "year": "2024",
-      "volume": "14",
-      "pages": "1181",
-      "publisher": "MDPI",
-      "scholar_url": "https://www.mdpi.com/2073-4395/14/6/1181",
       "citations": 7
     },
     {
@@ -474,7 +485,7 @@
       "pages": "110171",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S088832702300078X",
-      "citations": 70
+      "citations": 72
     },
     {
       "title": "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward",
@@ -485,7 +496,7 @@
       "pages": "1775-1794",
       "publisher": "Taylor & Francis",
       "scholar_url": "https://www.tandfonline.com/doi/abs/10.1080/10643389.2023.2183699",
-      "citations": 55
+      "citations": 56
     },
     {
       "title": "Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization",
@@ -496,7 +507,7 @@
       "pages": "18382-18390",
       "publisher": "American Chemical Society",
       "scholar_url": "https://pubs.acs.org/doi/abs/10.1021/acs.est.3c00353",
-      "citations": 49
+      "citations": 50
     },
     {
       "title": "Few-shot deep learning for AFM force curve characterization of single-molecule interactions",
@@ -529,7 +540,7 @@
       "pages": "e20079",
       "publisher": "",
       "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20079",
-      "citations": 19
+      "citations": 20
     },
     {
       "title": "First trimester prediction of preterm birth in patient plasma with machine-learning-guided Raman spectroscopy and metabolomics",
@@ -551,7 +562,7 @@
       "pages": "107033",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0952197623012174",
-      "citations": 16
+      "citations": 17
     },
     {
       "title": "3D reconstruction of plants using probabilistic voxel carving",
@@ -562,7 +573,7 @@
       "pages": "108248",
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0168169923006361",
-      "citations": 14
+      "citations": 15
     },
     {
       "title": "A comprehensive study on soybean yield prediction using soil and hyperspectral reflectance data",
@@ -862,6 +873,17 @@
       "citations": 0
     },
     {
+      "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
+      "authors": "Johnathon Shook and Tryambak Gangopadhyay and Linjiang Wu and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh K Singh",
+      "venue": "Plos one",
+      "year": "2021",
+      "volume": "16",
+      "pages": "e0252402",
+      "publisher": "Public Library of Science",
+      "scholar_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252402",
+      "citations": 241
+    },
+    {
       "title": "Challenges and opportunities in machine-augmented plant stress phenotyping",
       "authors": "Arti Singh and Sarah Jones and Baskar Ganapathysubramanian and Soumik Sarkar and Daren Mueller and Kulbir Sandhu and Koushik Nagasubramanian",
       "venue": "Trends in Plant Science 26 (1), 53-69, 2021",
@@ -873,17 +895,6 @@
       "citations": 241
     },
     {
-      "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
-      "authors": "Johnathon Shook and Tryambak Gangopadhyay and Linjiang Wu and Baskar Ganapathysubramanian and Soumik Sarkar and Asheesh K Singh",
-      "venue": "Plos one",
-      "year": "2021",
-      "volume": "16",
-      "pages": "e0252402",
-      "publisher": "Public Library of Science",
-      "scholar_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252402",
-      "citations": 239
-    },
-    {
       "title": "UAS-based plant phenotyping for research and breeding applications",
       "authors": "Wei Guo and Matthew E Carroll and Arti Singh and Tyson L Swetnam and Nirav Merchant and Soumik Sarkar and Asheesh K Singh and Baskar Ganapathysubramanian",
       "venue": "Plant Phenomics, 2021",
@@ -892,7 +903,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9840192?adobe_mc=MCMID%3D13000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1683331200",
-      "citations": 152
+      "citations": 153
     },
     {
       "title": "Algorithmically-consistent deep learning frameworks for structural topology optimization",
@@ -947,7 +958,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9834746",
-      "citations": 45
+      "citations": 46
     },
     {
       "title": "3D convolutional selective autoencoder for instability detection in combustion systems",
@@ -1082,6 +1093,17 @@
       "citations": 7
     },
     {
+      "title": "Few shot clustering for indoor occupancy detection with extremely low quality images from battery free cameras",
+      "authors": "Homagni Saha",
+      "venue": "Iowa State University, 2021",
+      "year": "2021",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://search.proquest.com/openview/38ad4fc5702325fc78392b956d086793/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "citations": 7
+    },
+    {
       "title": "Differentiable spline approximations",
       "authors": "Minsu Cho and Aditya Balu and Ameya Joshi and Anjana Deva Prasad and Biswajit Khara and Soumik Sarkar and Baskar Ganapathysubramanian and Adarsh Krishnamurthy and Chinmay Hegde",
       "venue": "Advances in neural information processing systems",
@@ -1101,17 +1123,6 @@
       "pages": "102038",
       "publisher": "North-Holland",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0167839621000832",
-      "citations": 6
-    },
-    {
-      "title": "Few shot clustering for indoor occupancy detection with extremely low quality images from battery free cameras",
-      "authors": "Homagni Saha",
-      "venue": "Iowa State University, 2021",
-      "year": "2021",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://search.proquest.com/openview/38ad4fc5702325fc78392b956d086793/1?pq-origsite=gscholar&cbl=18750&diss=y",
       "citations": 6
     },
     {
@@ -1200,7 +1211,7 @@
       "pages": "",
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/2020/1925495?adobe_mc=MCMID%3D24000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1694995200",
-      "citations": 72
+      "citations": 73
     },
     {
       "title": "Automated detection of part quality during two-photon lithography via deep learning",
@@ -1321,7 +1332,7 @@
       "pages": "98",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-019-0479-8",
-      "citations": 499
+      "citations": 502
     },
     {
       "title": "A weakly supervised deep learning framework for sorghum head detection and counting",
@@ -1343,7 +1354,7 @@
       "pages": "170-187",
       "publisher": "Academic Press",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0888327018304503",
-      "citations": 192
+      "citations": 191
     },
     {
       "title": "Occupancy sensing in buildings: A review of data analytics approaches",
@@ -1376,7 +1387,7 @@
       "pages": "111401",
       "publisher": "American Society of Mechanical Engineers",
       "scholar_url": "https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/141/11/111401/956254",
-      "citations": 121
+      "citations": 122
     },
     {
       "title": "Development of optimized phenomic predictors for efficient plant breeding decisions using phenomic-assisted selection in soybean",
@@ -1420,7 +1431,7 @@
       "pages": "283-300",
       "publisher": "Springer Singapore",
       "scholar_url": "https://link.springer.com/chapter/10.1007/978-981-15-0536-2_13",
-      "citations": 28
+      "citations": 29
     },
     {
       "title": "Traffic dynamics exploration and incident detection using spatiotemporal graphical modeling",
@@ -1519,7 +1530,7 @@
       "pages": "883-898",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
-      "citations": 710
+      "citations": 714
     },
     {
       "title": "Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems",
@@ -1530,7 +1541,7 @@
       "pages": "86",
       "publisher": "BioMed Central",
       "scholar_url": "https://link.springer.com/article/10.1186/s13007-018-0349-9",
-      "citations": 203
+      "citations": 204
     },
     {
       "title": "Traffic congestion detection from camera images using deep convolution neural networks",
@@ -1552,7 +1563,7 @@
       "pages": "9145",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/s41598-018-27272-w",
-      "citations": 149
+      "citations": 151
     },
     {
       "title": "Learning localized features in 3D CAD models for manufacturability analysis of drilled holes",
@@ -1563,7 +1574,7 @@
       "pages": "263-275",
       "publisher": "North-Holland",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0167839618300384",
-      "citations": 120
+      "citations": 121
     },
     {
       "title": "Multivariate exploration of non-intrusive load monitoring via spatiotemporal pattern network",
@@ -1596,7 +1607,7 @@
       "pages": "61",
       "publisher": "MDPI",
       "scholar_url": "https://www.mdpi.com/2218-6581/7/4/61",
-      "citations": 57
+      "citations": 58
     },
     {
       "title": "Linked read technology for assembling large complex and polyploid genomes",
@@ -1695,7 +1706,7 @@
       "pages": "650-662",
       "publisher": "Pergamon",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S003132031630125X",
-      "citations": 2120
+      "citations": 2132
     },
     {
       "title": "A real-time phenotyping framework using machine learning for plant stress severity rating in soybean",
@@ -1739,7 +1750,7 @@
       "pages": "46368",
       "publisher": "Nature Publishing Group UK",
       "scholar_url": "https://www.nature.com/articles/srep46368",
-      "citations": 100
+      "citations": 101
     },
     {
       "title": "Deep learning for automated occlusion edge detection in RGB-D frames",
@@ -1751,6 +1762,17 @@
       "publisher": "Springer US",
       "scholar_url": "https://link.springer.com/article/10.1007/s11265-016-1209-3",
       "citations": 54
+    },
+    {
+      "title": "Bridge damage detection using spatiotemporal patterns extracted from dense sensor network",
+      "authors": "Chao Liu and Yongqiang Gong and Simon Laflamme and Brent Phares and Soumik Sarkar",
+      "venue": "Measurement Science and Technology",
+      "year": "2017",
+      "volume": "28",
+      "pages": "014011",
+      "publisher": "IOP Publishing",
+      "scholar_url": "https://iopscience.iop.org/article/10.1088/1361-6501/28/1/014011/meta",
+      "citations": 51
     },
     {
       "title": "An unsupervised anomaly detection approach using energy-based spatiotemporal graphical modeling",
@@ -1871,7 +1893,7 @@
       "pages": "110-124",
       "publisher": "Elsevier",
       "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(15)00263-0?_returnURL=http://linkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1360138515002630%3Fshowall%3Dtrue&cc=y%3D",
-      "citations": 1317
+      "citations": 1324
     },
     {
       "title": "Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder",
@@ -1882,18 +1904,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://papers.phmsociety.org/index.php/ijphm/article/view/2461",
-      "citations": 76
-    },
-    {
-      "title": "Bridge damage detection using spatiotemporal patterns extracted from dense sensor network",
-      "authors": "Chao Liu and Yongqiang Gong and Simon Laflamme and Brent Phares and Soumik Sarkar",
-      "venue": "Measurement Science and Technology",
-      "year": "2016",
-      "volume": "28",
-      "pages": "014011",
-      "publisher": "IOP Publishing",
-      "scholar_url": "https://iopscience.iop.org/article/10.1088/1361-6501/28/1/014011/meta",
-      "citations": 51
+      "citations": 77
     },
     {
       "title": "A composite discretization scheme for symbolic identification of complex systems",
@@ -2237,6 +2248,17 @@
       "citations": 6
     },
     {
+      "title": "A Unified Convergence Theory for Large Language Model Efficient Fine-tuning",
+      "authors": "Zhanhong Jiang and Nastaran Saadati and Aditya Balu and Minh Pham and Joshua Russell Waite and Nasla Saleem and Chinmay Hegde and Soumik Sarkar",
+      "venue": "OPT 2024: Optimization for Machine Learning, 0",
+      "year": "",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://openreview.net/forum?id=f0lq26eITJ",
+      "citations": 3
+    },
+    {
       "title": "Assisted Few-Shot Learning for Vision-Language Models in Agricultural Stress Phenotype Identification",
       "authors": "Muhammad Arbab Arshad and Talukder Zaki Jubery and Asheesh K Singh and Arti Singh and Chinmay Hegde and Baskar Ganapathysubramanian and Aditya Balu and Adarsh Krishnamurthy and Soumik Sarkar",
       "venue": "Adaptive Foundation Models: Evolving AI for Personalized and Efficient Learning, 0",
@@ -2246,17 +2268,6 @@
       "publisher": "",
       "scholar_url": "https://openreview.net/forum?id=WutpswD3ea",
       "citations": 3
-    },
-    {
-      "title": "A Unified Convergence Theory for Large Language Model Efficient Fine-tuning",
-      "authors": "Zhanhong Jiang and Nastaran Saadati and Aditya Balu and Minh Pham and Joshua Russell Waite and Nasla Saleem and Chinmay Hegde and Soumik Sarkar",
-      "venue": "OPT 2024: Optimization for Machine Learning, 0",
-      "year": "",
-      "volume": "",
-      "pages": "",
-      "publisher": "",
-      "scholar_url": "https://openreview.net/forum?id=f0lq26eITJ",
-      "citations": 2
     },
     {
       "title": "HP3O: Hybrid-Policy Proximal Policy Optimization with Best Trajectory",
@@ -2525,6 +2536,28 @@
   ],
   "conference_papers": [
     {
+      "title": "Benchmarking Tabular Foundation Models for Agricultural Yield Prediction",
+      "authors": "Mohammed Musthafa Rafi and Timilehin Ayanlade and Baskar Ganapathysubramanian and Soumik Sarkar and Adarsh Krishnamurthy and Chinmay Hegde and Aditya Balu",
+      "venue": "The First International Workshop on AI in Agriculture, 2026",
+      "year": "2026",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://openreview.net/forum?id=f5XUPRARlG",
+      "citations": 0
+    },
+    {
+      "title": "Drone-based 3D Reconstruction of Plants in Field Conditions Using Neural Radiance Fields (NeRFs)",
+      "authors": "Shambhavi Joshi and Ashlyn Rairdin and Elizabeth Tranel and Talukder Zaki Jubery and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian and Adarsh Krishnamurthy",
+      "venue": "The First International Workshop on AI in Agriculture, 2026",
+      "year": "2026",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://openreview.net/forum?id=lyKBTJxe5c",
+      "citations": 0
+    },
+    {
       "title": "Leveraging vision language models for specialized agricultural tasks",
       "authors": "Muhammad Arbab Arshad and Talukder Zaki Jubery and Tirtho Roy and Rim Nassiri and Asheesh K Singh and Arti Singh and Chinmay Hegde and Baskar Ganapathysubramanian and Aditya Balu and Adarsh Krishnamurthy and Soumik Sarkar",
       "venue": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV …, 2025",
@@ -2775,7 +2808,7 @@
       "pages": "3560-3564",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9413914/",
-      "citations": 88
+      "citations": 90
     },
     {
       "title": "Cross-gradient aggregation for decentralized learning from non-iid data",
@@ -2896,7 +2929,7 @@
       "pages": "4577-4584",
       "publisher": "",
       "scholar_url": "https://aaai.org/ojs/index.php/AAAI/article/view/5887",
-      "citations": 90
+      "citations": 91
     },
     {
       "title": "Robustifying reinforcement learning agents via action space adversarial training",
@@ -2907,7 +2940,7 @@
       "pages": "3959-3964",
       "publisher": "IEEE",
       "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9147846/",
-      "citations": 85
+      "citations": 86
     },
     {
       "title": "InvNet: encoding geometric and statistical invariances in deep generative models",
@@ -2984,7 +3017,7 @@
       "pages": "4773-4783",
       "publisher": "",
       "scholar_url": "http://openaccess.thecvf.com/content_ICCV_2019/html/Joshi_Semantic_Adversarial_Attacks_Parametric_Transformations_That_Fool_Deep_Classifiers_ICCV_2019_paper.html",
-      "citations": 147
+      "citations": 148
     },
     {
       "title": "Deep reinforcement learning for adaptive traffic signal control",
@@ -3083,7 +3116,7 @@
       "pages": "4613-4618",
       "publisher": "National Academy of Sciences",
       "scholar_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1716999115",
-      "citations": 656
+      "citations": 660
     },
     {
       "title": "PIRM2018 challenge on spectral image super-resolution: methods and results",
@@ -3325,7 +3358,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "http://papers.phmsociety.org/index.php/phmconf/article/view/2723",
-      "citations": 76
+      "citations": 77
     },
     {
       "title": "Early Detection of Combustion Instability by Neural-Symbolic Analysis on Hi-Speed Video.",
@@ -3887,7 +3920,7 @@
       "volume": "",
       "pages": "arXiv: 2507.05463",
       "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=2464352145791119444&hl=en&oi=scholarr",
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250705463Z/abstract",
       "citations": 0
     },
     {
@@ -4063,7 +4096,7 @@
       "volume": "",
       "pages": "arXiv: 2402.10344",
       "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=15501632528932610399&hl=en&oi=scholarr",
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2024arXiv240210344A/abstract",
       "citations": 0
     },
     {
@@ -4074,8 +4107,8 @@
       "volume": "",
       "pages": "arXiv: 2306.10159",
       "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=4330673303898543816&hl=en&oi=scholarr",
-      "citations": 58
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2023arXiv230610159Z/abstract",
+      "citations": 60
     },
     {
       "title": "Deep learning powered real-time identification of insects using citizen science data",
@@ -4086,7 +4119,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/2306.02507",
-      "citations": 23
+      "citations": 24
     },
     {
       "title": "Active shooter detection and robust tracking utilizing supplemental synthetic data",
@@ -4229,7 +4262,7 @@
       "pages": "",
       "publisher": "",
       "scholar_url": "https://arxiv.org/abs/1906.01626",
-      "citations": 43
+      "citations": 44
     },
     {
       "title": "Learning to cope with adversarial attacks",
@@ -4338,7 +4371,7 @@
       "volume": "",
       "pages": "arXiv: 1811.12444",
       "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=11674726107900491295&hl=en&oi=scholarr",
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2018arXiv181112444Y/abstract",
       "citations": 0
     },
     {
@@ -4382,7 +4415,7 @@
       "volume": "",
       "pages": "arXiv: 1605.05368",
       "publisher": "",
-      "scholar_url": "https://scholar.google.com/scholar?cluster=18431015167536579543&hl=en&oi=scholarr",
+      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2016arXiv160505368G/abstract",
       "citations": 0
     },
     {
@@ -4398,10 +4431,10 @@
     }
   ],
   "statistics": {
-    "total_found": 399,
-    "new_journals": 229,
-    "new_conferences": 108,
+    "total_found": 402,
+    "new_journals": 230,
+    "new_conferences": 110,
     "new_preprints": 62,
-    "processing_time_seconds": 2256.79
+    "processing_time_seconds": 2288.07
   }
 }
