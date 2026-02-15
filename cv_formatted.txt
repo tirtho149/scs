@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-02-15 04:03:29
+Generated on: 2026-02-15 22:46:15
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -57,6 +57,8 @@ T. Gangopadhyay, V. Ramanan, A. Akintayo, P. K. Boor, S. Sarkar, S. R. Chakravar
 M. Jacoby, S. Y. Tan, G. Henze, and S. Sarkar. "A high-fidelity residential building occupancy detection dataset" **Scientific Data** 8 (2021): 280.
 
 C. Liu, K. G. Lore, Z. Jiang, and S. Sarkar. "Root-cause analysis for time-series anomalies via spatiotemporal graphical modeling in distributed complex systems" **Knowledge-Based Systems** 211 (2021): 106527.
+
+K. Nagasubramanian, T. Jubery, F. F. Ardakani, S. V. Mirnezami, A. K. Singh, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "How useful is active learning for image‐based plant phenotyping?" **The Plant Phenome Journal** 4 (2021): e20020.
 
 K. G. Falk, T. Z. Jubery, S. V. Mirnezami, K. A. Parmley, S. Sarkar, A. Singh, B. Ganapathysubramanian, and A. K. Singh. "Computer vision and machine learning enabled soybean root phenotyping pipeline" **Plant methods** 16 (2020): 5.
 

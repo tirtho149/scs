@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-02-15T04:03:29.497650",
+  "generated_date": "2026-02-15T22:46:15.339742",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -11,7 +11,7 @@
       "volume": "29",
       "pages": "130-149",
       "publisher": "Elsevier",
-      "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7?rss=yes&",
+      "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(23)00263-7",
       "citations": 86
     },
     {
@@ -22,7 +22,7 @@
       "volume": "6",
       "pages": "0235",
       "publisher": "AAAS",
-      "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0235",
+      "scholar_url": "https://spj.science.org/doi/abs/10.34133/plantphenomics.0235",
       "citations": 52
     },
     {
@@ -33,7 +33,7 @@
       "volume": "6",
       "pages": "1410829",
       "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fagro.2024.1410829/full",
+      "scholar_url": "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2024.1410829/full",
       "citations": 30
     },
     {
@@ -110,7 +110,7 @@
       "volume": "13",
       "pages": "966244",
       "publisher": "Frontiers Media SA",
-      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpls.2022.966244/full",
+      "scholar_url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.966244/full",
       "citations": 35
     },
     {
@@ -165,7 +165,7 @@
       "volume": "",
       "pages": "",
       "publisher": "AAAS",
-      "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9840192?adobe_mc=MCMID%3D13000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1683331200",
+      "scholar_url": "https://spj.science.org/doi/full/10.34133/2021/9840192",
       "citations": 153
     },
     {
@@ -257,6 +257,17 @@
       "citations": 31
     },
     {
+      "title": "How useful is active learning for image‐based plant phenotyping?",
+      "authors": "Koushik Nagasubramanian and Talukder Jubery and Fateme Fotouhi Ardakani and Seyed Vahid Mirnezami and Asheesh K Singh and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "The Plant Phenome Journal",
+      "year": "2021",
+      "volume": "4",
+      "pages": "e20020",
+      "publisher": "",
+      "scholar_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/ppj2.20020",
+      "citations": 30
+    },
+    {
       "title": "Computer vision and machine learning enabled soybean root phenotyping pipeline",
       "authors": "Kevin G Falk and Talukder Z Jubery and Seyed V Mirnezami and Kyle A Parmley and Soumik Sarkar and Arti Singh and Baskar Ganapathysubramanian and Asheesh K Singh",
       "venue": "Plant methods",
@@ -286,7 +297,7 @@
       "volume": "",
       "pages": "",
       "publisher": "AAAS",
-      "scholar_url": "https://spj.science.org/doi/full/10.34133/2020/1925495?adobe_mc=MCMID%3D24000205405683999525849378418609464876%7CMCORGID%3D242B6472541199F70A4C98A6%2540AdobeOrg%7CTS%3D1694995200",
+      "scholar_url": "https://spj.science.org/doi/full/10.34133/2020/1925495",
       "citations": 73
     },
     {
@@ -418,7 +429,7 @@
       "volume": "23",
       "pages": "883-898",
       "publisher": "Elsevier",
-      "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2?dgcid=raven_jbs_etoc_email",
+      "scholar_url": "https://www.cell.com/trends/plant-science/fulltext/S1360-1385(18)30157-2",
       "citations": 716
     },
     {
@@ -594,7 +605,7 @@
       "volume": "28",
       "pages": "014011",
       "publisher": "IOP Publishing",
-      "scholar_url": "https://iopscience.iop.org/article/10.1088/1361-6501/28/1/014011/meta",
+      "scholar_url": "",
       "citations": 51
     },
     {
@@ -939,7 +950,7 @@
       "volume": "",
       "pages": "arXiv: 2306.10159",
       "publisher": "",
-      "scholar_url": "https://ui.adsabs.harvard.edu/abs/2023arXiv230610159Z/abstract",
+      "scholar_url": "https://scholar.google.com/scholar?cluster=4330673303898543816&hl=en&oi=scholarr",
       "citations": 64
     },
     {
@@ -989,9 +1000,9 @@
   ],
   "statistics": {
     "total_found": 405,
-    "new_journals": 65,
+    "new_journals": 66,
     "new_conferences": 19,
     "new_preprints": 5,
-    "processing_time_seconds": 10232.72
+    "processing_time_seconds": 10212.96
   }
 }
