@@ -1,7 +1,7 @@
 ======================================================================
 NEW PUBLICATIONS TO ADD TO CV
 ======================================================================
-Generated on: 2026-02-13 04:10:07
+Generated on: 2026-02-15 04:03:29
 From Google Scholar ID: -rmRjqIAAAAJ
 
 
@@ -16,6 +16,8 @@ S. Sarkar, B. Ganapathysubramanian, A. Singh, F. Fotouhi, S. Kar, K. Nagasubrama
 
 M. A. Arshad, T. Jubery, J. Afful, A. Jignasu, A. Balu, B. Ganapathysubramanian, S. Sarkar, and A. Krishnamurthy. "Evaluating neural radiance fields for 3d plant geometry reconstruction in field conditions" **Plant Phenomics** 6 (2024): 0235.
 
+A. K. Singh, B. J. Balabaygloo, B. Bekee, S. W. Blair, S. Fey, F. Fotouhi, A. Gupta, A. Jha, J. C. Martinez-Palomares, K. Menke, A. Prestholt, V. K. Tanwar, X. Tao, A. Vangala, M. E. Carroll, S. K. Das, G. DePaula, P. Kyveryga, S. Sarkar, M. Segovia, S. Silvestri, and C. Valdivia. "Smart connected farms and networked farmers to improve crop production, sustainability and profitability" **Frontiers in Agronomy 6, 1410829, 2024** 6 (2024): 1410829.
+
 H. Lu, V. P. Nemani, V. Barzegar, C. Allen, C. Hu, S. Laflamme, S. Sarkar, and A. T. Zimmerman. "A physics-informed feature weighting method for bearing fault diagnostics" **Mechanical Systems and Signal Processing** 191 (2023): 110171.
 
 H. C. Croll, K. Ikuma, S. K. Ong, and S. Sarkar. "Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward" **Critical Reviews in Environmental Science and Technology 53 (20), 1775-1794, 2023** 53 (2023): 1775-1794.
@@ -27,6 +29,12 @@ S. Y. Tan, M. Jacoby, H. Saha, A. Florita, G. Henze, and S. Sarkar. "Multimodal 
 X. Y. Lee, S. Sarkar, and Y. Wang. "A graph policy network approach for volt-var control in power distribution systems" **Applied Energy** 323 (2022): 119530.
 
 A. D. Prasad, A. Balu, H. Shah, S. Sarkar, C. Hegde, and A. Krishnamurthy. "Nurbs-diff: A differentiable programming module for nurbs" **Computer-Aided Design** 146 (2022): 103199.
+
+A. Rairdin, F. Fotouhi, J. Zhang, D. S. Mueller, B. Ganapathysubramanian, A. K. Singh, S. Dutta, S. Sarkar, and A. Singh. "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean" **Frontiers in plant science** 13 (2022): 966244.
+
+J. Rade, J. Zhang, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar. "Deep learning for live cell shape detection and automated afm navigation" **Bioengineering** 9 (2022): 522.
+
+M. J. Giering, K. K. Reddy, V. Venugopalan, and S. Sarkar. "Multi-modal sensor data fusion for perception systems" **US Patent 11,422,546, 2022** (2022).
 
 J. Shook, T. Gangopadhyay, L. Wu, B. Ganapathysubramanian, S. Sarkar, and A. K. Singh. "Crop yield prediction integrating genotype and weather variables using deep learning" **Plos one** 16 (2021): e0252402.
 
@@ -45,6 +53,10 @@ A. K. Singh, A. Singh, S. Sarkar, B. Ganapathysubramanian, W. Schapaugh, F. E. M
 T. Z. Jubery, C. N. Carley, A. Singh, S. Sarkar, B. Ganapathysubramanian, and A. K. Singh. "Using machine learning to develop a fully automated soybean nodule acquisition pipeline (snap)" **Plant Phenomics** (2021).
 
 T. Gangopadhyay, V. Ramanan, A. Akintayo, P. K. Boor, S. Sarkar, S. R. Chakravarthy, and S. Sarkar. "3D convolutional selective autoencoder for instability detection in combustion systems" **Energy and AI** 4 (2021): 100067.
+
+M. Jacoby, S. Y. Tan, G. Henze, and S. Sarkar. "A high-fidelity residential building occupancy detection dataset" **Scientific Data** 8 (2021): 280.
+
+C. Liu, K. G. Lore, Z. Jiang, and S. Sarkar. "Root-cause analysis for time-series anomalies via spatiotemporal graphical modeling in distributed complex systems" **Knowledge-Based Systems** 211 (2021): 106527.
 
 K. G. Falk, T. Z. Jubery, S. V. Mirnezami, K. A. Parmley, S. Sarkar, A. Singh, B. Ganapathysubramanian, and A. K. Singh. "Computer vision and machine learning enabled soybean root phenotyping pipeline" **Plant methods** 16 (2020): 5.
 
@@ -91,6 +103,8 @@ A. Havens, Z. Jiang, and S. Sarkar. "Online robust policy learning in the presen
 T. Gao, H. Emadi, H. Saha, J. Zhang, A. Lofquist, A. Singh, B. Ganapathysubramanian, S. Sarkar, A. K. Singh, and S. Bhattacharya. "A novel multirobot system for plant phenotyping" **Robotics** 7 (2018): 61.
 
 A. Ott, J. C. Schnable, C. Yeh, L. Wu, C. Liu, H. Hu, C. L. Dalgard, S. Sarkar, and P. S. Schnable. "Linked read technology for assembling large complex and polyploid genomes" **BMC genomics** 19 (2018): 651.
+
+K. G. Lore, D. Stoecklein, M. Davies, B. Ganapathysubramanian, and S. Sarkar. "A deep learning framework for causal shape transformation" **Neural Networks** 98 (2018): 305-317.
 
 K. G. Lore, A. Akintayo, and S. Sarkar. "LLNet: A deep autoencoder approach to natural low-light image enhancement" **Pattern Recognition** 61 (2017): 650-662.
 
@@ -142,6 +156,10 @@ Y. Esfandiari, S. Y. Tan, Z. Jiang, A. Balu, E. Herron, C. Hegde, and S. Sarkar.
 
 X. Y. Lee, Y. Esfandiari, K. L. Tan, and S. Sarkar. "Query-based targeted action-space adversarial policies on deep reinforcement learning agents" **Proceedings of the ACM/IEEE 12th international conference on cyber-physical …, 2021** (2021).
 
+A. Saffari, S. Y. Tan, M. Katanbaf, H. Saha, J. R. Smith, and S. Sarkar. "Battery-free camera occupancy detection system" **Proceedings of the 5th international workshop on embedded and mobile deep …, 2021** (2021).
+
+A. Balu, Z. Jiang, S. Y. Tan, C. Hedge, Y. M. Lee, and S. Sarkar. "Decentralized deep learning using momentum-accelerated consensus" **ICASSP 2021-2021 IEEE international conference on acoustics, speech and …, 2021** (2021).
+
 X. Y. Lee, S. Ghadai, K. L. Tan, C. Hegde, and S. Sarkar. "Spatiotemporally constrained action space attacks on deep reinforcement learning agents" **Proceedings of the AAAI conference on artificial intelligence** (2020).
 
 K. L. Tan, Y. Esfandiari, X. Y. Lee, and S. Sarkar. "Robustifying reinforcement learning agents via action space adversarial training" **2020 American control conference (ACC), 3959-3964, 2020** (2020).
@@ -162,6 +180,8 @@ S. Krishnamurthy, S. Sarkar, and A. Tewari. "Scalable anomaly detection and isol
 
 S. Sarkar, S. Sarkar, K. Mukherjee, A. Ray, and A. Srivastav. "Multi-sensor information fusion for fault detection in aircraft gas turbine engines" **Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering** (2013).
 
+S. Sarkar, A. Srivastav, and M. Shashanka. "Maximally bijective discretization for data-driven modeling of complex systems" **2013 American Control Conference, 2674-2679, 2013** (2013).
+
 X. Jin, Y. Guo, S. Sarkar, A. Ray, and R. M. Edwards. "Anomaly detection in nuclear power plants via symbolic dynamic filtering" **IEEE Transactions on Nuclear Science** (2010).
 
 S. Gupta, A. Ray, S. Sarkar, and M. Yasar. "Fault detection and isolation in aircraft gas turbine engines. Part 1: Underlying concept" **Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering** (2008).
@@ -175,9 +195,13 @@ PREPRINTS (ArXiv, etc.)
 
 M. Z. Hasan, J. Chen, J. Wang, M. S. Rahman, A. Joshi, S. Velipasalar, C. Hegde, A. Sharma, and S. Sarkar. "Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos" **arXiv e-prints** (2023).
 
+K. Nagasubramanian, A. K. Singh, A. Singh, S. Sarkar, and B. Ganapathysubramanian. "Usefulness of interpretability methods to explain deep learning based plant stress phenotyping" **arXiv preprint arXiv:2007.05729** (2020).
+
 V. Shah, A. Joshi, S. Ghosal, B. Pokuri, S. Sarkar, B. Ganapathysubramanian, and C. Hegde. "Encoding invariances in deep generative models" **arXiv preprint arXiv:1906.01626** (2019).
 
 S. Ghadai, X. Lee, A. Balu, S. Sarkar, and A. Krishnamurthy. "Multi-resolution 3D convolutional neural networks for object recognition" **arXiv preprint arXiv:1805.12254** (2018).
+
+R. Singh, V. Shah, B. Pokuri, S. Sarkar, B. Ganapathysubramanian, and C. Hegde. "Physics-aware deep generative models for creating synthetic microstructures" **arXiv preprint arXiv:1811.09669** (2018).
 
 
 ======================================================================

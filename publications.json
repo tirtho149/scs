@@ -1,5 +1,5 @@
 {
-  "generated_date": "2026-02-13T04:10:07.524406",
+  "generated_date": "2026-02-15T04:03:29.497650",
   "cv_last_update": "2025-10-05",
   "scholar_id": "-rmRjqIAAAAJ",
   "journal_papers": [
@@ -24,6 +24,17 @@
       "publisher": "AAAS",
       "scholar_url": "https://spj.science.org/doi/full/10.34133/plantphenomics.0235",
       "citations": 52
+    },
+    {
+      "title": "Smart connected farms and networked farmers to improve crop production, sustainability and profitability",
+      "authors": "Asheesh K Singh and Behzad J Balabaygloo and Barituka Bekee and Samuel W Blair and Suzanne Fey and Fateme Fotouhi and Ashish Gupta and Amit Jha and Jorge C Martinez-Palomares and Kevin Menke and Aaron Prestholt and Vishesh K Tanwar and Xu Tao and Anusha Vangala and Matthew E Carroll and Sajal K Das and Guilherme DePaula and Peter Kyveryga and Soumik Sarkar and Michelle Segovia and Simone Silvestri and Corinne Valdivia",
+      "venue": "Frontiers in Agronomy 6, 1410829, 2024",
+      "year": "2024",
+      "volume": "6",
+      "pages": "1410829",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fagro.2024.1410829/full",
+      "citations": 30
     },
     {
       "title": "A physics-informed feature weighting method for bearing fault diagnostics",
@@ -90,6 +101,39 @@
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0010448522000045",
       "citations": 45
+    },
+    {
+      "title": "Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean",
+      "authors": "Ashlyn Rairdin and Fateme Fotouhi and Jiaoping Zhang and Daren S Mueller and Baskar Ganapathysubramanian and Asheesh K Singh and Somak Dutta and Soumik Sarkar and Arti Singh",
+      "venue": "Frontiers in plant science",
+      "year": "2022",
+      "volume": "13",
+      "pages": "966244",
+      "publisher": "Frontiers Media SA",
+      "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpls.2022.966244/full",
+      "citations": 35
+    },
+    {
+      "title": "Deep learning for live cell shape detection and automated afm navigation",
+      "authors": "Jaydeep Rade and Juntao Zhang and Soumik Sarkar and Adarsh Krishnamurthy and Juan Ren and Anwesha Sarkar",
+      "venue": "Bioengineering",
+      "year": "2022",
+      "volume": "9",
+      "pages": "522",
+      "publisher": "MDPI",
+      "scholar_url": "https://www.mdpi.com/2306-5354/9/10/522",
+      "citations": 34
+    },
+    {
+      "title": "Multi-modal sensor data fusion for perception systems",
+      "authors": "Michael J Giering and Kishore K Reddy and Vivek Venugopalan and Soumik Sarkar",
+      "venue": "US Patent 11,422,546, 2022",
+      "year": "2022",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://patents.google.com/patent/US11422546B2/en",
+      "citations": 33
     },
     {
       "title": "Crop yield prediction integrating genotype and weather variables using deep learning",
@@ -189,6 +233,28 @@
       "publisher": "Elsevier",
       "scholar_url": "https://www.sciencedirect.com/science/article/pii/S2666546821000215",
       "citations": 41
+    },
+    {
+      "title": "A high-fidelity residential building occupancy detection dataset",
+      "authors": "Margarite Jacoby and Sin Yong Tan and Gregor Henze and Soumik Sarkar",
+      "venue": "Scientific Data",
+      "year": "2021",
+      "volume": "8",
+      "pages": "280",
+      "publisher": "Nature Publishing Group UK",
+      "scholar_url": "https://www.nature.com/articles/s41597-021-01055-x",
+      "citations": 34
+    },
+    {
+      "title": "Root-cause analysis for time-series anomalies via spatiotemporal graphical modeling in distributed complex systems",
+      "authors": "Chao Liu and Kin Gwn Lore and Zhanhong Jiang and Soumik Sarkar",
+      "venue": "Knowledge-Based Systems",
+      "year": "2021",
+      "volume": "211",
+      "pages": "106527",
+      "publisher": "Elsevier",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0950705120306560",
+      "citations": 31
     },
     {
       "title": "Computer vision and machine learning enabled soybean root phenotyping pipeline",
@@ -444,6 +510,17 @@
       "citations": 51
     },
     {
+      "title": "A deep learning framework for causal shape transformation",
+      "authors": "Kin Gwn Lore and Daniel Stoecklein and Michael Davies and Baskar Ganapathysubramanian and Soumik Sarkar",
+      "venue": "Neural Networks",
+      "year": "2018",
+      "volume": "98",
+      "pages": "305-317",
+      "publisher": "Pergamon",
+      "scholar_url": "https://www.sciencedirect.com/science/article/pii/S0893608017302885",
+      "citations": 34
+    },
+    {
       "title": "LLNet: A deep autoencoder approach to natural low-light image enhancement",
       "authors": "Kin Gwn Lore and Adedotun Akintayo and Soumik Sarkar",
       "venue": "Pattern Recognition",
@@ -677,6 +754,28 @@
       "citations": 47
     },
     {
+      "title": "Battery-free camera occupancy detection system",
+      "authors": "Ali Saffari and Sin Yong Tan and Mohamad Katanbaf and Homagni Saha and Joshua R Smith and Soumik Sarkar",
+      "venue": "Proceedings of the 5th international workshop on embedded and mobile deep …, 2021",
+      "year": "2021",
+      "volume": "",
+      "pages": "13-18",
+      "publisher": "",
+      "scholar_url": "https://dl.acm.org/doi/abs/10.1145/3469116.3470013",
+      "citations": 30
+    },
+    {
+      "title": "Decentralized deep learning using momentum-accelerated consensus",
+      "authors": "Aditya Balu and Zhanhong Jiang and Sin Yong Tan and Chinmay Hedge and Young M Lee and Soumik Sarkar",
+      "venue": "ICASSP 2021-2021 IEEE international conference on acoustics, speech and …, 2021",
+      "year": "2021",
+      "volume": "",
+      "pages": "3675-3679",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/9414564/",
+      "citations": 30
+    },
+    {
       "title": "Spatiotemporally constrained action space attacks on deep reinforcement learning agents",
       "authors": "Xian Yeow Lee and Sambit Ghadai and Kai Liang Tan and Chinmay Hegde and Soumik Sarkar",
       "venue": "Proceedings of the AAAI conference on artificial intelligence",
@@ -787,6 +886,17 @@
       "citations": 47
     },
     {
+      "title": "Maximally bijective discretization for data-driven modeling of complex systems",
+      "authors": "Soumik Sarkar and Abhishek Srivastav and Madhusudana Shashanka",
+      "venue": "2013 American Control Conference, 2674-2679, 2013",
+      "year": "2013",
+      "volume": "",
+      "pages": "2674-2679",
+      "publisher": "IEEE",
+      "scholar_url": "https://ieeexplore.ieee.org/abstract/document/6580238/",
+      "citations": 33
+    },
+    {
       "title": "Anomaly detection in nuclear power plants via symbolic dynamic filtering",
       "authors": "Xin Jin and Yin Guo and Soumik Sarkar and Asok Ray and Robert M Edwards",
       "venue": "IEEE Transactions on Nuclear Science",
@@ -833,6 +943,17 @@
       "citations": 64
     },
     {
+      "title": "Usefulness of interpretability methods to explain deep learning based plant stress phenotyping",
+      "authors": "Koushik Nagasubramanian and Asheesh K Singh and Arti Singh and Soumik Sarkar and Baskar Ganapathysubramanian",
+      "venue": "arXiv preprint arXiv:2007.05729",
+      "year": "2020",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/2007.05729",
+      "citations": 31
+    },
+    {
       "title": "Encoding invariances in deep generative models",
       "authors": "Viraj Shah and Ameya Joshi and Sambuddha Ghosal and Balaji Pokuri and Soumik Sarkar and Baskar Ganapathysubramanian and Chinmay Hegde",
       "venue": "arXiv preprint arXiv:1906.01626",
@@ -853,13 +974,24 @@
       "publisher": "",
       "scholar_url": "https://www.researchgate.net/profile/Aditya-Balu/publication/325483764_Multi-Resolution_3D_Convolutional_Neural_Networks_for_Object_Recognition/links/5ba8157e45851574f7e19be4/Multi-Resolution-3D-Convolutional-Neural-Networks-for-Object-Recognition.pdf",
       "citations": 43
+    },
+    {
+      "title": "Physics-aware deep generative models for creating synthetic microstructures",
+      "authors": "Rahul Singh and Viraj Shah and Balaji Pokuri and Soumik Sarkar and Baskar Ganapathysubramanian and Chinmay Hegde",
+      "venue": "arXiv preprint arXiv:1811.09669",
+      "year": "2018",
+      "volume": "",
+      "pages": "",
+      "publisher": "",
+      "scholar_url": "https://arxiv.org/abs/1811.09669",
+      "citations": 35
     }
   ],
   "statistics": {
     "total_found": 405,
-    "new_journals": 58,
-    "new_conferences": 16,
-    "new_preprints": 3,
-    "processing_time_seconds": 10571.02
+    "new_journals": 65,
+    "new_conferences": 19,
+    "new_preprints": 5,
+    "processing_time_seconds": 10232.72
   }
 }
