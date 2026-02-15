@@ -51,18 +51,26 @@ print("  ✅ Tor SOCKS5 proxy configured!\n")
 # TOR CIRCUIT RENEWAL
 # ----------------------------
 def renew_tor_circuit():
-    """Request a new Tor exit node via the control port."""
+    """Request a new Tor exit node via raw socket to control port.
+    Uses plain TCP instead of stem so there is no library dependency
+    and no authentication token file to locate."""
     try:
-        from stem import Signal
-        from stem.control import Controller
-        with Controller.from_port(port=9051) as ctrl:
-            ctrl.authenticate()
-            ctrl.signal(Signal.NEWNYM)
-        print("  🔄 Tor circuit renewed — new exit node assigned")
-        time.sleep(6)   # Wait for circuit to build
-        return True
+        import socket
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.settimeout(10)
+        s.connect(('127.0.0.1', 9051))
+        s.sendall(b'AUTHENTICATE ""\r\nSIGNAL NEWNYM\r\nQUIT\r\n')
+        resp = s.recv(1024).decode()
+        s.close()
+        if '250' in resp:
+            print("  🔄 Tor circuit renewed — new exit node assigned")
+            time.sleep(6)
+            return True
+        else:
+            print(f"  ⚠️  Unexpected control port response: {resp[:80]}")
+            return False
     except Exception as e:
-        print(f"  ⚠️  Circuit renewal failed (stem not available?): {e}")
+        print(f"  ⚠️  Circuit renewal failed: {e}")
         return False
 
 # ----------------------------
