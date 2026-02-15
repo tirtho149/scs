@@ -26,76 +26,110 @@ jobs:
       - name: Install Tor and configure BEFORE starting
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y tor
+          sudo apt-get install -y tor netcat-openbsd
 
-          # Write full config BEFORE starting Tor
-          # (appending after start is too late — service must restart to pick it up)
-          sudo tee /etc/tor/torrc > /dev/null <<'EOF'
-          SocksPort 9050
-          ControlPort 9051
-          CookieAuthentication 0
-          HashedControlPassword ""
-          MaxCircuitDirtiness 10
-          NewCircuitPeriod 10
-          EOF
+          # Stop Tor if apt auto-started it with the default config
+          sudo service tor stop || true
 
-          # Start Tor with the new config
+          # Write torrc flush-left — any leading whitespace makes Tor reject the file
+          sudo bash -c 'cat > /etc/tor/torrc << "TOREOF"
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 0
+HashedControlPassword ""
+MaxCircuitDirtiness 10
+NewCircuitPeriod 10
+Log notice file /var/log/tor/notices.log
+TOREOF'
+
+          echo "--- /etc/tor/torrc ---"
+          cat /etc/tor/torrc
+          echo "----------------------"
+
           sudo service tor start
 
-          # Wait for full bootstrap by polling the log
           echo "Waiting for Tor bootstrap..."
           for i in $(seq 1 60); do
-            if sudo grep -q "Bootstrapped 100%" /var/log/tor/log 2>/dev/null; then
-              echo "✅ Tor bootstrapped at iteration $i"
+            if sudo grep -q "Bootstrapped 100%" /var/log/tor/notices.log 2>/dev/null \
+            || sudo grep -q "Bootstrapped 100%" /var/log/tor/log 2>/dev/null; then
+              echo "Tor bootstrapped at iteration $i"
               break
             fi
             sleep 2
           done
 
-          # Verify SOCKS port is listening
-          echo "Checking SOCKS port 9050..."
-          nc -z 127.0.0.1 9050 && echo "✅ SOCKS port open" || echo "❌ SOCKS port not open"
+          nc -z 127.0.0.1 9050 && echo "SOCKS port 9050 open" \
+            || { echo "SOCKS port not open - aborting"; exit 1; }
 
-          # Verify control port is listening
-          echo "Checking control port 9051..."
-          nc -z 127.0.0.1 9051 && echo "✅ Control port open" || echo "❌ Control port not open"
+          nc -z 127.0.0.1 9051 && echo "Control port 9051 open" \
+            || { echo "Control port not open - aborting"; exit 1; }
 
-          # Show current exit IP
+          echo "Initial exit IP:"
           curl -s --socks5-hostname 127.0.0.1:9050 https://api.ipify.org && echo ""
 
-      - name: Rotate Tor circuit before first Scholar request
+      - name: Find a clean Tor exit node for Google Scholar
         run: |
-          # The initial exit node may already be blocked by Google Scholar.
-          # Request a new identity 3 times to maximise chance of a clean exit node.
           python3 - <<'EOF'
-          import socket, time
+          import socket, time, requests, sys
 
-          def send_newnym():
+          TOR_PROXIES = {
+              'http':  'socks5h://127.0.0.1:9050',
+              'https': 'socks5h://127.0.0.1:9050',
+          }
+          HEADERS = {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0'
+          }
+
+          def renew():
               try:
                   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                  s.settimeout(10)
                   s.connect(('127.0.0.1', 9051))
                   s.sendall(b'AUTHENTICATE ""\r\nSIGNAL NEWNYM\r\nQUIT\r\n')
                   resp = s.recv(1024).decode()
                   s.close()
                   return '250' in resp
               except Exception as e:
-                  print(f'  ⚠️  Raw socket NEWNYM failed: {e}')
+                  print(f'  renew failed: {e}')
                   return False
 
-          for i in range(3):
-              print(f'  Rotating circuit {i+1}/3...')
-              ok = send_newnym()
-              print(f'  {"✅ Done" if ok else "⚠️  Failed"}')
+          def get_ip():
+              try:
+                  return requests.get('https://api.ipify.org',
+                                      proxies=TOR_PROXIES, timeout=15).text.strip()
+              except Exception:
+                  return 'unknown'
+
+          def scholar_ok():
+              try:
+                  r = requests.get('https://scholar.google.com',
+                                   proxies=TOR_PROXIES,
+                                   headers=HEADERS,
+                                   timeout=20)
+                  bad = ('unusual traffic' in r.text.lower() or
+                         'captcha' in r.text.lower() or
+                         r.status_code in (429, 503))
+                  return not bad
+              except Exception:
+                  return False
+
+          for probe in range(1, 16):
+              ip = get_ip()
+              print(f'Probe {probe}/15 — exit IP: {ip}', end=' ', flush=True)
+              if scholar_ok():
+                  print('CLEAN - proceeding')
+                  sys.exit(0)
+              print('BLOCKED - rotating...')
+              renew()
               time.sleep(8)
 
-          print('Circuit rotation complete.')
+          print('WARNING: Could not find clean node in 15 probes — script may fail')
           EOF
 
-          # Show new exit IP
-          echo "New exit IP:"
+          echo "Final exit IP:"
           curl -s --socks5-hostname 127.0.0.1:9050 https://api.ipify.org && echo ""
 
-      - name: Pre-install geckodriver
+      - name: Pre-install geckodriver (scholarly Firefox fallback)
         run: |
           GECKO_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest \
             | python3 -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
