@@ -1,3 +1,4 @@
 scholarly
 requests[socks]
-pysocks
+PySocks
+stem
