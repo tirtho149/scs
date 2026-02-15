@@ -1,5 +1,4 @@
 name: Update Scholar CV
-
 on:
   push:
     branches: ["main"]
@@ -10,15 +9,12 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -27,19 +23,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run CV Script
-        run: |
-          python cv+.py   # or cv+.py if that's your file
+      - name: Run CV script
+        run: python cv+.py
 
       - name: Commit and push results
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          git add cv_formatted.txt publications.json || true
-          
-          if git commit -m "Auto-update CV"; then
-            git push
-          else
+
+          git add cv_formatted.txt publications.json
+
+          if git diff --staged --quiet; then
             echo "No changes to commit"
+          else
+            git commit -m "Auto-update CV"
+            git push
           fi
