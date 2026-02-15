@@ -1,7 +1,6 @@
 from scholarly import scholarly
 import time
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
 import random
 import json
 from datetime import datetime
@@ -10,73 +9,118 @@ import os
 # ----------------------------
 # CONFIGURATION
 # ----------------------------
-SCHOLAR_ID = "-rmRjqIAAAAJ"  # Soumik Sarkar's Google Scholar ID
-CV_LAST_UPDATE_DATE = "2025-10-05"  # Date from your CV
+SCHOLAR_ID = "-rmRjqIAAAAJ"
+CV_LAST_UPDATE_DATE = "2025-10-05"
 OUTPUT_JSON = "publications.json"
 OUTPUT_CV_FORMAT = "cv_formatted.txt"
-MAX_WORKERS = 1  # Reduced to 1 for GitHub Actions
-MIN_DELAY = 3.0  # Increased delays for GitHub Actions
-MAX_DELAY = 5.0
-MAX_RETRIES = 5  # More retries for GitHub Actions
+CHECKPOINT_FILE = "checkpoint.json"   # ← NEW: saves progress
+MAX_WORKERS = 1
+MIN_DELAY = 8.0    # ← increased: more human-like
+MAX_DELAY = 15.0   # ← increased
+MAX_RETRIES = 5
+CIRCUIT_RENEW_AFTER = 20  # ← NEW: renew Tor circuit every N publications
 
-# Keywords to identify conference vs journal papers
 CONFERENCE_KEYWORDS = [
     'conference', 'proceedings', 'workshop', 'symposium', 'meeting',
     'nips', 'neurips', 'icml', 'cvpr', 'iccv', 'eccv', 'aaai', 'ijcai',
     'iclr', 'acm', 'ieee', 'iccps', 'acc', 'cdc', 'dscc', 'mecc',
     'allerton', 'siam', 'asilomar', 'hpec'
 ]
-
-# Keywords to identify preprints
 PREPRINT_KEYWORDS = ['arxiv', 'preprint', 'biorxiv', 'medrxiv', 'ssrn']
 
 # ----------------------------
-# SETUP PROXY
+# SETUP TOR PROXY
 # ----------------------------
 print("🔧 Setting up Tor SOCKS5 proxy...")
-proxy_working = False
 
-try:
-    # Set SOCKS5 proxy via environment variables (most compatible method)
-    os.environ['http_proxy'] = 'socks5h://127.0.0.1:9050'
-    os.environ['https_proxy'] = 'socks5h://127.0.0.1:9050'
-    os.environ['HTTP_PROXY'] = 'socks5h://127.0.0.1:9050'
-    os.environ['HTTPS_PROXY'] = 'socks5h://127.0.0.1:9050'
-    
-    print("  ✅ Tor SOCKS5 proxy configured!")
-    proxy_working = True
-    
-except Exception as e:
-    print(f"  ❌ Proxy setup error: {e}")
+os.environ['http_proxy'] = 'socks5h://127.0.0.1:9050'
+os.environ['https_proxy'] = 'socks5h://127.0.0.1:9050'
+os.environ['HTTP_PROXY'] = 'socks5h://127.0.0.1:9050'
+os.environ['HTTPS_PROXY'] = 'socks5h://127.0.0.1:9050'
 
-if not proxy_working:
-    print("\n❌ Could not configure proxy!")
-    exit(1)
+# ← NEW: Block scholarly from trying to use Firefox/geckodriver at all.
+# scholarly falls back to Selenium when it detects a CAPTCHA, but in
+# GitHub Actions geckodriver can't be downloaded.  Setting this env var
+# tells webdriver-manager to look only locally (it will fail fast and
+# cleanly instead of hanging for minutes on a network request).
+os.environ['WDM_LOCAL'] = '1'
 
-print()
+print("  ✅ Tor SOCKS5 proxy configured!\n")
 
-# Test connection
+# ----------------------------
+# TOR CIRCUIT RENEWAL
+# ----------------------------
+def renew_tor_circuit():
+    """Request a new Tor exit node via the control port."""
+    try:
+        from stem import Signal
+        from stem.control import Controller
+        with Controller.from_port(port=9051) as ctrl:
+            ctrl.authenticate()
+            ctrl.signal(Signal.NEWNYM)
+        print("  🔄 Tor circuit renewed — new exit node assigned")
+        time.sleep(6)   # Wait for circuit to build
+        return True
+    except Exception as e:
+        print(f"  ⚠️  Circuit renewal failed (stem not available?): {e}")
+        return False
+
+# ----------------------------
+# TEST TOR CONNECTION
+# ----------------------------
 print("🔍 Testing Tor connection...")
 try:
     import requests
-    response = requests.get('https://check.torproject.org/api/ip', 
-                          proxies={
-                              'http': 'socks5h://127.0.0.1:9050',
-                              'https': 'socks5h://127.0.0.1:9050'
-                          },
-                          timeout=30)
-    if response.json().get('IsTor'):
-        print("  ✅ Connected through Tor network!")
+    response = requests.get(
+        'https://check.torproject.org/api/ip',
+        proxies={'http': 'socks5h://127.0.0.1:9050',
+                 'https': 'socks5h://127.0.0.1:9050'},
+        timeout=30
+    )
+    data = response.json()
+    if data.get('IsTor'):
+        print(f"  ✅ Connected through Tor! Exit IP: {data.get('IP', 'unknown')}\n")
     else:
-        print("  ⚠️  Warning: Not connected through Tor")
+        print(f"  ⚠️  Not through Tor (IP: {data.get('IP', 'unknown')}), proceeding anyway\n")
 except Exception as e:
-    print(f"  ⚠️  Could not verify Tor connection: {e}")
-    print("  Proceeding anyway...")
-
-print()
+    print(f"  ⚠️  Tor check failed: {e}\n  Proceeding anyway...\n")
 
 # ----------------------------
-# FETCH AUTHOR DATA WITH RETRIES
+# CHECKPOINT HELPERS
+# ----------------------------
+def load_checkpoint():
+    """Load previously saved progress."""
+    if os.path.exists(CHECKPOINT_FILE):
+        try:
+            with open(CHECKPOINT_FILE, 'r') as f:
+                data = json.load(f)
+            print(f"📂 Checkpoint found — resuming from publication {data['next_idx']} / {data['total']}")
+            return data
+        except Exception as e:
+            print(f"⚠️  Could not read checkpoint: {e}. Starting fresh.")
+    return None
+
+def save_checkpoint(next_idx, total, journals, conferences, preprints_list):
+    """Persist progress so a crash can be resumed."""
+    try:
+        with open(CHECKPOINT_FILE, 'w') as f:
+            json.dump({
+                'next_idx': next_idx,
+                'total': total,
+                'journal_papers': journals,
+                'conference_papers': conferences,
+                'preprints': preprints_list,
+                'saved_at': datetime.now().isoformat()
+            }, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"  ⚠️  Could not save checkpoint: {e}")
+
+def clear_checkpoint():
+    if os.path.exists(CHECKPOINT_FILE):
+        os.remove(CHECKPOINT_FILE)
+
+# ----------------------------
+# FETCH AUTHOR PROFILE
 # ----------------------------
 print("🔍 Fetching author profile from Google Scholar...")
 
@@ -84,39 +128,25 @@ author = None
 for attempt in range(MAX_RETRIES):
     try:
         print(f"  Attempt {attempt + 1}/{MAX_RETRIES}...")
-        
-        # Add delay before each attempt
         if attempt > 0:
-            wait_time = 2 ** attempt  # Exponential backoff
-            print(f"  Waiting {wait_time} seconds...")
-            time.sleep(wait_time)
-        
-        # Search for author
+            wait = 2 ** attempt
+            print(f"  Waiting {wait}s...")
+            time.sleep(wait)
+            renew_tor_circuit()
+
         search_query = scholarly.search_author_id(SCHOLAR_ID)
-        
-        # Check if we got a result
         if search_query is None:
-            print(f"  ⚠️  Got None from search, retrying...")
+            print("  ⚠️  Got None, retrying...")
             continue
-            
-        # Fill the author details
+
         author = scholarly.fill(search_query, sections=["publications"])
-        
-        # Verify we have publications
         if author and 'publications' in author:
             print(f"  ✅ Found {len(author['publications'])} publications\n")
             break
         else:
-            print(f"  ⚠️  No publications found, retrying...")
+            print("  ⚠️  No publications found, retrying...")
             author = None
-            
-    except AttributeError as e:
-        print(f"  ⚠️  AttributeError: {e}")
-        if attempt == MAX_RETRIES - 1:
-            print(f"\n❌ Failed after {MAX_RETRIES} attempts")
-            print("Google Scholar might be blocking requests.")
-            print("Try running this script locally with Tor, or wait and retry later.")
-            exit(1)
+
     except Exception as e:
         print(f"  ⚠️  Error: {e}")
         if attempt == MAX_RETRIES - 1:
@@ -124,193 +154,123 @@ for attempt in range(MAX_RETRIES):
             exit(1)
 
 if author is None:
-    print("\n❌ Could not fetch author data after all retries")
+    print("\n❌ Could not fetch author data")
     exit(1)
-
-# Storage for categorized publications
-journal_papers = []
-conference_papers = []
-preprints = []
 
 # ----------------------------
 # HELPER FUNCTIONS
 # ----------------------------
 def safe_str(value):
-    """Convert any value to a safe string"""
-    if value is None:
-        return ""
-    return str(value).strip()
+    return "" if value is None else str(value).strip()
 
 def random_delay():
-    """Random delay to avoid pattern detection"""
-    time.sleep(random.uniform(MIN_DELAY, MAX_DELAY))
+    delay = random.uniform(MIN_DELAY, MAX_DELAY)
+    time.sleep(delay)
 
 def is_preprint(venue):
-    """Check if publication is a preprint"""
-    venue_lower = venue.lower()
-    return any(keyword in venue_lower for keyword in PREPRINT_KEYWORDS)
+    return any(k in venue.lower() for k in PREPRINT_KEYWORDS)
 
 def is_conference(venue):
-    """Check if publication is a conference paper"""
-    venue_lower = venue.lower()
-    return any(keyword in venue_lower for keyword in CONFERENCE_KEYWORDS)
+    return any(k in venue.lower() for k in CONFERENCE_KEYWORDS)
 
 def format_authors_initials(authors_str):
-    """
-    Convert authors string to 'Initial. Last' style separated by commas and 'and' before last author.
-    Example: "Henry C Croll and Kaoru Ikuma" -> "H. C. Croll, and K. Ikuma"
-    """
     if not authors_str:
         return ""
-    
-    # Split by 'and' to separate authors
     authors = [a.strip() for a in re.split(r'\s+and\s+', authors_str)]
     formatted = []
-    
     for name in authors:
         parts = name.split()
         if len(parts) == 1:
             formatted.append(parts[0])
         else:
-            # Get initials for all but last name
             initials = [p[0] + "." for p in parts[:-1]]
             formatted.append(" ".join(initials) + " " + parts[-1])
-    
-    # Join with commas and 'and' before last author
     if len(formatted) > 1:
         return ", ".join(formatted[:-1]) + ", and " + formatted[-1]
     return formatted[0]
 
 def format_journal_entry_cv_style(pub_data):
-    """
-    Format journal paper in the exact desired style:
-    Authors. "Title" **Journal** volume (year): pages.
-    """
     authors = format_authors_initials(pub_data['authors'])
-    title = pub_data['title']
-    journal = pub_data['venue']
-    year = pub_data['year']
-    volume = pub_data.get('volume', '')
-    pages = pub_data.get('pages', '')
-    
-    # Build citation
-    entry = f'{authors}. "{title}" **{journal}**'
-    
-    if volume:
-        entry += f' {volume}'
-    
-    if year:
-        entry += f' ({year})'
-    
-    if pages:
-        entry += f': {pages}'
-    
-    entry += '.'
-    
-    return entry
+    entry = f'{authors}. "{pub_data["title"]}" **{pub_data["venue"]}**'
+    if pub_data.get('volume'):
+        entry += f' {pub_data["volume"]}'
+    if pub_data.get('year'):
+        entry += f' ({pub_data["year"]})'
+    if pub_data.get('pages'):
+        entry += f': {pub_data["pages"]}'
+    return entry + '.'
 
 def format_conference_entry_cv_style(pub_data):
-    """
-    Format conference paper in the exact desired style:
-    Authors. "Title" **Conference** (year).
-    """
     authors = format_authors_initials(pub_data['authors'])
-    title = pub_data['title']
-    venue = pub_data['venue']
-    year = pub_data['year']
-    
-    # Build citation
-    entry = f'{authors}. "{title}" **{venue}**'
-    
-    if year:
-        entry += f' ({year})'
-    
-    entry += '.'
-    
-    return entry
+    entry = f'{authors}. "{pub_data["title"]}" **{pub_data["venue"]}**'
+    if pub_data.get('year'):
+        entry += f' ({pub_data["year"]})'
+    return entry + '.'
 
 def check_if_in_cv(title, existing_cv_text):
-    """
-    Check if a publication title already exists in the CV
-    """
     if not existing_cv_text:
         return False
-        
-    # Clean the title for comparison
     clean_title = re.sub(r'[^\w\s]', '', title.lower())
     clean_cv = re.sub(r'[^\w\s]', '', existing_cv_text.lower())
-    
-    # Check for substantial match (80% of words)
     title_words = set(clean_title.split())
-    if len(title_words) == 0:
+    if not title_words:
         return False
-    
-    matches = sum(1 for word in title_words if word in clean_cv and len(word) > 3)
-    match_ratio = matches / len(title_words)
-    
-    return match_ratio > 0.8
+    matches = sum(1 for w in title_words if w in clean_cv and len(w) > 3)
+    return (matches / len(title_words)) > 0.8
 
 def process_publication(idx, pub, total, existing_cv_text):
-    """Process a single publication with retries"""
+    """Fetch one publication with retries + circuit renewal on block."""
     for attempt in range(MAX_RETRIES):
         try:
             print(f"[{idx}/{total}] Fetching...", end="", flush=True)
-            
-            # Fetch full publication data
             full_pub = scholarly.fill(pub)
-            bib_info = full_pub.get("bib", {})
-            
-            title = safe_str(bib_info.get("title"))
-            venue = safe_str(bib_info.get("venue") or bib_info.get("journal") or bib_info.get("citation"))
-            year = safe_str(bib_info.get("pub_year"))
-            authors = safe_str(bib_info.get("author"))
-            
-            # Get additional info
-            volume = safe_str(bib_info.get("volume"))
-            pages = safe_str(bib_info.get("pages"))
-            publisher = safe_str(bib_info.get("publisher"))
-            
+            bib = full_pub.get("bib", {})
+
+            title   = safe_str(bib.get("title"))
+            venue   = safe_str(bib.get("venue") or bib.get("journal") or bib.get("citation"))
+            year    = safe_str(bib.get("pub_year"))
+            authors = safe_str(bib.get("author"))
+            volume  = safe_str(bib.get("volume"))
+            pages   = safe_str(bib.get("pages"))
+            publisher = safe_str(bib.get("publisher"))
+
             if not title:
-                print(f" ⚠️  No title, skipped")
+                print(" ⚠️  No title, skipped")
                 return None
-            
-            # Check if already in CV
+
             if check_if_in_cv(title, existing_cv_text):
                 print(f" ⏭️  Already in CV: {title[:40]}...")
                 return None
-            
-            # Categorize publication
+
             pub_data = {
-                'title': title,
-                'authors': authors,
-                'venue': venue,
-                'year': year,
-                'volume': volume,
-                'pages': pages,
+                'title': title, 'authors': authors, 'venue': venue,
+                'year': year, 'volume': volume, 'pages': pages,
                 'publisher': publisher,
                 'scholar_url': full_pub.get('pub_url', ''),
                 'citations': full_pub.get('num_citations', 0)
             }
-            
+
             if is_preprint(venue):
-                pub_type = "PREPRINT"
-                category = "preprint"
+                pub_type, category = "PREPRINT", "preprint"
             elif is_conference(venue):
-                pub_type = "CONFERENCE"
-                category = "conference"
+                pub_type, category = "CONFERENCE", "conference"
             else:
-                pub_type = "JOURNAL"
-                category = "journal"
-            
+                pub_type, category = "JOURNAL", "journal"
+
             print(f" ✅ {year} - {title[:40]}... ({pub_type})")
-            
             random_delay()
             return (pub_data, category)
-            
+
         except Exception as e:
+            err_str = str(e)
             if attempt < MAX_RETRIES - 1:
                 print(f" ⚠️  Retry {attempt + 1}/{MAX_RETRIES}...", end="", flush=True)
-                time.sleep(2 ** attempt)
+                # ← NEW: renew circuit on block, not just wait
+                if "Cannot Fetch" in err_str or "blocked" in err_str.lower() or attempt >= 1:
+                    print()
+                    renew_tor_circuit()
+                else:
+                    time.sleep(2 ** attempt)
             else:
                 print(f" ❌ Failed after {MAX_RETRIES} attempts: {e}")
                 return None
@@ -320,39 +280,49 @@ def process_publication(idx, pub, total, existing_cv_text):
 # ----------------------------
 print("📄 Loading existing CV to check for duplicates...")
 existing_cv_text = ""
-try:
-    cv_filenames = ['cv_draft.txt', 'CV.txt', 'vita.txt', 'faculty_vita.txt']
-    cv_loaded = False
-    
-    for filename in cv_filenames:
-        try:
-            with open(filename, 'r', encoding='utf-8') as f:
-                existing_cv_text = f.read()
-            print(f"✅ CV loaded from {filename}\n")
-            cv_loaded = True
-            break
-        except FileNotFoundError:
-            continue
-    
-    if not cv_loaded:
-        print("⚠️  CV file not found. Will process all publications.\n")
-        
-except Exception as e:
-    print(f"⚠️  Error loading CV: {e}")
-    print("Will process all publications.\n")
-    existing_cv_text = ""
+for filename in ['cv_draft.txt', 'CV.txt', 'vita.txt', 'faculty_vita.txt']:
+    try:
+        with open(filename, 'r', encoding='utf-8') as f:
+            existing_cv_text = f.read()
+        print(f"✅ CV loaded from {filename}\n")
+        break
+    except FileNotFoundError:
+        continue
+else:
+    print("⚠️  No CV file found — will process all publications.\n")
+
+# ----------------------------
+# LOAD CHECKPOINT OR START FRESH
+# ----------------------------
+checkpoint = load_checkpoint()
+total = len(author["publications"])
+
+if checkpoint and checkpoint.get('total') == total:
+    start_idx   = checkpoint['next_idx']        # 0-based index to resume at
+    journal_papers    = checkpoint['journal_papers']
+    conference_papers = checkpoint['conference_papers']
+    preprints         = checkpoint['preprints']
+    print(f"▶️  Resuming from [{start_idx + 1}/{total}]\n")
+else:
+    if checkpoint:
+        print("⚠️  Checkpoint total mismatch (Scholar count changed?) — starting fresh\n")
+    start_idx         = 0
+    journal_papers    = []
+    conference_papers = []
+    preprints         = []
 
 # ----------------------------
 # PROCESS PUBLICATIONS
 # ----------------------------
-total = len(author["publications"])
 print("=" * 70)
 print(f"🚀 Processing {total} publications...\n")
-
 start_time = time.time()
 
-# Process sequentially for GitHub Actions (more reliable)
 for idx, pub in enumerate(author["publications"], 1):
+    # Skip already-processed entries
+    if idx - 1 < start_idx:
+        continue
+
     result = process_publication(idx, pub, total, existing_cv_text)
     if result:
         pub_data, category = result
@@ -363,84 +333,84 @@ for idx, pub in enumerate(author["publications"], 1):
         else:
             journal_papers.append(pub_data)
 
+    # ← NEW: save checkpoint after every publication
+    save_checkpoint(idx, total, journal_papers, conference_papers, preprints)
+
+    # ← NEW: proactively renew circuit every N pubs to stay ahead of blocks
+    if idx % CIRCUIT_RENEW_AFTER == 0:
+        print(f"\n  🔄 Proactive circuit renewal at [{idx}/{total}]...")
+        renew_tor_circuit()
+
 elapsed = time.time() - start_time
 print("\n" + "=" * 70)
 
 # ----------------------------
-# SORT BY YEAR (NEWEST FIRST)
+# SORT BY YEAR
 # ----------------------------
 journal_papers.sort(key=lambda x: x.get('year', '0'), reverse=True)
 conference_papers.sort(key=lambda x: x.get('year', '0'), reverse=True)
 preprints.sort(key=lambda x: x.get('year', '0'), reverse=True)
 
 # ----------------------------
-# GENERATE CV-FORMATTED OUTPUT
+# GENERATE CV OUTPUT
 # ----------------------------
 print("\n💾 Generating CV-formatted additions...")
+cv_output = [
+    "=" * 70,
+    "NEW PUBLICATIONS TO ADD TO CV",
+    "=" * 70,
+    f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+    f"From Google Scholar ID: {SCHOLAR_ID}",
+    ""
+]
 
-cv_output = []
-cv_output.append("=" * 70)
-cv_output.append("NEW PUBLICATIONS TO ADD TO CV")
-cv_output.append("=" * 70)
-cv_output.append(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-cv_output.append(f"From Google Scholar ID: {SCHOLAR_ID}")
-cv_output.append("")
-
-# Journal Papers
 if journal_papers:
-    cv_output.append("\n" + "=" * 70)
-    cv_output.append("JOURNAL PAPERS")
-    cv_output.append("Add to Section: II.A.1 - Articles in Peer-Reviewed Journals")
-    cv_output.append("=" * 70)
-    cv_output.append("\nDuring ISU appointment\n")
-    
+    cv_output += [
+        "\n" + "=" * 70,
+        "JOURNAL PAPERS",
+        "Add to Section: II.A.1 - Articles in Peer-Reviewed Journals",
+        "=" * 70,
+        "\nDuring ISU appointment\n",
+    ]
     for pub in journal_papers:
-        entry = format_journal_entry_cv_style(pub)
-        cv_output.append(entry)
-        cv_output.append("")
+        cv_output += [format_journal_entry_cv_style(pub), ""]
 
-# Conference Papers
 if conference_papers:
-    cv_output.append("\n" + "=" * 70)
-    cv_output.append("CONFERENCE PAPERS")
-    cv_output.append("Add to Section: II.A.3 - Peer-Reviewed Conference Proceedings")
-    cv_output.append("=" * 70)
-    cv_output.append("\nDuring ISU appointment\n")
-    
+    cv_output += [
+        "\n" + "=" * 70,
+        "CONFERENCE PAPERS",
+        "Add to Section: II.A.3 - Peer-Reviewed Conference Proceedings",
+        "=" * 70,
+        "\nDuring ISU appointment\n",
+    ]
     for pub in conference_papers:
-        entry = format_conference_entry_cv_style(pub)
-        cv_output.append(entry)
-        cv_output.append("")
+        cv_output += [format_conference_entry_cv_style(pub), ""]
 
-# Preprints
 if preprints:
-    cv_output.append("\n" + "=" * 70)
-    cv_output.append("PREPRINTS (ArXiv, etc.)")
-    cv_output.append("=" * 70)
-    cv_output.append("")
-    
+    cv_output += [
+        "\n" + "=" * 70,
+        "PREPRINTS (ArXiv, etc.)",
+        "=" * 70, ""
+    ]
     for pub in preprints:
-        entry = format_conference_entry_cv_style(pub)
-        cv_output.append(entry)
-        cv_output.append("")
+        cv_output += [format_conference_entry_cv_style(pub), ""]
 
-# Add manual review notes
-cv_output.append("\n" + "=" * 70)
-cv_output.append("MANUAL REVIEW REQUIRED")
-cv_output.append("=" * 70)
-cv_output.append("")
-cv_output.append("Before adding to your CV, please:")
-cv_output.append("1. Mark graduate students with + after their names")
-cv_output.append("2. Mark undergraduate students with * after their names")
-cv_output.append("3. Verify all author names and initials")
-cv_output.append("4. Check volume and page numbers for accuracy")
-cv_output.append("5. Verify journal/conference names")
-cv_output.append("6. Add numbering to each section")
-cv_output.append("7. Update the CV date at the top of the document")
-cv_output.append("8. Note: Journal/conference names are in **bold** (use Word bold formatting)")
-cv_output.append("")
+cv_output += [
+    "\n" + "=" * 70,
+    "MANUAL REVIEW REQUIRED",
+    "=" * 70, "",
+    "Before adding to your CV, please:",
+    "1. Mark graduate students with + after their names",
+    "2. Mark undergraduate students with * after their names",
+    "3. Verify all author names and initials",
+    "4. Check volume and page numbers for accuracy",
+    "5. Verify journal/conference names",
+    "6. Add numbering to each section",
+    "7. Update the CV date at the top of the document",
+    "8. Note: Journal/conference names are in **bold** (use Word bold formatting)",
+    ""
+]
 
-# Save CV-formatted output
 with open(OUTPUT_CV_FORMAT, 'w', encoding='utf-8') as f:
     f.write('\n'.join(cv_output))
 
@@ -455,16 +425,18 @@ json_output = {
     'conference_papers': conference_papers,
     'preprints': preprints,
     'statistics': {
-        'total_found': len(author["publications"]),
+        'total_found': total,
         'new_journals': len(journal_papers),
         'new_conferences': len(conference_papers),
         'new_preprints': len(preprints),
         'processing_time_seconds': round(elapsed, 2)
     }
 }
-
 with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
     json.dump(json_output, f, indent=2, ensure_ascii=False)
+
+# ← Clean up checkpoint on successful completion
+clear_checkpoint()
 
 # ----------------------------
 # SUMMARY
@@ -472,15 +444,11 @@ with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
 print("\n✨ SYNC COMPLETE!\n")
 print("📊 Summary:")
 print(f"   ⏱️  Time: {elapsed:.1f}s")
-print(f"   📚 New Journal Papers: {len(journal_papers)}")
+print(f"   📚 New Journal Papers:    {len(journal_papers)}")
 print(f"   📄 New Conference Papers: {len(conference_papers)}")
-print(f"   📝 New Preprints: {len(preprints)}")
-print(f"   ✅ Total New Publications: {len(journal_papers) + len(conference_papers) + len(preprints)}")
-
-print("\n📝 Output Files:")
-print(f"   1. {OUTPUT_CV_FORMAT} - CV-formatted entries")
-print(f"   2. {OUTPUT_JSON} - Detailed JSON")
-
+print(f"   📝 New Preprints:         {len(preprints)}")
+print(f"   ✅ Total New:             {len(journal_papers) + len(conference_papers) + len(preprints)}")
+print(f"\n📝 Output files: {OUTPUT_CV_FORMAT}, {OUTPUT_JSON}")
 print("\n" + "=" * 70)
 print("✅ Done!")
 print("=" * 70)
