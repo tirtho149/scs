@@ -1,14 +1,18 @@
 name: Update Scholar CV
+
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    # Runs daily at midnight Iowa time (CDT = UTC-5 → 05:00 UTC)
+    - cron: "0 5 * * *"
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -23,46 +27,39 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Tor and configure BEFORE starting
+      - name: Install Tor and configure
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y tor netcat-openbsd
+          sudo apt-get install -y tor netcat-openbsd curl wget firefox
 
-          # Stop Tor if apt auto-started it with the default config
-          sudo service tor stop || true
+          # Stop Tor if auto-started
+          sudo systemctl stop tor || sudo service tor stop || true
 
-          # Write torrc flush-left — any leading whitespace makes Tor reject the file
-          sudo bash -c 'cat > /etc/tor/torrc << "TOREOF"
+          # Clean torrc (no indentation!)
+          sudo bash -c 'cat > /etc/tor/torrc << "EOF"
 SocksPort 9050
 ControlPort 9051
-CookieAuthentication 0
-HashedControlPassword ""
+CookieAuthentication 1
 MaxCircuitDirtiness 10
 NewCircuitPeriod 10
 Log notice file /var/log/tor/notices.log
-TOREOF'
+EOF'
 
           echo "--- /etc/tor/torrc ---"
           cat /etc/tor/torrc
           echo "----------------------"
 
-          sudo service tor start
+          # Start Tor
+          sudo systemctl start tor || sudo service tor start
 
-          echo "Waiting for Tor bootstrap..."
+          echo "Waiting for Tor to open port..."
           for i in $(seq 1 60); do
-            if sudo grep -q "Bootstrapped 100%" /var/log/tor/notices.log 2>/dev/null \
-            || sudo grep -q "Bootstrapped 100%" /var/log/tor/log 2>/dev/null; then
-              echo "Tor bootstrapped at iteration $i"
-              break
-            fi
+            nc -z 127.0.0.1 9050 && break
             sleep 2
           done
 
-          nc -z 127.0.0.1 9050 && echo "SOCKS port 9050 open" \
-            || { echo "SOCKS port not open - aborting"; exit 1; }
-
-          nc -z 127.0.0.1 9051 && echo "Control port 9051 open" \
-            || { echo "Control port not open - aborting"; exit 1; }
+          nc -z 127.0.0.1 9050 || { echo "SOCKS port failed"; exit 1; }
+          nc -z 127.0.0.1 9051 || { echo "Control port failed"; exit 1; }
 
           echo "Initial exit IP:"
           curl -s --socks5-hostname 127.0.0.1:9050 https://api.ipify.org && echo ""
@@ -76,6 +73,7 @@ TOREOF'
               'http':  'socks5h://127.0.0.1:9050',
               'https': 'socks5h://127.0.0.1:9050',
           }
+
           HEADERS = {
               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0'
           }
@@ -85,19 +83,19 @@ TOREOF'
                   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                   s.settimeout(10)
                   s.connect(('127.0.0.1', 9051))
-                  s.sendall(b'AUTHENTICATE ""\r\nSIGNAL NEWNYM\r\nQUIT\r\n')
+                  s.sendall(b'AUTHENTICATE\r\nSIGNAL NEWNYM\r\nQUIT\r\n')
                   resp = s.recv(1024).decode()
                   s.close()
                   return '250' in resp
               except Exception as e:
-                  print(f'  renew failed: {e}')
+                  print(f'renew failed: {e}')
                   return False
 
           def get_ip():
               try:
                   return requests.get('https://api.ipify.org',
                                       proxies=TOR_PROXIES, timeout=15).text.strip()
-              except Exception:
+              except:
                   return 'unknown'
 
           def scholar_ok():
@@ -110,52 +108,56 @@ TOREOF'
                          'captcha' in r.text.lower() or
                          r.status_code in (429, 503))
                   return not bad
-              except Exception:
+              except:
                   return False
 
           for probe in range(1, 16):
               ip = get_ip()
               print(f'Probe {probe}/15 — exit IP: {ip}', end=' ', flush=True)
+
               if scholar_ok():
                   print('CLEAN - proceeding')
                   sys.exit(0)
+
               print('BLOCKED - rotating...')
               renew()
-              time.sleep(8)
+              time.sleep(10 + probe * 2)
 
-          print('WARNING: Could not find clean node in 15 probes — script may fail')
+          print('WARNING: Could not find clean node — continuing anyway')
           EOF
 
           echo "Final exit IP:"
           curl -s --socks5-hostname 127.0.0.1:9050 https://api.ipify.org && echo ""
 
-      - name: Pre-install geckodriver (scholarly Firefox fallback)
+      - name: Install geckodriver
         run: |
           GECKO_VERSION=$(curl -s https://api.github.com/repos/mozilla/geckodriver/releases/latest \
             | python3 -c "import sys,json; print(json.load(sys.stdin)['tag_name'])")
+
           echo "Installing geckodriver $GECKO_VERSION"
           wget -q "https://github.com/mozilla/geckodriver/releases/download/${GECKO_VERSION}/geckodriver-${GECKO_VERSION}-linux64.tar.gz"
           tar -xzf geckodriver-*.tar.gz
           sudo mv geckodriver /usr/local/bin/
           geckodriver --version
 
-      - name: Restore checkpoint (resume interrupted run)
+      - name: Restore checkpoint
         uses: actions/cache@v4
         with:
           path: checkpoint.json
-          key: scholar-checkpoint-${{ github.run_id }}
+          key: scholar-checkpoint
           restore-keys: |
-            scholar-checkpoint-
+            scholar-checkpoint
 
       - name: Run CV script
-        run: python cv+.py
+        run: |
+          python cv+.py || python cv+.py
 
       - name: Save checkpoint on failure
         if: failure()
         uses: actions/cache/save@v4
         with:
           path: checkpoint.json
-          key: scholar-checkpoint-${{ github.run_id }}
+          key: scholar-checkpoint
 
       - name: Commit and push results
         run: |
